@@ -1,9 +1,12 @@
 ---
 title: "Crypto Trading 101-Asset Selection"
-subtitle: "How to pick crypto assets for Intraday Trading using Amberdata API"
+excerpt: "How to pick crypto assets for Intraday Trading using Amberdata API"
 date: 2020-07-24
+hero: images/universe.jpg
+authors:
+  - Evan Azevedo
+  
 categories: [amberdata]
-math: true
 resources:
 - name: featured-image
   src: universe.jpg

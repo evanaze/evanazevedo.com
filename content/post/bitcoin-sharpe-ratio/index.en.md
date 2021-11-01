@@ -75,7 +75,7 @@ We get back the beginning of the day in [ISO 8601](https://en.wikipedia.org/wiki
 
 Once we have that, we can now plot the historical Sharpe ratio of Bitcoin since 2019.
 
-![The annualized sharpe ratio for bitcoin at time of writing](btc_daily_sharpe.png)
+![The annualized sharpe ratio for bitcoin at time of writing](images/btc_daily_sharpe.png)
 
 It is that simple and easy to get up and running with Amberdata in Python! What you do next with the data is up to you, but let’s dive a little deeper and start looking at the Sharpe ratios of other assets as well for context.
 
@@ -90,7 +90,7 @@ From here we calculate the Sharpe ratio using these helpful functions. These ass
 
 Once we calculate the Sharpe ratios for each asset, we can plot the results along with the bitcoin Sharpe ratio.
 
-![](asset_sharpes.png)
+![](images/asset_sharpes.png)
 
 Notice how spotty the data from pandas_datareader is. Unfortunately this is to be expected from most free and easily available data sources, especially for financial data. This is fine because this is just for demonstration purposes, but you would want to find a much better data source (like Amberdata) if you were doing this for your investments.
 
@@ -105,11 +105,11 @@ Let’s take a look at the historical sharpe ratios of just digital assets this 
 
 If we join the results and plot, we can see that the digital assets tend to move together.
 
-![Annualized sharpe ratio of 6 different major digital assets](da_sharpes.png)
+![Annualized sharpe ratio of 6 different major digital assets](images/da_sharpes.png)
 
 These digit assets returns seem to be highly correlated. We can look at the correlation between the coins and confirm that in general, this is indeed the case.
 
-![The correlation matrix of the digital assets in question. Darker blue=more correlated](corr.png)
+![The correlation matrix of the digital assets in question. Darker blue=more correlated](images/corr.png)
 
 However, LINK — or ChainLink Token — is correlated with bitcoin by less than 0.5. We can confirm this by looking at the coins most and least correlated with our benchmark: bitcoin.
 

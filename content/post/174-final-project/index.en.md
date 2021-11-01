@@ -1,6 +1,10 @@
 ---
 title: "Time Series Project"
+excerpt: My final project for the course PSTAT 174 - Time Series at UC Santa Barbara. 
 date: 2018-12-05
+hero: images/aron-visuals-BXOXnQ26B7o-unsplash.jpg
+authors:
+  - Evan Azevedo
 resources:
 - name: featured-image
   src: aron-visuals-BXOXnQ26B7o-unsplash.jpg

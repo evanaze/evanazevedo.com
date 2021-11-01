@@ -1,7 +1,10 @@
 ---
 title: "Top 3 Data Analysis Tools"
-subtitle: "Over 100 Business Intelligence tools exist today, so condensing this list down to start with data analysis tools can be a struggle"
+excerpt: "Over 100 Business Intelligence tools exist today, so condensing this list down to start with data analysis tools can be a struggle"
 date: 2020-03-06
+hero: images/Ople_Tableau_Header_1000.png
+authors:
+  - Evan Azevedo
 resources:
 - name: featured-image
   src: Ople_Tableau_Header_1000.png
@@ -16,13 +19,13 @@ To pick this apart a little bit, what is predictive analytics, and why does a Bu
 
 Over 100 Business Intelligence tools exist today, so condensing this list down to data analysis tools can be a struggle. Fortunately, we have provided a list of 3 of our top picks for data analysis tools to use within your business of any size. Each of these has its own benefits and downsides relative to the others, so we will be comparing those as well, and providing key takeaways to help identify best use cases. This is by no means an exhaustive list; it is just to give an idea of some of the more powerful and commonly used tools for this exciting new business operations function.
 
-![](tableau_logo-300x300.jpeg)
+![](images/tableau_logo-300x300.jpeg)
 
 ## 1. Tableau
 [Tableau](https://www.tableau.com/) is possibly the most well-known data analysis tool and was recently bought by Salesforce for its popularity and product quality. For a medium or large-sized company looking to generate valuable dashboards for their business processes, Tableau is an excellent first choice. It provides industry-leading connectors for bringing in data from all data sources. 
 
 Tableau offers a very intuitive drag-and-drop interface that is used to some extent by all three of the data analysis tools discussed here. It also is the only one of the three that offers predictive analytics on top of their typical visualizations and is known for its capability to share dashboards between users.
-![](tableau_sales_summary-1024x701.png)
+![](images/tableau_sales_summary-1024x701.png)
 
 ### Pros
 * Plenty of flexibility with data visualizations
@@ -36,13 +39,13 @@ Tableau offers a very intuitive drag-and-drop interface that is used to some ext
 ### Best Case
 Tableau is the best overall data analysis tool but can be expensive for smaller companies. This tool is best used by enterprise-grade companies with big data and a team of dedicated data analysts who are looking to improve business practices with their large datasets.
 
-![](Sisense-logo.png)
+![](images/Sisense-logo.png)
 ## 2. Sisense
 [Sisense](https://www.sisense.com/) is another popular data analysis tool among businesses, allowing an easier combination of diverse datasets than Tableau. They also offer high-performance capabilities such as in-memory processing for faster processing of data. The platform also enables multi-user access on dashboards, which could benefit larger projects with multiple data analysts working on the same dashboards.
 
 Sisense’s real strength lies in its ease of use to incorporate complex data and its automated import features. Sisense also recently acquired Periscope data, which allows BI users to do much more compelling and in-depth digging through their data than would previously be possible without advanced SQL skills.
 
-![](Sisense-dashboard-release-version-5.7.5.png)
+![](images/Sisense-dashboard-release-version-5.7.5.png)
 ### Pros
 * Very fast cloud platform
 * Easy to connect with other data sources such as Hive, Salesforce, and more
@@ -54,13 +57,13 @@ Sisense’s real strength lies in its ease of use to incorporate complex data an
 ### Best Case
 Sisense is best for medium to large businesses looking for a BI platform that can easily combine their diverse array of data types, and develop large projects quickly and efficiently. Sisense has some of the most power under the hood of these three, and they have compelling customer service if you ever run into difficulty using their platform.  Their pricing is not shared online.
 
-![](qlik-sense.png)
+![](images/qlik-sense.png)
 ## 3. Qlik Sense
 [Qlik Sense](https://www.qlik.com/us/products/qlik-sense) is a data analysis tool best used for small or medium-sized businesses looking to get a fast, robust BI platform with a limited budget. It eliminates the need for SQL queries with its smart data load feature, but for full access to its cloud data warehouse, you need to upgrade to the full version.
 
 Qlik Sense incorporates a lot of the best features of the other products, such as a drag-and-drop interface, visualization flexibility, and automated data loading, at the lowest price point of the three.
 
-![](qlik_dashboard-1024x603.png)
+![](images/qlik_dashboard-1024x603.png)
 ### Pros
 * Cheapest option at free for Qlik View Personal, or $30-$70 per user per month for business users
 * Automated data loading – no SQL skills necessary

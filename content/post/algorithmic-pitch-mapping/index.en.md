@@ -1,7 +1,10 @@
 ---
 title: "Algorithmic Pitch Mapping"
+excerpt: My final project for Physics 101 at UCSB on Algorithmic Pitch Mapping and Chord Structure Analysis of Music
 date: 2017-04-13
 hero: images/marius-masalar-rPOmLGwai2w-unsplash.jpg
+authors:
+  - Evan Azevedo
 
 categories: [projects]
 tags: [machine learning, music]

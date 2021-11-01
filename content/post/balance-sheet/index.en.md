@@ -1,6 +1,10 @@
 ---
 title: "Balance Sheet"
+excerpt: My CLI personal balance sheet project
 date: 2020-09-10
+hero: images/balance_sheet.png
+authors:
+  - Evan Azevedo
 resources:
 - name: featured-image
   src: balance_sheet.png
@@ -17,7 +21,7 @@ I tried to make one in Excel, and it just felt too clunky. Plus, I feel more com
 ## What is a Balance Sheet?
 A [balance sheet](https://www.investopedia.com/terms/b/balancesheet.asp) is simply a list of your assets and liabilities, and your net worth. Different entities will have different needs for a balance sheet, such as a small business which would need to track inventory costs, possibly cash flow, and other variables. For now, this application is designed just for personal use. In either case all it comes down to assets, liabilities, and net worth.  
 
-![](Simple-Balance-Sheet-Template.jpg)
+![](images/Simple-Balance-Sheet-Template.jpg)
 
 The simple way to describe assets and liabilities is that assets are things that put money into your pocket, while liabilities take money out. A common misconception is that your car is an asset. How much money does your car earn you per year? More than likely you actually pay for your car in gas, car insurance, maitenance, and depreciation. This makes your car actually a liability. 
 
@@ -28,7 +32,7 @@ The simple way to describe assets and liabilities is that assets are things that
 ## How do I use it?
 You interact with the application from the terminal window. It allows you to track your assets and liabilities and carries your balance sheet from month to month. 
 
-![](balance_sheet.png)
+![](images/balance_sheet.png)
 
 You can install the package from PyPi with:  
 
