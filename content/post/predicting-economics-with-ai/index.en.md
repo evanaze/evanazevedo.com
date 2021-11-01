@@ -19,6 +19,7 @@ The stock market, for example, does not reflect real economic activity, as much 
 
 ## Economics in the Real World
 {{< youtube PHe0bXAIuk0 >}}
+
 A great starting reference on this topic is Ray Dalio’s 30-minute video on how the economic machine works. In essence, since our monetary system is overseen by a central bank, this Federal Bank actor affects certain factors to control how the value of our currency grows relative to real or perceived economic growth. The Federal Bank makes decisions using information such as inflation rates, the stock market performance, bond yields, and the health of markets.
 
 But what if the Federal Bank got smarter? They currently have very little actual visibility on how the market is performing and whether we are heading for a recession. It is strange to some people that within some companies you can ingest data from several different sources and automatically forecast the size of your revenue pipeline to the thousand dollars, yet very few of the thousands of highly trained hedge fund managers can reliably beat the market. Perhaps this suggests that luck and randomness are under-appreciated factors in the economy.
