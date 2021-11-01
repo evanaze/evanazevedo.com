@@ -1,8 +1,8 @@
 ---
 title: Evan Azevedo
 bio: |
-  Written by You. This is where your author bio lives. Share your work, your
-  joys and of course, your Twitter handle.
+  I am a software developer and I like to write on diverse topics such as AI,
+  philosophy, productivity, and more.
 avatar: /images/evan-azevedo.jpeg
 featured: true
 social:
