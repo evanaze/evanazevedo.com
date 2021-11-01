@@ -1,7 +1,10 @@
 ---
 title: "Online Machine Learning Courses"
-subtitle: "Here are some of the best ways to learn the tools to empower you to rule your data"
+excerpt: "Here are some of the best ways to learn the tools to empower you to rule your data"
 date: 2020-04-01
+hero: images/online-machine-learning-courses-1024x683.jpeg
+authors:
+  - Evan Azevedo
 resources:
 - name: featured-image
   src: online-machine-learning-courses-1024x683.jpeg

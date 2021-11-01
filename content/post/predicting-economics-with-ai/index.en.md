@@ -1,7 +1,10 @@
 ---
 title: "Predicting Economics with AI"
-subtitle: "Will AI Provide Clarity to the Murky Field of Economics?"
+excerpt: "Will AI Provide Clarity to the Murky Field of Economics?"
 date: 2020-03-20
+hero: images/Economics-1024x683.jpeg
+authors:
+  - Evan Azevedo
 resources:
 - name: featured-image
   src: Economics-1024x683.jpeg

@@ -1,5 +1,9 @@
 ---
 title: "NYC SAT Visualization"
+excerpt: A data visualization for SAT scores of accredited high schools in New York City for the 2014-2015 school year.  
+hero: images/SchoolLocation_Boroughs.png
+authors:
+  - Evan Azevedo
 date: 2017-03-17
 resources:
 - name: featured-image

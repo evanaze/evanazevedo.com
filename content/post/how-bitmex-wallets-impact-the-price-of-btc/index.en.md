@@ -1,12 +1,15 @@
 ---
 title: "How BitMEX Wallets Impact the Price of Bitcoin"
+excerpt: Observing the flows of Bitcoin in and out of an exchange.
 date: 2020-06-27
-categories: [amberdata]
-math: true
+hero: images/coin_header.png
+authors:
+  - Evan Azevedo
 resources:
 - name: featured-image
   src: coin_header.png
 
+categories: [amberdata]
 tags: [blockchain, finance]
 link: https://hackernoon.com/how-bitmex-wallets-impact-the-price-of-bitcoin-0km3yxq
 ---

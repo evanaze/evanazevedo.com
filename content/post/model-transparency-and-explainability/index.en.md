@@ -1,7 +1,10 @@
 ---
 title: "Model Transparency and Explainability"
-subtitle: "Working with the Black Box problem of Machine Learning"
+excerpt: "Working with the Black Box problem of Machine Learning"
 date: 2020-03-13
+hero: images/Ople_Transparency-1024x430.png
+authors:
+  - Evan Azevedo
 resources:
 - name: featured-image
   src: Ople_Transparency-1024x430.png

@@ -1,6 +1,10 @@
 ---
 title: "NVT: Bursting the Blockchain Bubble"
+excerpt: Using a novel metric to gauge price bubbles in cryptocurrency assets.
 date: 2018-07-20
+hero: images/tech-daily-ztYmIQecyH4-unsplash.jpg
+authors:
+  - Evan Azevedo
 resources:
 - name: featured-image
   src: tech-daily-ztYmIQecyH4-unsplash.jpg

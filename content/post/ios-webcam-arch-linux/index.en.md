@@ -1,6 +1,9 @@
 ---
 title: "How To: Use your iPhone as a Webcam in OBS on Arch Linux"
 date: 2021-01-13
+hero: arch-linux-logo.png
+authors:
+  - Evan Azevedo
 resources:
 - name: featured-image
   src: arch-linux-logo.png

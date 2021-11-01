@@ -1,11 +1,15 @@
 ---
 title: Ethereum Network Health Results are In
+excerpt: Can we discover the cause of a sudden rise of gas prices on the Ethereum network?
 date: 2018-08-13
-categories: [amberdata]
+hero: images/doctor.jpeg
+authors:
+  - Evan Azevedo
 resources:
 - name: featured-image
   src: doctor.jpeg
 
+categories: [amberdata]
 tags: [blockchain, finance]
 link: https://medium.com/amberdata/ethereum-network-health-results-are-in-f8d239a07d6e
 ---

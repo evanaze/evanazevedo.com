@@ -1,6 +1,10 @@
 ---
 title: "The Bitcoin Mempool: Where Transactions Take Flight"
+excerpt: Using the transparency of the blockchain to our advantage and observe our counterparties performing large transactions before they are even complete.
 date: 2020-09-25
+hero: images/sam-bark-XFkkYwKiC_U-unsplash.jpg
+authors:
+  - Evan Azevedo
 resources:
 - name: featured-image
   src: sam-bark-XFkkYwKiC_U-unsplash.jpg
@@ -77,10 +81,10 @@ I left my [Raspberry Pi](https://www.raspberrypi.org/) running for about one day
 ### Watching pending transactions (over a certain threshold) live
 I captured mempool transactions periodically from August 26th, 2020 at 8:30 AM PST to the 28th at 8 AM. Plotting them in order of occurrence gives us this:
 
-![](mag_pending.png "A plot of transaction magnitude over my data collection period")
+![](images/mag_pending.png "A plot of transaction magnitude over my data collection period")
 
 We can see that we observed basically two tiers of pending transactions. Small (in the scheme of things) transactions worth less than 1,000 Bitcoin (~$11 million) that happen frequently, and a good amount of pending transactions in the 10,000 Bitcoin range (~$100 million) and above. This may come as a surprise to some about the shocking amount of value constantly being transferred on the Bitcoin network. The overall distribution of pending transactions we recorded looks like this:
-```
+```python
 count      503
 mean      1034
 std       2613.3
@@ -94,7 +98,7 @@ The average pending transaction - excluding transactions under 100 BTC - was abo
 
 As a side note, even though Tmux keeps a server alive so the listening program can continue to subscribe to data from the websocket, I was being silly and unplugged my machine for a couple of hours at a time. My Kindle shares the same charger, and I am also an avid reader. Here is what my data collection looks like in the time domain with downtime from unplugging my Raspberry Pi:
 
-![](uptime.png "My data collection uptime")
+![](images/uptime.png "My data collection uptime")
 
 We will see the effect of this pop up later in the analysis, but for now we can just keep this in the back of our minds. Since our analysis is focused on keeping an eye on wallets on the BitMEX exchange, let’s translate this to transactions involving these BitMEX addresses. 
 
@@ -147,7 +151,7 @@ Now let’s check and see if any of the top 10 transactions we’ve been looking
 
 Note: some of these addresses are much more active than the single one we looked at above, so we have to increase the number of records to return to 1000 per page. I welcome you to try this in the analysis Jupyter Notebook, but for now you can trust me that of the 19 transactions related to the exchange, all but three have gone through as of the time of writing.
 
-```
+```python
 Number of completed transactions: 16
 Total transactions: 19
 Percent completed: 84.2

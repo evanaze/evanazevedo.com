@@ -1,11 +1,15 @@
 ---
 title: "Tracking Tuesday’s Ethereum Network Overload"
+excerpt: Identifying a large strain on the Ethereum network
 date: 2018-08-11
-categories: [amberdata]
+hero: images/zoltan-tasi-uNXmhzcQjxg-unsplash.jpg
+authors:
+  - Evan Azevedo
 resources:
 - name: featured-image
   src: zoltan-tasi-uNXmhzcQjxg-unsplash.jpg
 
+categories: [amberdata]
 tags: [blockchain, finance]
 link: https://medium.com/amberdata/tracking-tuesdays-ethereum-network-overload-2d87c4ac1f93
 ---

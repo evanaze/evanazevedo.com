@@ -1,6 +1,10 @@
 ---
 title: "ROI: Are Cryptocurrencies Good Investments?"
+excerpt: Exploring ROI in the context of cryptocurrency assets
 date: 2018-08-03
+hero: images/markus-spiske-vrbZVyX2k4I-unsplash.jpg
+authors:
+  - Evan Azevedo
 resources:
 - name: featured-image
   src: markus-spiske-vrbZVyX2k4I-unsplash.jpg

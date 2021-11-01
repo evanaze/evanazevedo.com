@@ -57,7 +57,7 @@ All you need to access this endpoint is Python3 installed and an Amberdata Pro A
 
 <script src="https://gist.github.com/evanaze/9e9c012d157e974d55be24320b59feea.js"></script>
 
-```
+```python
 Start: 2019-08-12T07:51:58.209507 
  End: 2020-08-11T07:51:58.209444
 
@@ -113,7 +113,7 @@ These digit assets returns seem to be highly correlated. We can look at the corr
 
 However, LINK — or ChainLink Token — is correlated with bitcoin by less than 0.5. We can confirm this by looking at the coins most and least correlated with our benchmark: bitcoin.
 
-```
+```python
 Most similar returns to BTC: BCH
 	Correlation: 0.8787211313283082
 

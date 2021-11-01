@@ -1,6 +1,10 @@
 ---
 title: "2016 Election Prediction"
+excerpt: My final project for the course PSTAT 131 - Data Mining at UC Santa Barbara.
 date: 2018-03-23
+hero: jason-zeis-NcFeZ0VJLJQ-unsplash.jpg
+authors:
+  - Evan Azevedo
 resources:
 - name: featured-image
   src: jason-zeis-NcFeZ0VJLJQ-unsplash.jpg

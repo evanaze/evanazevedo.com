@@ -1,6 +1,10 @@
 ---
 title: "Sitcom NLP"
+excerpt: A NLP project using popular American Sitcoms
 date: 2018-05-19
+hero: images/seinfeld_vectors.png
+authors:
+  - Evan Azevedo
 resources:
   - name: featured-image
     src: seinfeld_vectors.png

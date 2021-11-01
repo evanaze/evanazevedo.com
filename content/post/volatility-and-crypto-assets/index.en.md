@@ -1,11 +1,15 @@
 ---
 title: "To Trade or Not To Trade: Volatility and Crypto Assets"
+excerpt: Understanding cryptocurrency assets through the lense of volatility
 date: 2018-08-22
-categories: [amberdata]
+hero: images/cardmapr-nl-rDzI7m7sjPE-unsplash.jpg
+authors:
+  - Evan Azevedo
 resources:
 - name: featured-image
   src: cardmapr-nl-rDzI7m7sjPE-unsplash.jpg
 
+categories: [amberdata]
 tags: [blockchain, finance]
 link: https://medium.com/amberdata/to-trade-or-not-to-trade-volatility-and-crypto-assets-c938ab2f27a8
 ---
