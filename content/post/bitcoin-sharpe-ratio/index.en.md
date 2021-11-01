@@ -1,8 +1,8 @@
 ---
 title: "Bitcoin Sharpe Ratio: The Risk and Reward of Investing in Cryptocurrencies"
-exerpt: "Applying the financial meter stick for evaluating risk-adjusted returns of an (digital) asset, portfolio, or strategy."
+excerpt: "Applying the financial meter stick for evaluating risk-adjusted returns of an (digital) asset, portfolio, or strategy."
 date: 2020-09-03
-hero: equity-investment.jpg
+hero: images/equity-investment.jpg
 authors:
   - Evan Azevedo
 
