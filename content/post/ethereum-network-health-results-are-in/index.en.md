@@ -5,9 +5,6 @@ date: 2018-08-13
 hero: images/doctor.jpeg
 authors:
   - Evan Azevedo
-resources:
-- name: featured-image
-  src: doctor.jpeg
 
 categories: [amberdata]
 tags: [blockchain, finance]

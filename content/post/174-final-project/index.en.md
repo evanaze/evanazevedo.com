@@ -5,9 +5,6 @@ date: 2018-12-05
 hero: images/aron-visuals-BXOXnQ26B7o-unsplash.jpg
 authors:
   - Evan Azevedo
-resources:
-- name: featured-image
-  src: aron-visuals-BXOXnQ26B7o-unsplash.jpg
 
 categories: [projects]
 tags: [data science, R]

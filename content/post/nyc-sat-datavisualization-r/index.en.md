@@ -5,9 +5,6 @@ hero: images/SchoolLocation_Boroughs.png
 authors:
   - Evan Azevedo
 date: 2017-03-17
-resources:
-- name: featured-image
-  src: SchoolLocation_Boroughs.png
   
 categories: [projects]
 tags: [visualization, R]

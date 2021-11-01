@@ -5,9 +5,6 @@ date: 2020-06-27
 hero: images/coin_header.png
 authors:
   - Evan Azevedo
-resources:
-- name: featured-image
-  src: coin_header.png
 
 categories: [amberdata]
 tags: [blockchain, finance]

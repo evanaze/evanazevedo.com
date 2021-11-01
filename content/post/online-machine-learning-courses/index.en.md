@@ -5,9 +5,6 @@ date: 2020-04-01
 hero: images/online-machine-learning-courses-1024x683.jpeg
 authors:
   - Evan Azevedo
-resources:
-- name: featured-image
-  src: online-machine-learning-courses-1024x683.jpeg
 
 categories: [ople]
 tags: [seo, blog post]

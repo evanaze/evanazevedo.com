@@ -5,9 +5,6 @@ date: 2018-07-20
 hero: images/tech-daily-ztYmIQecyH4-unsplash.jpg
 authors:
   - Evan Azevedo
-resources:
-- name: featured-image
-  src: tech-daily-ztYmIQecyH4-unsplash.jpg
 
 categories: [amberdata]
 tags: [blockchain, finance]

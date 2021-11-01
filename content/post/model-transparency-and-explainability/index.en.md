@@ -5,9 +5,7 @@ date: 2020-03-13
 hero: images/Ople_Transparency-1024x430.png
 authors:
   - Evan Azevedo
-resources:
-- name: featured-image
-  src: Ople_Transparency-1024x430.png
+
 categories: [ople]
 tags: [seo, blog post, machine learning]
 link: https://ople.ai/ai-blog/model-transparency-and-explainability/

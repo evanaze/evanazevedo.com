@@ -5,9 +5,6 @@ date: 2018-03-23
 hero: jason-zeis-NcFeZ0VJLJQ-unsplash.jpg
 authors:
   - Evan Azevedo
-resources:
-- name: featured-image
-  src: jason-zeis-NcFeZ0VJLJQ-unsplash.jpg
   
 categories: [projects]
 tags: [data science, R]
