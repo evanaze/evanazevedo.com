@@ -2,7 +2,7 @@
 title: "How To: Use your iPhone as a Webcam in OBS on Arch Linux"
 excerpt: If you have an iPhone and are a streamer, it turns out that you may be missing a very powerful tool sitting in your pocket, full of potential.
 date: 2021-01-13
-hero: arch-linux-logo.png
+hero: images/arch-linux-logo.png
 authors:
   - Evan Azevedo
 
