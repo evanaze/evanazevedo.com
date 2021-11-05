@@ -1,6 +1,6 @@
 ---
 title: "Opinion: On Defining Success"
-exerpt: As 2020 wraps up, I think it is a good time to reflect and look forward a bit to what has made me happiest and feeling most successful. 
+excerpt: As 2020 wraps up, I think it is a good time to reflect and look forward a bit to what has made me happiest and feeling most successful. 
 date: 2020-12-31
 hero: images/gerrie-van-der-walt-Ow7T2QWLMBY-unsplash.jpg
 authors:
@@ -189,7 +189,6 @@ I think a healthier way to look at failure is to note wh at the indended outcome
 Ultimately our goal is to create a life where we have all of the things we want, and of course failure will come along for the ride.
 
 ## Sources
-
 [^1]: [What You're Really Meant to Do](https://www.goodreads.com/book/show/17624016-what-you-re-really-meant-to-do) - Robert Steven Kaplan
 [^2]: [Building a Life](https://youtu.be/wLn28DrSF68) - Howard H. Stevenson 
 [^3]: [Thus Spoke Zarathustra](https://www.goodreads.com/book/show/51893.Thus_Spoke_Zarathustra?ac=1&from_search=true&qid=DtizlxsT4j&rank=1) - Friedrich Nietzche
