@@ -13,9 +13,7 @@ paginate: 6
 social:
   twitter: "https://twitter.com/azevedo_evan"
   github: "https://github.com/evanaze"
-  instagram: "#"
+  medium: "https://medium.com/@evanazevedo"
   linkedin: "https://www.linkedin.com/in/evanaze"
-  dribbble: "#"
-  youtube: "#"
 taxonomies:
   author: authors
