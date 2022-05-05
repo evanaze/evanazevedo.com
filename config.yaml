@@ -1,14 +1,11 @@
 baseURL: "https://evanazevedo.com"
 languageCode: "en-us"
 title: "Evan Azevedo"
-pygmentsstyle: 'monokai'
+pygmentsstyle: "monokai"
 metaDataFormat: yaml
 
 # Theme settings
 theme: novela
-#module:
-#    imports:
-#    - path: "github.com/evanaze/hugo-theme-novela"
 paginate: 6
 social:
   twitter: "https://twitter.com/azevedo_evan"
