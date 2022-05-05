@@ -2,16 +2,13 @@
 title: "Opinion: On Defining Success"
 excerpt: As 2020 wraps up, I think it is a good time to reflect and look forward a bit to what has made me happiest and feeling most successful. 
 date: 2020-12-31
-hero: images/gerrie-van-der-walt-Ow7T2QWLMBY-unsplash.jpg
+hero: /images/gerrie-van-der-walt-Ow7T2QWLMBY-unsplash.jpg
 authors:
   - Evan Azevedo
-
 categories: [personal]
 tags: [philosophy]
 draft: false
-
 ---
-
 As 2020 wraps up, I think it is a good time to reflect and look forward a bit to what has made me happiest and feeling most successful. 
 If I have learned anything this year, it is that there are things you can control, and things you cannot control. 
 One of the most powerful things you can control is what you allow into your life.  
@@ -193,3 +190,5 @@ Ultimately our goal is to create a life where we have all of the things we want,
 [^2]: [Building a Life](https://youtu.be/wLn28DrSF68) - Howard H. Stevenson 
 [^3]: [Thus Spoke Zarathustra](https://www.goodreads.com/book/show/51893.Thus_Spoke_Zarathustra?ac=1&from_search=true&qid=DtizlxsT4j&rank=1) - Friedrich Nietzche
 [^4]: [Metcalfe's Law](https://en.wikipedia.org/wiki/Metcalfe%27s_law)
+
+{{< subscribe email="your@email.com" >}}

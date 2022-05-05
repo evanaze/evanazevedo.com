@@ -2,13 +2,12 @@
 title: "The Bitcoin Mempool: Where Transactions Take Flight"
 excerpt: Using the transparency of the blockchain to our advantage and observe our counterparties performing large transactions before they are even complete.
 date: 2020-09-25
-hero: images/sam-bark-XFkkYwKiC_U-unsplash.jpg
+hero: /images/sam-bark-XFkkYwKiC_U-unsplash.jpg
 authors:
   - Evan Azevedo
 resources:
 - name: featured-image
   src: sam-bark-XFkkYwKiC_U-unsplash.jpg
-
 categories: [amberdata]
 tags: [blockchain, finance]
 link: https://hackernoon.com/the-bitcoin-mempool-where-transactions-take-flight-461m3w89
