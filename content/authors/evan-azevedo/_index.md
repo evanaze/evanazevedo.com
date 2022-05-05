@@ -9,7 +9,7 @@ social:
   - title: github
     url: https://github.com/evanaze
   - title: twitter
-    url: https://twitter.com/azevedo_evan
+    url: https://twitter.com/evan_azevedo
   - title: linkedin
     url: https://linkedin.com/in/evanaze
   - title: medium
