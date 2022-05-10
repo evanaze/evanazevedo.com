@@ -15,7 +15,7 @@ math: true
 One of Bitcoin’s strengths and the thing that makes it unique in the finance world is its radical transparency. Blockchain data is like a window, you can see right through it.
 
 But if Blockchain data is a window, it often feels less like the one in your apartment to look out of (solemnly during a pandemic, possibly), and more like this:
-![Bird](thai-ch-hamelin-chokdidesign-cyOgYywC_KQ-unsplash.jpg "Photo by Thaï Ch. Hamelin / ChokdiDesign on Unsplash")
+![Bird](images/thai-ch-hamelin-chokdidesign-cyOgYywC_KQ-unsplash.jpg "Photo by Thaï Ch. Hamelin / ChokdiDesign on Unsplash")
 
 In blockchain data, the agents involved are obscured. There is no central agency that knows who is posting what transaction, but the data is all there for anybody to see, and it is often trying to tell a story.
 
@@ -116,7 +116,7 @@ As mentioned above, we use a bloom filter to identify pending transactions from 
 
 Only about 4% of the transactions we recorded occurred on the exchange. Here we ignore those transactions not related to BitMEX. Unfortunately, we were unable to record transactions that were only from or “off” the exchange. For the activity we did record, the split is about 40/60 of activity going to the exchange versus occurring within the exchange.
 
-![Bitmex transactions](transactions_on_exch.png "The distribution of transactions having to do with BitMEX")
+![Bitmex transactions](images/transactions_on_exch.png "The distribution of transactions having to do with BitMEX")
 
 Now that we have a picture of the big transactions in flight on BitMEX, let’s plot them over price to get a picture of what was going on when the transaction was submitted.
 
@@ -124,15 +124,15 @@ Now that we have a picture of the big transactions in flight on BitMEX, let’s 
 
 We use Amberdata’s [OHLCV historical](https://docs.amberdata.io/reference?ref=hackernoon.com#get-historical-ohlc) endpoint to get minute level data on the close price of Bitcoin over this period. If you want to replicate this analysis, be aware that you can query at most 24 hours of data at this granularity at a time, but it is easy to just do a hopping window to collect as much data as you need. I combined the two data sources, and plotted the large pending transactions over the Bitcoin price, color coding each transaction on whether it was “on” or “within” the exchange.
 
-![Inflow](large_bitmex_flows.png "A plot of some live pending inflow to BitMEX")
+![Inflow](images/large_bitmex_flows.png "A plot of some live pending inflow to BitMEX")
 
 In this part of the data, most of the pending transactions were going from outside addresses to the exchange so we were able to capture some live inflow onto BitMEX. Here’s what the transactions look like, sorted by value:
 
-![Large Bitmex txns](large_txns.png "Largest pending BitMEX related transactions")
+![Large Bitmex txns](images/large_txns.png "Largest pending BitMEX related transactions")
 
 It looks like the largest of these pending transactions - by a long shot - were two right at the beginning of the observation period.
 
-![Large activity](flow_zoom_in_2.png "Largest activity within the exchange")
+![Large activity](images/flow_zoom_in_2.png "Largest activity within the exchange")
 
 The first pending transaction, which actually occurred on my second minute of observation, is the largest pending transaction at 3400 btc. Even more interesting, two of the transactions occurred within the very same minute, one of which being the second largest transaction we observed in the mempool over the period. Mere milliseconds after a transaction was posted for over 1000 Bitcoin, another transaction in the same exchange posted for 150 Bitcoin. I looked into the addresses for both transactions and they don’t have any in common, so it is unclear whether the two are at all related.
 
@@ -146,7 +146,7 @@ Going back through our transactions on the exchange, we can now calculate the am
 
 This script goes through the transactions that were labeled “within” and calculates the amount that was transferred to non-BitMEX addresses, and goes through the transactions labeled “on” and calculates the amount that was sent to BitMEX addresses. We use Amberdata’s [Single](https://docs.amberdata.io/reference?ref=hackernoon.com#get-transaction) endpoint to get the transaction data given the transaction hash. The results look as follows:
 
-![On transaction](on_txn.png "Transactions to BitMEX addresses")
+![On transaction](images/on_txn.png "Transactions to BitMEX addresses")
 
 As we can see, only one transaction fits our description of a large flow greater than 100 btc. Somebody at about 7:00 AM PST on the 28th of August transferred 100 btc out of BitMEX. With this extra layer of code, we could zone in on transfers of Bitcoin in or out of an exchange just as they were posted to the network.
 
@@ -154,7 +154,7 @@ As we can see, only one transaction fits our description of a large flow greater
 
 Once we see that a large transaction has been posted in the mempool, we may want to check if or when it goes through. We can use Amberdata’s blockchain address [transaction](https://docs.amberdata.io/reference?ref=hackernoon.com#get-address-transactions) endpoint to see when the transaction gets mined into a block. Running this code, shows that the transaction got mined into block 645509 the next day, on the 27th of August.
 
-![Transaction mined](single_txn.png "Transaction mined")
+![Transaction mined](images/single_txn.png "Transaction mined")
 
 Now let’s check and see if any of the top 10 transactions we’ve been looking at have been confirmed. Simply using the above code and looping through our top 10 addresses we can quickly see if any of the transactions have gone through yet.
 
