@@ -201,6 +201,19 @@ It is worth saying, that just because you fail does not make you a bad person, o
 I think a healthier way to look at failure is to note wh at the indended outcome was, why you were unable to get there, and then make a note to revisit it in the future.
 Ultimately our goal is to create a life where we have all of the things we want, and of course failure will come along for the ride.
 
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xwkadlba"
+  method="POST"
+>
+  <label>
+    Enter your email to subscribe for updates:
+    <input type="email" name="email">
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
 ## Sources
 
 [^1]: [What You're Really Meant to Do](https://www.goodreads.com/book/show/17624016-what-you-re-really-meant-to-do) - Robert Steven Kaplan
