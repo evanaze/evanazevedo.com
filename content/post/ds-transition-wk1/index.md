@@ -26,11 +26,15 @@ According to Edward Deci and Richard Ryan's work on [self-determination theory](
 
 Just by virtue of circling back to this career path after starting to make headway as a software engineer makes me believe that there I see aspects of competence, authenticity, and relatedness in this field. Indeed, this field is huge and is one I would like to get better at, reflects my core value of life-long learning, and has a vibrant community online. As I explore this field more I'm sure I'll be able to update those, but for now I feel like I have sufficient intrinsic motivation to pursue it.
 
+#### Just do it!
+
 Pursuing intrinsic motivation is also valuable in and of itself. I think this is something that the modern educational system could be a lot better at. We only allow people to begin to explore their interests in earnest in college, by which time they have already missed so much time in developing the skill to do so. I believe *learning to follow your curiosity and internal motivation is one of the most important skills in the modern era*.
 
- Motivational engagement (read: nurturing intrinsic motivation) results in immersion (deep work) which then creates the opportunity to obtain the expertise. You can check out this [Lex Fridman podcast](https://overcast.fm/+eZyDNBwGQ/2:10:53) to hear the original quote.
+Jay McClelland - one of the fathers of deep learning - talks about how intrinsic motivation is crucial for skill development. Motivational engagement (read: nurturing intrinsic motivation) results in immersion (deep work), which then creates the opportunity to obtain the expertise.
 
 $ \textrm{Motivational engagement} \rightarrow \textrm{Deep work} \rightarrow \textrm{Expertise}$
+
+You can check out this [Lex Fridman podcast](https://overcast.fm/+eZyDNBwGQ/2:10:53) to hear the original quote.
 
 That being said, let's jump right in and I'll share how I'm going to conduct this transition.
 
@@ -47,6 +51,12 @@ This led me to create the following plan for myself:
 3. Join competitions and engage on Kaggle, an online data science community. 1 - 3 months.
 4. Create projects on Github to showcase my skills. 1 - 3 months.
 5. Prepare for interviews. 1 - 2 months.
+
+I'm mostly done with step 1, and have already started to review concepts from statistics that I think will be most relevant for data science and machine learning. More information on that will be coming soon in my next blog post.
+
+## Conclusion
+
+If you would like to keep up with my journey I you can enter your email below to subscribe. I'm planning to send out weekly updates on Sundays with my progress from the previous week. If not, that's totally cool too. I believe my odds of success are higher just by virtue of putting this out on the web and telling people about it, and who knows - maybe somebody else could use this information as well!
 
 <form
   action="https://formspree.io/f/xwkadlba"
