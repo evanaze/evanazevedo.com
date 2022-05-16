@@ -10,7 +10,11 @@ draft: false
 
 I've told many people in my life that I'm interested in data science, and made it pretty clear that I intended to get into it after I graduated from college. After many attempts, I still struggled to find a foothold in the field. However, that all is about to change.
 
-As of this week, I am excited to share with you all the first steps in my journey to becoming a data scientist. As author Tim Ferriss expressed in his book [The Four Hour Body](https://www.amazon.com/4-Hour-Body-Uncommon-Incredible-Superhuman/dp/0307704610) - and as have others in many other places I'm sure - sharing your goals with others and allowing them to track you is a great way to improve your odds of success in trying to reach a goal.
+This week I am sharing my first steps in my journey to becoming a data scientist. While exciting, this is but a small step of many. Data science is a huge field, encompassing everything from building dashboards and generating business reports to training large scale machine learning models to intelligently solve problems at scale.
+
+I don't know what the end of this blog series will look like, but I know that it will definitely not be the end of the road.
+
+The main purpose of this blog is so that you - the reader - can hold me accountable in this journey. As author Tim Ferriss expressed in his book [The Four Hour Body](https://www.amazon.com/4-Hour-Body-Uncommon-Incredible-Superhuman/dp/0307704610) - and as have others in many other places I'm sure - sharing your goals with others and allowing them to track you is a great way to improve your odds of success in trying to reach a goal. Also who knows, maybe someone else will find my journey useful.
 
 ## 🤔 Why?
 
