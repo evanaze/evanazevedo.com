@@ -10,15 +10,15 @@ draft: false
 
 I've told many people in my life that I'm interested in data science, and made it pretty clear that I intended to get into it after I graduated from college. After many attempts, I still struggled to find a foothold in the field. However, that all is about to change.
 
-This week I am sharing my first steps in my journey to becoming a data scientist. While exciting, this is but a small step of many. Data science is a huge field, encompassing everything from building dashboards and generating business reports to training large scale machine learning models to intelligently solve problems at scale.
+This week I am sharing my first steps in my journey to becoming a data scientist. While exciting, this is but a small step of many. Data science is a huge field, encompassing everything from building dashboards and generating business reports to training large-scale machine learning models to intelligently solve problems at scale.
 
-I don't know what the end of this blog series will look like, but I know that it will definitely not be the end of the road.
+I don't know what the end of this blog series will look like, but I know that it will not be the end of the road.
 
-The main purpose of this blog is so that you - the reader - can hold me accountable in this journey. As author Tim Ferriss expressed in his book [The Four Hour Body](https://www.amazon.com/4-Hour-Body-Uncommon-Incredible-Superhuman/dp/0307704610) - and as have others in many other places I'm sure - sharing your goals with others and allowing them to track you is a great way to improve your odds of success in trying to reach a goal. Also who knows, maybe someone else will find my journey useful.
+The main purpose of this blog is so that you - the reader - can hold me accountable in this journey. As author Tim Ferriss expressed in his book [The Four Hour Body](https://www.amazon.com/4-Hour-Body-Uncommon-Incredible-Superhuman/dp/0307704610) - and as have others in many other places I'm sure - sharing your goals with others and allowing them to track you is a great way to improve your odds of success in trying to reach a goal. Also, who knows, maybe someone else will find my journey useful.
 
 ## 🤔 Why?
 
-I think it's probably important to address why I'm deciding to do this. My first attempt to become a data scientist was primarily driven by the prestige and the pay that came with the title. The downside of this was that it was hard to convince myself to work on something that I saw as having little value, and when it was more difficult than I expected to break in to the field I became discouraged.
+I think it's probably important to address why I'm deciding to do this. My first attempt to become a data scientist was primarily driven by the prestige and the pay that came with the title. The downside of this was that it was hard to convince myself to work on something that I saw as having little value, and when it was more difficult than I expected to break into the field I became discouraged.
 
 ### Intrinsic Motivation
 
@@ -28,7 +28,7 @@ According to Edward Deci and Richard Ryan's work on [self-determination theory](
 - **Authenticity** - what you're doing reflects your core values.
 - **Relatedness** - what you do involves cooperation and feeling a part of a community.
 
-Just by virtue of circling back to this career path after starting to make headway as a software engineer makes me believe that there I see aspects of competence, authenticity, and relatedness in this field. Indeed, this field is huge and is one I would like to get better at, reflects my core value of life-long learning, and has a vibrant community online. As I explore this field more I'm sure I'll be able to update those, but for now I feel like I have sufficient intrinsic motivation to pursue it.
+Having circled back to this career path after starting to make headway as a software engineer makes me believe that there I see aspects of competence, authenticity, and relatedness in this field. Indeed, this field is huge and is one I would like to get better at, reflects my core value of lifelong learning, and has a vibrant community online. As I explore this field more I'm sure I'll be able to update those, but for now, I feel like I have sufficient intrinsic motivation to pursue it.
 
 #### Just do it!
 
@@ -60,7 +60,7 @@ I'm mostly done with step 1, and have already started to review concepts from st
 
 ## Conclusion
 
-If you would like to keep up with my journey I you can enter your email below to subscribe. I'm planning to send out weekly updates on Sundays with my progress from the previous week. If not, that's totally cool too. I believe my odds of success are higher just by virtue of putting this out on the web and telling people about it, and who knows - maybe somebody else could use this information as well!
+If you would like to keep up with my journey you can enter your email below to subscribe. I'm planning to send out weekly updates on Sundays with my progress from the previous week. If not, that's cool too. I believe my odds of success are higher just by putting this out on the web and telling people about it, and who knows - maybe somebody else could use this information as well!
 
 <form
   action="https://formspree.io/f/xwkadlba"
