@@ -87,7 +87,7 @@ time {
     background-color: #FAFAFA;
     display: flex;
     flex-direction: column;
-    font-family: 'Iosevka Extended', 'Times New Roman', serif;
+    font-family: 'Iosevka Regular', 'Times New Roman', serif;
     min-height: 100vh;
     overflow-wrap: break-word;
     padding: 1rem;

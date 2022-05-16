@@ -52,9 +52,9 @@ This led me to create the following plan for myself:
 
 1. Research the job market to target my desired job, and create a learning plan. 1 - 2 weeks.
 2. Refresh concepts from statistics that are relevant to data science. Time: 1 - 2 months.
-3. Join competitions and engage on Kaggle, an online data science community. 1 - 3 months.
-4. Create projects on Github to showcase my skills. 1 - 3 months.
-5. Prepare for interviews. 1 - 2 months.
+3. Join competitions and engage on Kaggle, an online data science community. Time: 1 - 3 months.
+4. Create projects on Github to showcase my skills. Time: 1 - 3 months.
+5. Prepare for interviews. Time: 1 - 2 months.
 
 I'm mostly done with step 1, and have already started to review concepts from statistics that I think will be most relevant for data science and machine learning. More information on that will be coming soon in my next blog post.
 
