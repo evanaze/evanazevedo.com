@@ -4,7 +4,7 @@
 
 {{ define "main" }}
 <main id="main" class="index">
-  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "==" "posts") }}
+  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "==" "post") }}
   {{ range $paginator.Pages }}
   <div class="post">
     <h2>
