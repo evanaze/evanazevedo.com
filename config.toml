@@ -33,11 +33,16 @@ identifier = "post" # section id
 name = "Posts"      # section display title
 url = "/"           # path to the section
 weight = 1          # order of sections
+[[menu.main]] 
+identifier = "daily" 
+name = "Daily"      
+url = "/daily/"      
+weight = 2          
 [[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"
-weight = 2
+weight = 3
 
 # https://gohugo.io/content-management/taxonomies#configure-taxonomies
 [taxonomies]
