@@ -4,7 +4,7 @@ date: 2022-05-22T18:33:37-07:00
 series: ["ds-job-transition"]
 images: 
 - pawel-czerwinski-0OIYhfHqooY-unsplash.jpg
-draft: true
+draft: false
 ---
 ![Photo by Pawel Czerwinski on Unsplash](pawel-czerwinski-0OIYhfHqooY-unsplash.jpg)
 A lot has happened in the past week regarding my short to medium-term career plans. Confusingly, I've already decided to make changes to my data science learning path. I know what you're probably thinking: "Boy, *that* was quick!" Well, not quite.
