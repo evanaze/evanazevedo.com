@@ -1,12 +1,12 @@
 {{ define "head" }}
-<link rel="stylesheet" href='{{ "css/index.css" | absURL }}'>
+<link rel="stylesheet" href='{{ "themes/hugo-theme-texify/static/css/index.css" | absURL }}'>
 {{ end }}
 
 {{ define "main" }}
 <main id="main" class="index">
-  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "==" "post") }}
+  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "==" "daily") }}
   {{ range $paginator.Pages }}
-  <div class="post">
+  <div class="daily">
     <h2>
       <a href="{{ .Permalink }}">{{ .Title }}</a>
       <time>{{ .PublishDate.Format .Site.Params.dateFormat }}</time>
