@@ -13,10 +13,10 @@ languageCode = "en"                # content language
 paginate = 5                       # number of posts each page
 rssLimit = 10                      # maximum items in rss feeds
 theme = "hugo-theme-texify"        # theme directory name
-title = "Evan Azevedo's Website"                   # website title
+title = "Evan's Website"                   # website title
 
 [author]
-email = "evan@azevedo.com"     # your email
+email = "me@evanazevedo.com"     # your email
 name = "Evan Azevedo"          # your name
 
 # https://gohugo.io/getting-started/configuration-markup
