@@ -1,6 +1,7 @@
 ---
-title: "Daily Log {{ .date | time.format ":date_short" }}"
-date: {{ .Date }}
+title: "# - "
+date: {{ .Date.Format "2006-01-02" }}
+series: ["Daily Log"]
 tags: ["daily-log"]
 draft: true
 ---
