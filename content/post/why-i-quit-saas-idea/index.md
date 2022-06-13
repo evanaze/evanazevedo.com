@@ -5,7 +5,7 @@ series: ["Update"]
 tags: ["career"]
 images: 
 - towfiqu-barbhuiya-oZuBNC-6E2s-unsplash.jpg
-draft: true
+draft: false
 ---
 {{< figure src="towfiqu-barbhuiya-oZuBNC-6E2s-unsplash.jpg">}}
 
