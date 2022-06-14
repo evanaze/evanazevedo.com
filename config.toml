@@ -38,11 +38,11 @@ identifier = "daily"
 name = "Daily"
 url = "/daily/"
 weight = 2
-[[menu.main]]
-identifier = "archive"
-name = "Archive"
-url = "/archive/"
-weight = 3
+# [[menu.main]]
+# identifier = "archive"
+# name = "Archive"
+# url = "/archive/"
+# weight = 3
 [[menu.main]]
 identifier = "about"
 name = "About"
