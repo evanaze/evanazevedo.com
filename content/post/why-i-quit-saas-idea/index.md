@@ -9,17 +9,17 @@ draft: false
 ---
 {{< figure src="towfiqu-barbhuiya-oZuBNC-6E2s-unsplash.jpg">}}
 
-A couple of weeks back I [announced](datascience-transition-week2/index.md) that I was putting my data science job transition on hold and would be investigating an idea I had for a startup. After having already gone down the rabbit hole of finding resources to learn Django and securing a domain name, I've decided that pursuing my original plan of getting a job in data science is a better choice.
+A couple of weeks back, I [announced](datascience-transition-week2/index.md) that I was putting my data science job transition on hold and would be investigating an idea I had for a startup. After having already gone down the rabbit hole of finding resources to learn Django and securing a domain name, I've decided that pursuing my original plan of getting a job in data science is a better choice.
 
 The primary reasons behind this are:
 
 - The math doesn't check out, and it likely would not be profitable.
-- The business is difficult to bootstrap unless you have a significant advantage in the space (which I do not).
+- The business is tricky to bootstrap unless you have a significant advantage in the space (which I do not).
 - I'm thinking too short-term, which causes me to rush between different objectives and ultimately succeed at none.
 
 ## Why did I think this was a good idea?
 
-So this begs the question: why did I think this business idea was a good idea to pursue in the first place? My reasoning starts with the idea of antifragility, which is the keystone concept in the fantastic book by author Nassim Taleb, [*Antifragile*](https://en.wikipedia.org/wiki/Antifragile_(book)). I won't waste too much time going into it here, but what interested me most about the topic is how it would apply to my career.
+So this begs the question: why did I think this business idea was a good idea to pursue in the first place? My reasoning starts with the notion of antifragility, the keystone concept in the fantastic book by author Nassim Taleb, [*Antifragile*](https://en.wikipedia.org/wiki/Antifragile_(book)). I won't waste too much time going into it here, but what interested me most about the topic is how it would apply to my career.
 
 In short, antifragile systems get stronger when stressed. An example is your immune system. I wanted to design my career to be antifragile, such that I could benefit from adverse or changing market conditions.
 
