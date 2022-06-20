@@ -3,7 +3,7 @@ title: "🏃‍♂️ Data Science Transition Week 3"
 date: 2022-06-19T18:56:03-07:00
 series: ["Data Science transition"]
 tags: ["data science", "career"]
-draft: false
+draft: true
 ---
 
 {{< figure src="mathias-reding--jXrqTWs7dI-unsplash.jpg" caption="Photo by [Mathias Reding](https://unsplash.com/@matreding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)" >}}

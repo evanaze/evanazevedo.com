@@ -42,24 +42,23 @@ This is represented in popular culture by the baby at the end of Stanley Kubrik'
 
 !["Baby image"](images/7277.jpg "An image of the baby at the end of the movie")
 
-By Nietzche's definition, a true Uberhuman has likely not been born yet, and if they do exist, they are infrequent and most people would not even know how to recognize one.
-If you are reading this, then you are unfortunately more human than Uberhuman due to the imperfections (such as trauma) that naturally come in as you lead an everyday life.
+By Nietzche's definition, a true Uberhuman has likely not been born yet, and if they do exist, they are infrequent, and most people would not even know how to recognize one.
+If you are reading this, you are unfortunately more human than Uberhuman due to the imperfections (such as trauma) that naturally come in as you lead an everyday life.
 
 In practical terms, we can think about this as self-actualization.
 We all have an image of the best versions of ourselves and what we want our lives to look like.
 My view of success is living in that space.
-All of the elements in our lives are aligned in such a way that we live according to our highest selves.
+All of the elements in our lives are aligned so that we live according to our highest selves.
 
 To fully understand this picture, it is worthwhile to introduce two more critical concepts from the book.
 
 ### Will to Power
 
 Will to power can be understood as the drive you have to become something.
-It does not necessarily include power in the traditional sense but incapsulates everyth
 
 Another way to put it would be living to the highest standard of our practical selves.
-I think it is amazing that only a few things really matter to becoming the most robust, most capable, and best version of yourself.
-It can be tempting to think of all the things in life that people want and how much of it is not available to us, but if we dig down and ask, "What would the best version of me have in spades?" I believe there are only three.
+Only a few things matter to becoming the most robust, capable, and best version of yourself.
+It can be tempting to think of everything in life that people want and how much of it is not available to us, but if we dig down and ask, "What would the best version of me have in spades?" I believe there are only three.
 I call these the three dimensions of success.
 
 ## The Dimensions of Success
