@@ -6,7 +6,7 @@ authors:
   - Evan Azevedo
 categories: [personal]
 tags: [philosophy]
-draft: false
+draft: true
 ---
 !["Hero image"](images/gerrie-van-der-walt-Ow7T2QWLMBY-unsplash.jpg)
 

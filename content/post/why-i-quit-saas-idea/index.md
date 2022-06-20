@@ -27,7 +27,7 @@ In the book *Antifragile* Taleb touts artists, creatives, gig workers, and **ent
 
 For example, you may start four unsuccessful startups, but a success on the 5th can more than makeup for the lost time on the first four.
 
-I wanted to learn to be an entrepreneur so my career would be antifragile, aware of the fact that job "safety" is mostly an illusion, and people that feel like they have the safest jobs often are taking on the most risk.
+I wanted to learn to be an entrepreneur so my career would be antifragile, aware that job "safety" is mostly an illusion, and people who feel like they have the safest jobs often take on the most risk.
 
 ## What changed?
 
