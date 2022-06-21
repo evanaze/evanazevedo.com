@@ -32,7 +32,7 @@ Here are the resources I found that helped put the job market into perspective f
 - [Ace the Data Science Interview](https://www.acethedatascienceinterview.com/) by Kevin Huo & Nick Singh. I wish I had this book as I wrapped up my undergrad three years ago.
 - [Build a Career in Data Science](https://www.amazon.com/Build-Career-Science-Jacqueline-Nolis/dp/1617296244) by Emily Robinson and Jacqueline Nolis. A very accessible and encouraging overview of the data science career journey.
 
-I'm beginning to understand that to be successful you need to:
+I'm beginning to understand that to be successful, you need to:
 
 - Understand the business problem
 - Communicate the value of the project
@@ -53,9 +53,9 @@ Consulting join strategy and execution to help companies improve along the dimen
 At this stage of my career I value career capital and knowledge more than income. Here's how I rank my priorities in my next role from most to least important:
 
 1. Creating value for others
-2. Learning valuable skills that I am curious about. Right now this is building machine learning. Shipping models and/or helping make decisions that drive business impact.
-3. Independence
-4. Working on something that makes the world better, not worse
+2. Working on something that makes the world better, not worse
+3. Learning my desired skill-set. Right now this is shipping machine learning models and/or helping make decisions that drive business impact.
+4. Independence. I want to do work as an independent consultant/freelancer and move towards being an entrepreneur.
 5. Making a lot of money
 
 I hope understanding my career journey goals up front will increase my chances of success and reduce my search time. Thanks for tuning in and until next week!
