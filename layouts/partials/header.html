@@ -1,0 +1,23 @@
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="evanazevedo.com" />
+<meta name="twitter:creator" content="Evan Azevedo" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:title" content="{{ if eq .Kind " taxonomy" }}{{ .Title }} | YourSite {{ else }}{{ .Title }}{{ end
+  }}" />
+<meta property="og:description"
+  content="{{ if .Description }} {{ .Description }} {{ else }} {{ .Site.Params.Description }} - {{ .Title }} {{ end }}" />
+<meta property="og:image" content="{{if .Params.image}}{{.Params.image}}{{else}}YourDefaultImage{{end}}" />
+
+<header id="header">
+  <h1>
+    <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+  </h1>
+
+  <nav>
+    {{ range .Site.Menus.main }}
+    <span class="nav-bar-item">
+      <a class="link" href="{{ .URL | safeURL }}">{{ .Name }}</a>
+    </span>
+    {{ end }}
+  </nav>
+</header>
