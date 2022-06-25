@@ -62,7 +62,7 @@ tags = "tags"
 [params]
 description = "A personal blog by Evan Azevedo" # website description
 favicon = "favicon.ico" # path to website icon, relative to ./static
-images = ["/stephen-leonardi-OdaFQxd5C8M-unsplash.jpg"]
+images = ["unsplashed_bridge.jpg"]
 footnote = """
 Follow me on <a class=link href=https://github.com/evanaze>GitHub</a>,
 <a class=link href=https://twitter.com/evan_azevedo>Twitter</a> or
