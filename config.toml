@@ -60,9 +60,10 @@ tags = "tags"
 ########################
 
 [params]
-description = "A personal blog by Evan Azevedo" # website description
+description = "My personal blog" # website description
 favicon = "favicon.ico" # path to website icon, relative to ./static
 twitter_cards = true
+image = ["unsplashed_bridge.jpg"]
 images = ["unsplashed_bridge.jpg"]
 footnote = """
 Follow me on <a class=link href=https://github.com/evanaze>GitHub</a>,
