@@ -15,9 +15,6 @@ rssLimit = 10                      # maximum items in rss feeds
 theme = "hugo-theme-texify"        # theme directory name
 title = "Evan's Website"                   # website title
 
-[permalinks]
-  posts = '/:year/:month/:title'
-
 [author]
 email = "me@evanazevedo.com"     # your email
 name = "Evan Azevedo"          # your name
@@ -65,8 +62,7 @@ tags = "tags"
 [params]
 description = "My personal blog" # website description
 favicon = "favicon.ico" # path to website icon, relative to ./static
-twitter_cards = true
-image = ["unsplashed_bridge.jpg"]
+images = ["unsplashed_bridge.jpg"]
 footnote = """
 Follow me on <a class=link href=https://github.com/evanaze>GitHub</a>,
 <a class=link href=https://twitter.com/evan_azevedo>Twitter</a> or
