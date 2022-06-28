@@ -4,7 +4,7 @@ date: 2022-06-26T20:56:35-07:00
 series: ["Data Science Transition"]
 tags: ["data science", "career"]
 images: ["motoki-tonn-ZS4x24UIy9o-unsplash.jpg"]
-draft: true
+draft: false
 ---
 {{< figure src="motoki-tonn-ZS4x24UIy9o-unsplash.jpg" caption="Photo by [Motoki Tonn](https://unsplash.com/@motoki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/mastery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)" >}}
 <p></p>
