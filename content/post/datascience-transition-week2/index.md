@@ -3,8 +3,7 @@ title: "🤔 Data Science Transition - Week 2"
 date: 2022-05-22T18:33:37-07:00
 series: ["Data Science Transition"]
 tags: ["data science", "career"]
-images: 
-- pawel-czerwinski-0OIYhfHqooY-unsplash.jpg
+images: ["pawel-czerwinski-0OIYhfHqooY-unsplash.jpg"]
 draft: false
 ---
 ![Photo by Pawel Czerwinski on Unsplash](pawel-czerwinski-0OIYhfHqooY-unsplash.jpg)
