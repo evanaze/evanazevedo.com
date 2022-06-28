@@ -63,3 +63,7 @@ Looking back, I think the biggest thing that held me back was not having a growt
 ### 2014 - 2019: BS in physics and statistics at UC Santa Barbara
 
 I did my undergrad at UC Santa Barbara in Physics and Statistical Science with an emphasis in Probability and Statistics.
+
+## Reach out!
+
+If you want to contact me, you can reach me at `me[@]` this domain. I'd love to hear from you.
