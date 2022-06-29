@@ -63,4 +63,4 @@ Just by writing I'm creating clarity of thought and forcing myself to be able to
 
 I'm still working on getting the newsletter working, but if you want to get weekly updates from this blog in your email please feel free to add yourself below. Until next time.
 
-{{< subscribe >}}
+{{% subscribe %}}

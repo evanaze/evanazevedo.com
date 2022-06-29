@@ -44,8 +44,4 @@ I also made some higher-level changes to the project.
 - I consulted with a friend about using serverless architecture for the project and will build using it after I have my MVP. Building serverless will help me keep costs down and explore a valuable skill-set.
 - I plan to post the project to [Rapid API](https://rapidapi.com/) so I can share it with others.
 
----
-
-Please reach out if this post inspired you to work on your projects or think about your career differently. You can email me at `me@` this domain or sign up below, and I'll send an update whenever I make a new post.
-
-{{< subscribe >}}
+{{% subscribe %}}

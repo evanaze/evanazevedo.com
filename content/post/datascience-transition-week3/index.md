@@ -61,4 +61,4 @@ At this stage of my career I value career capital and knowledge more than income
 
 I hope understanding my career journey goals up front will increase my chances of success and reduce my search time. Thanks for tuning in and until next week!
 
-{{< subscribe >}}
+{{% subscribe %}}
