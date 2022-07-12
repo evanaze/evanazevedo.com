@@ -70,6 +70,8 @@ Here are some of my main takeaways:
 
 I still have some of the book left, but this system will aid myself and the businesses I serve when making important decisions.
 
+{{< figure src="IMG_4194.jpeg" caption="Waterfalls along the road to Hana">}}
+
 ## Traveling in Hawai'i
 
 In taking time off, I was curious whether I would feel anxious about not working or, as Cal Newport puts it, start carving equations into palm trees. I found that I didn't quite feel the urge to work, but things continued to pop up that piqued my interest, such as [The Network State](https://aa1729.com/), a new book by Balaji Srinivasan and this paper on [Pen and Paper Exercises for Machine Learning](https://arxiv.org/pdf/2206.13446.pdf).
