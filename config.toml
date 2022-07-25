@@ -27,9 +27,12 @@ unsafe = true # enable html in markdown
 [markup.highlight]
 style = "emacs" # syntax highlight style, see https://xyproto.github.io/splash/docs/
 
+[permalinks]
+posts = "/:slug/"
+
 # https://gohugo.io/content-management/menus/
 [[menu.main]] # sections in the website header
-identifier = "post" # section id
+identifier = "posts" # section id
 name = "Posts"      # section display title
 url = "/"           # path to the section
 weight = 1          # order of sections
