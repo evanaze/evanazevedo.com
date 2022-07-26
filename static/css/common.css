@@ -2,34 +2,34 @@
 
 @font-face {
     font-display: swap;
-    font-family: 'Iosevka Regular';
+    font-family: 'ET Book';
     font-style: normal;
     font-weight: bold;
-    src: url('../font/iosevka-bold.woff2');
+    src: url('../font/et-book-bold-line-figures.woff');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'Iosevka Regular';
+    font-family: 'ET Book';
     font-style: italic;
     font-weight: bold;
-    src: url('../font/iosevka-bolditalic.woff2');
+    src: url('../font/et-book-display-italic-old-style-figures.woff');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'Iosevka Regular';
+    font-family: 'ET Book';
     font-style: italic;
     font-weight: normal;
-    src: url('../font/iosevka-italic.woff2');
+    src: url('../font/et-book-display-italic-old-style-figures.woff');
 }
 
 @font-face {
     font-display: swap;
-    font-family: 'Iosevka Regular';
+    font-family: 'ET Book';
     font-style: normal;
     font-weight: normal;
-    src: url('../font/iosevka-regular.woff2');
+    src: url('../font/et-book-roman-line-figures.woff');
 }
 
 @font-face {
@@ -87,7 +87,7 @@ time {
     background-color: #FAFAFA;
     display: flex;
     flex-direction: column;
-    font-family: 'Iosevka Regular', 'Times New Roman', serif;
+    font-family: 'ET Book', 'Times New Roman', serif;
     min-height: 100vh;
     overflow-wrap: break-word;
     padding: 1rem;
@@ -148,7 +148,7 @@ time {
 }
 
 #header>nav>span>a {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 /* main */
@@ -160,6 +160,8 @@ time {
     flex-grow: 1;
     max-width: 768px;
     padding: 2rem 0;
+    line-height: 1.5;
+    font-size: 1.2rem;
     width: calc(100% - 2rem);
 }
 
@@ -168,11 +170,33 @@ time {
 #footer {
     align-items: center;
     display: flex;
-    font-size: .9rem;
+    font-size: 1.0rem;
     flex-direction: column;
-    ;
 }
 
 #footer>.footnote {
     text-align: center;
+}
+
+img[src$='#center'] {
+    display: block;
+    margin: 0.7rem auto;
+    /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+    /* whatever else styles you fancy here */
+}
+
+img[src$='#floatleft'] {
+    float: left;
+    margin: 0.7rem;
+    /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
+}
+
+img[src$='#floatright'] {
+    float: right;
+    margin: 0.7rem;
+    /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
 }
