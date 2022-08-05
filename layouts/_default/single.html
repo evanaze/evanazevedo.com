@@ -4,7 +4,7 @@
 
 {{ define "main" }}
 <main id="main" class="post">
-  {{ if ne .Section "post"}}
+  {{ if ne .Section "posts"}}
   <article class="content">
     {{ .Content }}
     {{ if .Page.Store.Get "hasMermaid" }}
