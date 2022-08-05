@@ -29,14 +29,6 @@
 
 .content blockquote,
 .content div,
-.content h1,
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6,
-.content p,
-.content pre,
 .content ol,
 .content table,
 .content ul {
@@ -55,15 +47,7 @@
     color: #AA0000;
     font-family: 'Iosevka Extended', Courier, monospace;
     padding: 0 .2rem;
-}
-
-.content h1,
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6 {
-    line-height: 1.8;
+    font-size: .9rem;
 }
 
 .content h1 {
@@ -87,6 +71,7 @@
 }
 
 .content h6 {
+    line-height: 1.8;
     font-size: 1.2rem;
 }
 
