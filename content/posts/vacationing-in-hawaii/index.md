@@ -3,7 +3,7 @@ title: "🌋 Vacationing in Hawai'i"
 date: 2022-07-10T21:27:07-10:00
 series: ["Journal"]
 tags: ["journal", "travel"]
-# images: ["IMG_2490.jpeg"]
+images: ["IMG_2490.jpeg"]
 draft: false
 ---
 {{< figure src="IMG_2490.jpeg" caption="Black sand beach on the south side of the big island" >}}

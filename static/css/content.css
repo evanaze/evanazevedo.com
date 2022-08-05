@@ -55,14 +55,17 @@
 }
 
 .content h2 {
+    line-height: 1.8;
     font-size: 2.1rem;
 }
 
 .content h3 {
+    line-height: 1.8;
     font-size: 1.7rem;
 }
 
 .content h4 {
+    line-height: 1.8;
     font-size: 1.5rem;
 }
 
@@ -117,9 +120,6 @@
 .content th {
     border: #575C61 1px solid;
     padding: .1rem .5rem;
-}
-
-.content th {
     background-color: #575C61;
     color: #FAFAFA;
 }

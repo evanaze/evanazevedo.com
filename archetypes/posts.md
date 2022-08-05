@@ -4,6 +4,7 @@ date: {{ .Date }}
 series: [""]
 tags: [""]
 images: [""]
+toc: true
 draft: true
 ---
 
