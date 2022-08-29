@@ -3,7 +3,7 @@ title: "20 - Displaying HTML and starting app UI"
 date: 2022-08-29T08:52:55-07:00
 series: ["Daily Log"]
 tags: ["daily-log"]
-draft: true
+draft: false
 ---
 **Inputs**: 1.5 hours
 
