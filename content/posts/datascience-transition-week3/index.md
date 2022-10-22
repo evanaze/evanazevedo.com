@@ -3,13 +3,9 @@ title: "🏃‍♂️ Data Science Transition Week 3"
 date: 2022-06-19T18:56:03-07:00
 series: ["Data Science transition"]
 tags: ["data science", "career"]
-images: ["mathias-reding--jXrqTWs7dI-unsplash.jpg"]
+image: "mathias-reding--jXrqTWs7dI-unsplash.jpg"
 draft: false
 ---
-{{< figure src="mathias-reding--jXrqTWs7dI-unsplash.jpg" caption="Photo by [Mathias Reding](https://unsplash.com/@matreding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)" >}}
-
-<div></div>
-
 This is my first week back from diving into my hair-brained [startup idea](why-i-quit-saas-idea/index.md). Now I'm focused on getting a data science/machine learning job.
 
 This week's progress has been starting my first machine learning project and learning about the state of the data science/ML job market by reading some great books.

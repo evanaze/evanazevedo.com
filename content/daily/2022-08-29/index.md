@@ -3,14 +3,11 @@ title: "20 - Displaying HTML and starting app UI"
 date: 2022-08-29T08:52:55-07:00
 series: ["Daily Log"]
 tags: ["daily-log"]
+toc: false
+input: 90
+output: I was able to display a single blog post and started the scaffolding of the app.
 draft: false
 ---
-**Inputs**: 1.5 hours
-
-**Outputs**: I was able to display a single blog post and started the scaffolding of the app.
-
-#### Description
-
 As you can see in the following GIF, I was able to display a simple blog post in the app I've created:
 
 ![Blog recording](blog_recording.gif)

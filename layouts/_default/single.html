@@ -3,25 +3,11 @@
 {{ end }}
 
 {{ define "main" }}
-<main id="main" class="posts">
-  {{ if ne .Section "posts"}}
-  <article class="content">
-    {{ .Content }}
-    {{ if .Page.Store.Get "hasMermaid" }}
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    <script>
-      mermaid.initialize({ startOnLoad: true });
-    </script>
-    {{ end }}
-  </article>
-  {{ else }}
-  {{ if cond (ne .Params.outdated nil) .Params.outdated .Site.Params.outdated.enable }}
-  {{ $days := div (sub now.Unix .Lastmod.Unix) 86400 }}
-  {{ if gt $days .Site.Params.outdated.limit }}
-  <div class="warning">{{ printf .Site.Params.outdated.warning $days | safeHTML }}</div>
-  {{ end }}
-  {{ end }}
+<main id="main">
   <h1>{{ .Title }}</h1>
+  {{ if ne .Params.image nil }}
+  <img src="{{ .Params.image }}">
+  {{ end }}
   {{ if ne .Params.tags nil }}
   <div>
     <b>Keywords: </b>
@@ -41,11 +27,13 @@
   {{ end }}
   {{ end }}
   <article class="content">
-    {{ if .Site.Params.emphasisWithDots }}
-    {{ .Content | replaceRE "<strong>(\\p{Han}+?)</strong>" "<strong class=chinese>$1</strong>" | safeHTML }}
-    {{ else }}
-    {{ .Content }}
+    {{ $nullvar := (where .Site.RegularPages "Type" "eq" "daily") }}
+    <p><b>Inputs:</b> {{ .Params.input }} minutes</p>
+    {{ with .Params.output }}
+    <p><b>Outputs:</b> {{ . }}</p>
+    <h3>Description</h3>
     {{ end }}
+    {{ .Content }}
   </article>
   <div class="paginator">
     {{ if .PrevInSection }}
@@ -71,6 +59,5 @@
     {{ .Site.Params.utterances.script | safeHTML }}
     {{ end }}
   </div>
-  {{ end }}
 </main>
 {{ end }}

@@ -3,11 +3,9 @@ title: "🎉 Data Science Transition - Week 1"
 date: 2022-05-15T18:33:37-07:00
 series: ["Data Science Transition"]
 tags: ["data science", "career"]
-images: ["matese-fields-pvHma684eEI-unsplash.jpg"]
+image: "matese-fields-pvHma684eEI-unsplash.jpg"
 draft: false
 ---
-!["Anticipating the journey"](matese-fields-pvHma684eEI-unsplash.jpg)
-
 I've told many people in my life that I'm interested in data science, and made it pretty clear that I intended to get into it after I graduated from college. After many attempts, I still struggled to find a foothold in the field. However, that all is about to change.
 
 This week I am sharing my first steps in my journey to becoming a data scientist. While exciting, this is but a small step of many. Data science is a huge field, encompassing everything from building dashboards and generating business reports to training large-scale machine learning models to intelligently solve problems at scale.

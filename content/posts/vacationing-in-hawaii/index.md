@@ -3,12 +3,9 @@ title: "🌋 Vacationing in Hawai'i"
 date: 2022-07-10T21:27:07-10:00
 series: ["Journal"]
 tags: ["journal", "travel"]
-images: ["IMG_2490.jpeg"]
+image: "IMG_2490.jpeg"
 draft: false
 ---
-{{< figure src="IMG_2490.jpeg" caption="Black sand beach on the south side of the big island" >}}
-
-<p></p>
 
 I've been staying in Maui this week and have decided to take a break from working and writing my [daily](/daily) logs. Next week I'll be working remotely, so I'll be more active in posting updates.
 

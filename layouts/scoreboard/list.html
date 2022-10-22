@@ -1,0 +1,40 @@
+{{ define "head" }}
+<link rel="stylesheet" href='{{ "css/daily.css" | absURL }}'>
+{{ end }}
+
+{{ define "main" }}
+<main id="main" class="index">
+    <div class="scorecard">
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Goal</th>
+                    <th>Minutes</th>
+                    <th>Title</th>
+                    <th>Output</th>
+                    <th>Goal Met</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ $paginator := .Paginate (where .Site.RegularPages "Type" "=="
+                "daily") }}
+                {{ range $paginator.Pages }}
+                <tr>
+                    <td><time>{{ .PublishDate.Format .Site.Params.dateFormat}}</time></td>
+                    <td>90</td>
+                    <td>{{ .Params.input }}</td>
+                    <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+                    <td>{{ .Params.output }}</td>
+                    {{ if (ge .Params.input 90) }}
+                    <td>✅</td>
+                    {{ else }}
+                    <td>❌</td>
+                    {{ end }}
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
+    </div>
+</main>
+{{ end }}

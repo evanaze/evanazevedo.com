@@ -41,6 +41,11 @@ identifier = "daily"
 name = "Daily"
 url = "/daily/"
 weight = 2
+[[menu.main]]
+identifier = "scoreboard"
+name = "Scoreboard"
+url = "/scoreboard/"
+weight = 3
 # [[menu.main]]
 # identifier = "archive"
 # name = "Archive"
@@ -78,7 +83,7 @@ customCSS = []            # path to custom css files, relative to ./static
 customJS = []             # path to custom js files, relative to ./static
 dateFormat = "2006-01-02" # date format, see https://gohugo.io/functions/format/
 fullTextRSS = true        # output full-text (instead of only summary) rss
-emphasisWithDots = true   # use dots to emphasize chinese texts, see https://zh.wikipedia.org/wiki/%E7%9D%80%E9%87%8D%E5%8F%B7
+emphasisWithDots = false  # use dots to emphasize chinese texts, see https://zh.wikipedia.org/wiki/%E7%9D%80%E9%87%8D%E5%8F%B7
 since = "2021"            # website created year
 toc = true               # whether to enable table of contents in posts
 

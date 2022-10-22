@@ -3,12 +3,9 @@ title: "👨‍💻 Data Science Transition Week 4"
 date: 2022-06-26T20:56:35-07:00
 series: ["Data Science Transition"]
 tags: ["data science", "career"]
-images: ["motoki-tonn-ZS4x24UIy9o-unsplash.jpg"]
+image: motoki-tonn-ZS4x24UIy9o-unsplash.jpg
 draft: false
 ---
-{{< figure src="motoki-tonn-ZS4x24UIy9o-unsplash.jpg" caption="Photo by [Motoki Tonn](https://unsplash.com/@motoki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/mastery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)" >}}
-<p></p>
-
 I'm changing the theme of this newsletter to be about mastery.
 
 I started this blog to learn how to write more clearly and to share my progress with others to:

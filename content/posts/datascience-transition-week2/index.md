@@ -3,10 +3,9 @@ title: "🤔 Data Science Transition - Week 2"
 date: 2022-05-22T18:33:37-07:00
 series: ["Data Science Transition"]
 tags: ["data science", "career"]
-images: ["pawel-czerwinski-0OIYhfHqooY-unsplash.jpg"]
+image: pawel-czerwinski-0OIYhfHqooY-unsplash.jpg
 draft: false
 ---
-![Photo by Pawel Czerwinski on Unsplash](pawel-czerwinski-0OIYhfHqooY-unsplash.jpg)
 A lot has happened in the past week regarding my short to medium-term career plans. Confusingly, I've already decided to change my data science learning path. I know what you're probably thinking: "Boy, *that* was quick!" Well, not quite.
 
 I've decided to put the data science practice on hold to build a side project and see if I can make it into a small business.
