@@ -5,14 +5,9 @@ series: ["Daily Log"]
 tags: ["daily-log"]
 toc: false
 input: 0
+output: 
 draft: false
 ---
-**Inputs**:
-
-**Outputs**:
-
-#### Description
-
 
 
 {{% subscribe %}}

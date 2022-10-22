@@ -1,10 +1,10 @@
-{{ define "head" }}
-<link rel="stylesheet" href='{{ "css/daily.css" | absURL }}'>
-{{ end }}
-
 {{ define "main" }}
 <main id="main" class="index">
     <div class="scorecard">
+        <article class="content">
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+        </article>
         <table>
             <thead>
                 <tr>
@@ -17,8 +17,7 @@
                 </tr>
             </thead>
             <tbody>
-                {{ $paginator := .Paginate (where .Site.RegularPages "Type" "=="
-                "daily") }}
+                {{ $paginator := .Paginate (where .Site.RegularPages "Type" "==" "daily") 15 }}
                 {{ range $paginator.Pages }}
                 <tr>
                     <td><time>{{ .PublishDate.Format .Site.Params.dateFormat}}</time></td>
@@ -35,6 +34,18 @@
                 {{ end }}
             </tbody>
         </table>
+        <div class="paginator">
+            {{ if $paginator.HasPrev }}
+            <a class="link" href="{{ $paginator.Prev.URL }}">← prev</a>
+            {{ else }}
+            <a></a>
+            {{ end }}
+            {{ if $paginator.HasNext }}
+            <a class="link" href="{{ $paginator.Next.URL }}">next →</a>
+            {{ else }}
+            <a></a>
+            {{ end }}
+        </div>
     </div>
 </main>
 {{ end }}
