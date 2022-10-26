@@ -20,15 +20,15 @@
                 {{ $paginator := .Paginate (where .Site.RegularPages "Type" "==" "daily") 15 }}
                 {{ range $paginator.Pages }}
                 <tr>
-                    <td><time>{{ .PublishDate.Format .Site.Params.dateFormat}}</time></td>
-                    <td>90</td>
-                    <td>{{ .Params.input }}</td>
-                    <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-                    <td>{{ .Params.output }}</td>
+                    <td class="table-date">{{ .PublishDate.Format .Site.Params.dateFormat }}</td>
+                    <td class="table-val">90</td>
+                    <td class="table-val">{{ .Params.input }}</td>
+                    <td class="table-title"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+                    <td class="table-output">{{ .Params.output }}</td>
                     {{ if (ge .Params.input 90) }}
-                    <td>✅</td>
+                    <td class="table-val">✅</td>
                     {{ else }}
-                    <td>❌</td>
+                    <td class="table-val">❌</td>
                     {{ end }}
                 </tr>
                 {{ end }}

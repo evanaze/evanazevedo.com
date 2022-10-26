@@ -83,6 +83,35 @@ time {
     min-width: 5rem;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    padding: 8px;
+}
+
+thead {
+    background-color: #AAAAAA;
+}
+
+.table-val {
+    text-align: center;
+}
+
+.table-title {
+    width: 25%;
+    text-align: left;
+}
+
+.table-output {
+    width: 35%;
+    text-align: left;
+}
+
 #wrapper {
     background-color: #FAFAFA;
     display: flex;
