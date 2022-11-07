@@ -9,7 +9,7 @@
   <div class="daily">
     <h2>
       <a href="{{ .Permalink }}">{{ .Title }}</a>
-      <time>{{ .PublishDate.Format .Site.Params.dateFormat }}</time>
+      <time>{{ .File.ContentBaseName }}</time>
     </h2>
     {{ if ne .Params.tags nil }}
     <div>

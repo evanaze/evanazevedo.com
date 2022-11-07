@@ -1,3 +1,7 @@
+{{ define "head" }}
+<link rel="stylesheet" href='{{ "css/daily.css" | absURL }}'>
+{{ end }}
+
 {{ define "main" }}
 <main id="main" class="index">
     <div class="scorecard">
@@ -19,9 +23,8 @@
             <tbody>
                 {{ $paginator := .Paginate (where .Site.RegularPages "Type" "==" "daily") 15 }}
                 {{ range $paginator.Pages }}
-                {{ if ne .File.TranslationBaseName "index" }}
                 <tr>
-                    <td class="table-date">{{ .File.TranslationBaseName | time.Format ":date_medium" }}</td>
+                    <td class="table-date">{{ .File.ContentBaseName | time.Format ":date_medium" }}</td>
                     <td class="table-val">90</td>
                     <td class="table-val">{{ .Params.input }}</td>
                     <td class="table-title"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
@@ -32,7 +35,6 @@
                     <td class="table-val">❌</td>
                     {{ end }}
                 </tr>
-                {{ end }}
                 {{ end }}
             </tbody>
         </table>
