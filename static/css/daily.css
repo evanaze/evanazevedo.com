@@ -23,7 +23,8 @@
         margin-left: 2rem;
     }
 
-    #main>.daily>table {
-        max-width: fit-content;
+    .tablemobile {
+        overflow-x: auto;
+        display: block;
     }
 }
