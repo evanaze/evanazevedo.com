@@ -13,7 +13,7 @@ I'm working on combining my geographic data using Uber's H3 library. I'm startin
 My approach a couple of days ago was to just stitch together all of the census tracts and then try to fill with high-resolution hexes, which overloaded my machine. Instead, Now I'm trying to efficiently fill the tracts individually and then combine them together. I suspect I will be able to port this work over to the zip codes/neighborhoods when I get to that part with the Zillow data.
 
 Here is my goal for how to fill the census tracts, taken from [this](https://github.com/uber/h3-py-notebooks/blob/master/notebooks/urban_analytics.ipynb) useful guide that I'm following:
-![Map hex fill goal](2022-11-09/polyfill_goal.png)
+![Map hex fill goal](polyfill_goal.png)
 
 When I get to the raster data section from Ursa Space I can use [this package](https://github.com/nmandery/h3ronpy) for the same purpose.
 
