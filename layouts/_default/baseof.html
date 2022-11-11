@@ -82,6 +82,11 @@
   <script src="{{ . | absURL }}"></script>
   {{ end }}
 
+  <!-- mermaid -->
+  {{ if (.Params.mermaid) }}
+  <script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
+  {{ end }}
+
   <!-- google analytics -->
   {{ template "_internal/google_analytics.html" . }}
 
