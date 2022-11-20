@@ -20,7 +20,7 @@ I'm still at the beginning stage, where I want to download a user's tweets and s
 
 Using a SQL database is a good practice and will help me remember my SQL/DB management skills.
 
-I got stuck for a few days overengineering the solution, but I am back on track and trying to get this out the door without too much overhead.
+I got stuck for a few days over-engineering the solution, but I am back on track and trying to get this out the door without too much overhead.
 
 ## Data science job market
 

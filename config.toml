@@ -28,7 +28,7 @@ unsafe = true # enable html in markdown
 style = "emacs" # syntax highlight style, see https://xyproto.github.io/splash/docs/
 
 [permalinks]
-posts = "/:slug/"
+posts = "/:sections[1:]/:slugorfilename/"
 
 # https://gohugo.io/content-management/menus/
 [[menu.main]] # sections in the website header
