@@ -6,7 +6,7 @@ tags: ["data science", "career"]
 image: "mathias-reding--jXrqTWs7dI-unsplash.jpg"
 draft: false
 ---
-This is my first week back from diving into my hair-brained [startup idea](why-i-quit-saas-idea/index.md). Now I'm focused on getting a data science/machine learning job.
+This is my first week back from diving into my hair-brained [startup idea](../../../why-i-quit-saas-idea/). Now I'm focused on getting a data science/machine learning job.
 
 This week's progress has been starting my first machine learning project and learning about the state of the data science/ML job market by reading some great books.
 
@@ -14,9 +14,9 @@ Here are my updates in more depth.
 
 ## Project
 
-I [started](daily/2022-06-13) my first machine learning project, tentatively called [PlaceBot](https://github.com/evanaze/placebot). This is a fun project that aims to allow users to imitate the tweets of a specific user.
+I [started](../../../daily/2022-06-13) my first machine learning project, tentatively called [PlaceBot](https://github.com/evanaze/placebot). This is a fun project that aims to allow users to imitate the tweets of a specific user.
 
-I'm still at the beginning stage, where I want to download a user's tweets and store them locally in a SQLite3 database. 
+I'm still at the beginning stage, where I want to download a user's tweets and store them locally in a SQLite3 database.
 
 Using a SQL database is a good practice and will help me remember my SQL/DB management skills.
 

@@ -9,7 +9,7 @@ draft: false
 ---
 {{< figure src="towfiqu-barbhuiya-oZuBNC-6E2s-unsplash.jpg">}}
 
-A couple of weeks back, I [announced](datascience-transition-week2/index.md) that I was putting my data science job transition on hold and would be investigating an idea I had for a startup. After having already gone down the rabbit hole of finding resources to learn Django and securing a domain name, I've decided that pursuing my original plan of getting a job in data science is a better choice.
+A couple of weeks back, I [announced](../data-science/transition/week2/) that I was putting my data science job transition on hold and would be investigating an idea I had for a startup. After having already gone down the rabbit hole of finding resources to learn Django and securing a domain name, I've decided that pursuing my original plan of getting a job in data science is a better choice.
 
 The primary reasons behind this are:
 

@@ -71,24 +71,14 @@ In the long term, I think an excellent solution would be to build this into its 
 
 ## Why the change?
 
-I'm making this change because I'm following my interests and allowing myself to pursue something new. As discussed in my last blog [post](../ds-transition-wk1/), I believe that following intrinsic motivation is an excellent path to success because you will be able to produce your best work for longer.
+I'm making this change because I'm following my interests and allowing myself to pursue something new. As discussed in my last blog [post](../week1), I believe that following intrinsic motivation is an excellent path to success because you will be able to produce your best work for longer.
 
 This is a good decision because instead of being tied to using data science or machine learning in my next role, I am now building a broad and valuable skill set that will serve me in whatever I decide to do next. In other words, I'm choosing the "tool agnostic" route or focusing on strategy rather than tactics. The goal is to lower my expectations, get my first iteration out there, and see what happens!
 
 ## Blog updates
 
-In the spirit of "building in public" and taking inspiration from Ben from [tinyprojects.dev](https://daily.tinyprojects.dev/), I'll also be posting daily updates on this blog under the [Daily](../../daily/) section (work in progress).
+In the spirit of "building in public" and taking inspiration from Ben from [tinyprojects.dev](https://daily.tinyprojects.dev/), I'll also be posting daily updates on this blog under the [Daily](../../../daily/) section (work in progress).
 
 To avoid clogging up your email inbox, I will send out a newsletter like this every week with updates from the past week.
 
-<form
-  action="https://formspree.io/f/xwkadlba"
-  method="POST"
->
-  <label>
-    Enter your email to subscribe for updates:
-    <input type="email" name="email">
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+{{% subscribe %}}

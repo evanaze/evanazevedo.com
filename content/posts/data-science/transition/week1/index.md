@@ -60,14 +60,4 @@ I'm mostly done with step 1, and have already started to review concepts from st
 
 If you would like to keep up with my journey you can enter your email below to subscribe. I'm planning to send out weekly updates on Sundays with my progress from the previous week. If not, that's cool too. I believe my odds of success are higher just by putting this out on the web and telling people about it, and who knows - maybe somebody else could use this information as well!
 
-<form
-  action="https://formspree.io/f/xwkadlba"
-  method="POST"
->
-  <label>
-    Enter your email to subscribe for updates:
-    <input type="email" name="email">
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+{{% subscribe %}}
