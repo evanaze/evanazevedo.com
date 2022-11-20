@@ -7,6 +7,15 @@ author: "Evan Azevedo"
 ---
 !["Bridge"](unsplashed_bridge.jpg)
 
+<!-- **Socials:** <figure>
+  <img src="/linkedin.png" alt="Kooaburra" width=50>
+  <img src="/github.png" alt="Pelican stood on the beach" width=50>
+  <img src="/twitter.png" alt="Cheeky looking Rainbow Lorikeet" width=50>
+</figure>
+
+ {{< figure src="/linkedin.png" link="https://www.linkedin.com/in/evanaze/" class=icon alt="LinkedIn" width=50 >}} {{< figure src="/github.png" link="https://www.github.com/evanaze/" class=icon alt="Github" width=50 >}} {{< figure src="/twitter.png" link="https://twitter.com/evan_azevedo" class=icon alt="Twitter" width=50 >}}
+-->
+
 ## Hi! My name is Evan 👋
 
 Welcome to my website. I created this site to get in the habit of sharing what I'm learning and working on with others so I can be engaged in a like-minded community.
