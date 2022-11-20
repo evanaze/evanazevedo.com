@@ -27,12 +27,13 @@
   {{ end }}
   {{ end }}
   <article class="content">
-    {{ $nullvar := (where .Site.RegularPages "Type" "eq" "daily") }}
+    {{ if eq .Params.type "daily" }}
     <p><b>Inputs:</b> {{ .Params.input }} minutes</p>
     {{ with .Params.output }}
     <p><b>Outputs:</b> {{ . }}</p>
     <h3>Description</h3>
     {{ end }}
+    {{end}}
     {{ .Content }}
   </article>
   <div class="paginator">
