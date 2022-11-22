@@ -19,9 +19,9 @@ taxonomies:
   series: series
 
 params:
-  env: develop # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Evan's Website
-  description: "ExampleSite description"
+  description: "Evan Azevedo's Personal Website"
   keywords: [Blog, Portfolio]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -30,6 +30,7 @@ params:
   defaultTheme: dark # dark, light
   disableThemeToggle: false
 
+  mainSections: posts
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -67,11 +68,11 @@ params:
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://twitter.com/evan_azevedo"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/evanaze"
+    - name: linkedin
+      url: "https://linkedin.com/in/evanaze"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -102,14 +103,13 @@ menu:
       name: scoreboard
       url: /scoreboard/
       weight: 30
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 40
     - identifier: tags
       name: tags
       url: /tags/
       weight: 50
+
+permalinks:
+  /: /:sections[1:]/:slugorfilename/
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -119,4 +119,4 @@ markup:
     # codeFences: true
     # guessSyntax: true
     # lineNos: true
-    # style: monokai
+    style: dracula
