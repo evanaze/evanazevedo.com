@@ -2,6 +2,7 @@
 title: "🎉 Data Science Transition - Week 1"
 date: 2022-05-15T18:33:37-07:00
 series: ["Data Science Transition"]
+categories: ["data-science"]
 tags: ["data science", "career"]
 image: "matese-fields-pvHma684eEI-unsplash.jpg"
 draft: false
