@@ -5,7 +5,8 @@ enableToc: false
 
 ## Daily
 
-
+[[daily]]
 
 ## Posts
 
+[[posts]]
