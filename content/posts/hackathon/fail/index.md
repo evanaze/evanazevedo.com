@@ -5,10 +5,9 @@ series: ["hackathon"]
 tags: ["hackathon", "data science"]
 image: "hackathon_img.jpg"
 slug: fail
+description: Lessons learned from my first remote hackathon
 draft: false
 ---
-*Lessons learned from my first remote hackathon*
-
 I just completed my second hackathon ever, and I learned so much. I have been working on the [AWS Data Exchange for APIs Challenge](https://awsdataexchange4apis.devpost.com/?ref_feature=challenge&ref_medium=homepage-recommended-hackathons) on Devpost since the 25th of October and have been [sharing](../../../daily/2022-10-25) my progress ever since. However, the hackathon ends tomorrow, and I need more to submit. I will share my biggest takeaways and what I would do differently next time so that we can both build cool projects.
 
 ### The skinny
