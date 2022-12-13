@@ -7,6 +7,7 @@ authors:
 categories: [personal]
 tags: [philosophy]
 image: "images/gerrie-van-der-walt-Ow7T2QWLMBY-unsplash.jpg"
+ShowToc: true
 draft: false
 ---
 As 2020 wraps up, I think it is a good time to reflect and look forward a bit to what has made me happiest and feeling most successful.

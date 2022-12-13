@@ -5,7 +5,6 @@ series: ["hackathon"]
 tags: ["hackathon", "data science"]
 image: "hackathon_img.jpg"
 slug: fail
-toc: true
 draft: false
 ---
 *Lessons learned from my first remote hackathon*

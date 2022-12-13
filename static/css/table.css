@@ -6,6 +6,7 @@ time {
 
 table {
     border-collapse: collapse;
+    border-color: aliceblue;
 }
 
 table,
