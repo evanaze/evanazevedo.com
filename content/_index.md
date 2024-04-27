@@ -3,12 +3,8 @@ title: 🐙 Home
 enableToc: false
 ---
 
-{{< embedded_post "about/index.md" >}}
+Welcome! I'm a freelance software developer based out of Denver, Colorado. I'm currently working on Localista, a website that allows users to easily learn about and rate their support 
+for issues on the Colorado ballot.
 
-## Daily
-
-[[daily]]
-
-## Posts
-
-[[posts]]
+- Learn more [about me](about/index.md) by checking out my bio.
+- Check out my [daily log](daily/index.md)

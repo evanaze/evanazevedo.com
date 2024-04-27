@@ -1,11 +1,8 @@
 ---
-title: "About"
-description: "About me"
-date: "2022-05-12"
-aliases: ["about-me", "contact"]
-author: "Evan Azevedo"
+title: Test
+enableToc: false
 ---
-!["Bridge"](unsplashed_bridge.jpg)
+![Bridge](unsplashed_bridge.jpg)
 
 ## Hi! My name is Evan 👋
 
@@ -67,3 +64,4 @@ I did my undergrad at UC Santa Barbara in Physics and Statistical Science with a
 ## Reach out!
 
 If you want to contact me, you can reach me at `me[@]` this domain. I'd love to hear from you.
+
