@@ -1,6 +1,6 @@
 baseURL = "https://evanazevedo.com/"
 languageCode = "en-us"
-theme = "quartz"
+theme = "magma"
 googleAnalytics = "G-89XNJ50SHN"
 relativeURLs = false
 disablePathToLower = true

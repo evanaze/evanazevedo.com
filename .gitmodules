@@ -1,3 +1,6 @@
 [submodule "themes/quartz"]
 	path = themes/quartz
 	url = https://github.com/jackyzha0/quartz.git
+[submodule "themes/magma"]
+	path = themes/magma
+	url = git@github.com:evanaze/magma.git

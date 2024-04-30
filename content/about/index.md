@@ -1,8 +1,9 @@
 ---
-title: Test
+title: About Me
+date: 2022-06-12T16:03:13-07:00
+header_image: unsplashed_bridge.jpg
 enableToc: false
 ---
-![Bridge](unsplashed_bridge.jpg)
 
 ## Hi! My name is Evan 👋
 
