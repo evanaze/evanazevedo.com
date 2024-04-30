@@ -12,7 +12,7 @@ I grew up and currently live in the Bay Area, California.
 
 ### My interests
 
-I like to play guitar in my spare time and have played since 2009. My favorite instrument is electric, and I love to play hard rock, thrash metal, blues, prog metal, and jazz.
+I play guitar in my spare time and have played since 2009. My favorite instrument is electric, and I love to play hard rock, thrash metal, blues, prog metal, and jazz.
 
 I also practice Muay Thai and have been training since April 2021.
 
