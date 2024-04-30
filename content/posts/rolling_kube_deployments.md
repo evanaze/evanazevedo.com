@@ -1,6 +1,7 @@
 ---
-draft: true
 title: Rolling Kubernetes Deployments
+date: 2024-04-30T16:03:13-07:00
+draft: false
 ---
 https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/
 
