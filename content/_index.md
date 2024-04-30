@@ -1,5 +1,5 @@
 ---
-title: 🐙 Home
+title: Home
 enableToc: false
 ---
 
@@ -7,4 +7,4 @@ Welcome! I'm a freelance software developer based out of Denver, Colorado. I'm c
 for issues on the Colorado ballot.
 
 - Learn more [about me](about/index.md) by checking out my bio.
-- Check out my [daily log](daily/index.md)
+- I used to write a [daily log](daily/index.md)
