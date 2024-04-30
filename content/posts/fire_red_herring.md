@@ -1,5 +1,6 @@
 ---
 draft: true
+title: 🔥 Why the FIRE Movement is a Big Red Herring
 ---
 I have a bit of a bone to pick with the FIRE movement. The FIRE movement falls for the same trap as the traditional retirement myth, and misses the bigger picture about what actually makes people fulfilled in life. But to use the Bruce Lee quote: "Eat the fish, spit out the bone." I will share the best lessons to take away from the FIRE movement and what we should be ignoring as fast as possible.
 

@@ -1,5 +1,6 @@
 ---
 draft: true
+title: Rolling Kubernetes Deployments
 ---
 https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/
 

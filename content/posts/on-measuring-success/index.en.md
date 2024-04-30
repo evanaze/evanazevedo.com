@@ -1,5 +1,5 @@
 ---
-title: "Opinion: On Defining Success"
+title: "On Defining Success"
 excerpt: As 2020 wraps up, I think it is an excellent time to reflect and look forward a bit to what has made me happiest and feeling most successful. 
 date: 2020-12-31
 authors:

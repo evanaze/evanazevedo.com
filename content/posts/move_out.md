@@ -1,7 +1,8 @@
 ---
+title: 🐪 How I navigated my first desert of the soul
+date: 2022-06-12T16:03:13-07:00
 draft: true
 ---
-
 Things that stood in my way:
 - Unrealistic career expectations
 - Social anxiety
