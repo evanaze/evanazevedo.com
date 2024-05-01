@@ -3,7 +3,7 @@ title: "🎉 Data Science Transition - Week 1"
 date: 2022-05-15T18:33:37-07:00
 series: ["Data Science Transition"]
 tags: ["data science", "career"]
-image: "matese-fields-pvHma684eEI-unsplash.jpg"
+header_image: "matese-fields-pvHma684eEI-unsplash.jpg"
 draft: false
 ---
 I've told many people in my life that I'm interested in data science, and made it pretty clear that I intended to get into it after I graduated from college. After many attempts, I still struggled to find a foothold in the field. However, that all is about to change.

@@ -3,7 +3,7 @@ title: "🏃‍♂️ Data Science Transition Week 3"
 date: 2022-06-19T18:56:03-07:00
 series: ["Data Science transition"]
 tags: ["data science", "career"]
-image: "mathias-reding--jXrqTWs7dI-unsplash.jpg"
+header_image: "mathias-reding--jXrqTWs7dI-unsplash.jpg"
 draft: false
 ---
 This is my first week back from diving into my hair-brained [startup idea](../../../why-i-quit-saas-idea/). Now I'm focused on getting a data science/machine learning job.

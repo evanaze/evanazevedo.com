@@ -3,7 +3,7 @@ title: "🌋 Vacationing in Hawai'i"
 date: 2022-07-10T21:27:07-10:00
 series: ["Journal"]
 tags: ["journal", "travel"]
-image: "IMG_2490.jpeg"
+header_image: "IMG_2490.jpeg"
 draft: false
 ---
 

@@ -3,7 +3,7 @@ title: "👨‍💻 Data Science Transition Week 4"
 date: 2022-06-26T20:56:35-07:00
 series: ["Data Science Transition"]
 tags: ["data science", "career"]
-image: motoki-tonn-ZS4x24UIy9o-unsplash.jpg
+header_image: motoki-tonn-ZS4x24UIy9o-unsplash.jpg
 draft: false
 ---
 I'm changing the theme of this newsletter to be about mastery.
