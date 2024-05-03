@@ -9,4 +9,3 @@ draft: true
 - [[Microservices]] with [[Meltano]]
 	- Larger piece: Creating a Modern Backend with Postgres, SQLAlchemy, FastAPI and Meltano
 - [How I moved out of my parent's house](posts/move_out.md)
-
