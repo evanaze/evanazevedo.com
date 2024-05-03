@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+        - ssh-keyscan -t rsa github.com >> $HOME/.ssh/known_hosts
     build:
       commands:
         - git clone https://github.com/evanaze/magma.git themes/magma
