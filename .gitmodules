@@ -1,3 +1,6 @@
 [submodule "themes/novela"]
 	path = themes/novela
 	url = https://github.com/evanaze/hugo-theme-novela.git
+[submodule "themes/magma"]
+	path = themes/magma
+	url = git@github.com:evanaze/magma.git
