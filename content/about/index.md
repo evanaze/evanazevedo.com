@@ -1,11 +1,9 @@
 ---
-title: "About"
-description: "About me"
-date: "2022-05-12"
-aliases: ["about-me", "contact"]
-author: "Evan Azevedo"
+title: About Me
+date: 2022-06-12T16:03:13-07:00
+header_image: unsplashed_bridge.jpg
+enableToc: false
 ---
-!["Bridge"](unsplashed_bridge.jpg)
 
 ## Hi! My name is Evan 👋
 
@@ -15,7 +13,7 @@ I grew up and currently live in the Bay Area, California.
 
 ### My interests
 
-I like to play guitar in my spare time and have played since 2009. My favorite instrument is electric, and I love to play hard rock, thrash metal, blues, prog metal, and jazz.
+I play guitar in my spare time and have played since 2009. My favorite instrument is electric, and I love to play hard rock, thrash metal, blues, prog metal, and jazz.
 
 I also practice Muay Thai and have been training since April 2021.
 
@@ -67,3 +65,4 @@ I did my undergrad at UC Santa Barbara in Physics and Statistical Science with a
 ## Reach out!
 
 If you want to contact me, you can reach me at `me[@]` this domain. I'd love to hear from you.
+

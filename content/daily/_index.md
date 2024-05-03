@@ -1,5 +1,5 @@
 ---
 aliases: ["logs"]
-title: "Daily"
+title: "daily logs"
 author: "Evan Azevedo"
 ---
