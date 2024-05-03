@@ -1,3 +1,3 @@
 [submodule "themes/magma"]
 	path = themes/magma
-	url = git@github.com:evanaze/magma.git
+	url = https://github.com/evanaze/magma.git

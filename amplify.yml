@@ -1,0 +1,22 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - git submodule update --remote --recursive --depth 1
+    build:
+      commands:
+        - HUGO_VERSION=0.125.5
+        - ls themes/magma
+        - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
+        - tar -xf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz hugo
+        - mv hugo /usr/bin/hugo
+        - rm -rf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
+        - hugo
+  artifacts:
+    baseDirectory: public
+    files:
+      - '**/*'
+  cache:
+    paths: []
+
