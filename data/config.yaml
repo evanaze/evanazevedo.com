@@ -9,7 +9,8 @@ enableCallouts: true
 enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
-enableRecentNotes: false
+enableRecentNotes: true
+nRecentNotes: 5
 enableGitHubEdit: true
 enableMermaid: true
 GitHubLink: https://github.com/evanaze/evanazevedo.com/tree/main/content

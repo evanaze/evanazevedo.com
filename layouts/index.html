@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+{{ partial "head.html" . }}
+
+<body>
+{{partial "search.html" .}}
+<div class="singlePage">
+    <!-- Begin actual content -->
+    {{partial "header.html" .}}
+    <div>
+        <article>
+            {{partial "toc.html" .}}
+            {{partial "textprocessing.html" . }}
+            {{if $.Site.Data.config.enableRecentNotes}}
+            {{partial "recent.html" . }}
+            {{end}}
+        </article>
+        <ul>
+                <li>programming</li>
+                <li>Data science</li>
+        </ul>
+    </div>
+    {{partial "footerIndex.html" .}}
+</div>
+</body>
+</html>
+
