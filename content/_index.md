@@ -1,7 +1,6 @@
 ---
 title: Home
 enableToc: false
-type: landing_page
 ---
 
 Welcome! I'm a freelance software developer based out of Denver, Colorado.
