@@ -52,6 +52,8 @@ In conclusion, model transparency and explainability are two approaches to build
 
 At [Ople](https://ople.ai/), we understand the value of explainable AI, and have baked in model transparency and explainability with the Simulate tab so you can better understand the model’s predictions. Contact us today to start your free trial!
 
+{{% subscribe %}}
+
 ## Sources
 * Panel on Deep Learning: https://ople.ai/ai-blog/panel-discussion-deep-learning-where-do-we-go-from-here/ 
 * On Explainable AI: https://www.persistent.com/blogs/thoughts-on-transparency-and-explainability-of-ai 

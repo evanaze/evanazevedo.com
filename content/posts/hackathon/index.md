@@ -9,7 +9,7 @@ draft: false
 ---
 *Lessons learned from my first remote hackathon*
 
-I just completed my second hackathon ever, and I learned so much. I have been working on the [AWS Data Exchange for APIs Challenge](https://awsdataexchange4apis.devpost.com/?ref_feature=challenge&ref_medium=homepage-recommended-hackathons) on Devpost since the 25th of October and have been [sharing](../../../daily/2022-10-25) my progress ever since. However, the hackathon ends tomorrow, and I need more to submit. I will share my biggest takeaways and what I would do differently next time so that we can both build cool projects.
+I just completed my second hackathon ever, and I learned so much. I have been working on the [AWS Data Exchange for APIs Challenge](https://awsdataexchange4apis.devpost.com/?ref_feature=challenge&ref_medium=homepage-recommended-hackathons) on Devpost since the 25th of October and have been [sharing](daily/2022-10-25) my progress ever since. However, the hackathon ends tomorrow, and I need more to submit. I will share my biggest takeaways and what I would do differently next time so that we can both build cool projects.
 
 ### The skinny
 
@@ -20,14 +20,14 @@ In a 🥜 shell, here's what I will do differently next time:
 
 #### What I learned
 
-I got to play with [Meltano](../../../daily/2022-10-29.md), an exciting library to easily create and manage data pipelines, learn about [GIS data](../../../daily/2022-11-06.md), and fail upwards while [learning Dask](../../../daily/2022-11-18.md). I can confidently say I've learned a ton 📚.
+I got to play with [Meltano](daily/2022-10-29.md), an exciting library to easily create and manage data pipelines, learn about [GIS data](daily/2022-11-06.md), and fail upwards while [learning Dask](daily/2022-11-18.md). I can confidently say I've learned a ton 📚.
 
 The accomplishment I'm most proud of during this hackathon was creating a map of the highest-value areas to raise a family using Apache Superset. I used the [Opportunity Atlas](https://www.opportunityatlas.org/) dataset, a dataset of the average income for a 35-year-old born and raised in a geographic area within the United States. This dataset came out recently and made waves by showing something we all knew: the neighborhood you grow up in impacts your life outcomes.
 
 I extended these numbers by dividing the "opportunity index" by the median housing cost from the [Zillow Home Value Index](https://www.zillow.com/research/data/) to get the "value" of living across the United States. The result was the following:
 
-![Map of the US](../../../daily/2022-11-05/new-chart-2022-11-05T19-33-03.074Z.jpg)
-![Map of Colorado](../../../daily/2022-11-05/new-chart-2022-11-05T19-33-20.721Z.jpg)
+![Map of the US](daily/2022-11-05/new-chart-2022-11-05T19-33-03.074Z.jpg)
+![Map of Colorado](daily/2022-11-05/new-chart-2022-11-05T19-33-20.721Z.jpg)
 
 This visualization shows the mid-west is a promising area in terms of value for housing and economic opportunity. Unfortunately, this does not use any of the competition's data, so while this is great, I plan to leave this project to die on the vine and create this blog post instead.
 

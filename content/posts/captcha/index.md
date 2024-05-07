@@ -1,10 +1,7 @@
 ---
 title: "Captcha Image Solver"
 date: 2020-07-15
-resources:
-- name: featured-image
-  src: captcha_sample.png
-
+header_image: captcha_sample.png
 categories: [projects]
 tags: [machine learning, python]
 draft: true
@@ -16,7 +13,7 @@ To check out the project, take a look at the [repo](https://github.com/evanaze/c
 
 I was browsing Reddit one day, and came across a post on the subreddit [r/MachineLearning](https://www.reddit.com/r/MachineLearning/), where somebody was asking for help to solve Captcha images, like the one here:
 
-![](captcha_sample.png)
+![Sample Captcha](posts/captcha/captcha_sample.png)
 
 The captchas are a noisy image with verical lines on a colorful background, with between 1 and 9 squares added on top of a different pattern. I was immediately intrigued and knew that this is an interesting application of Machine Learning, and agreed to work on the project.  
 
@@ -30,3 +27,4 @@ Using OpenCV alone got me 90% of the way there. [OpenCV](https://opencv.org) is 
 
 ### Method 2: OpenCV + Deep Learning
 For the last 8 to 10% of images, I figured something more needed to be done.
+

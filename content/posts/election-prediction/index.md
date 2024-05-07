@@ -1,10 +1,7 @@
 ---
 title: "2016 Election Prediction"
 date: 2018-03-23
-resources:
-- name: featured-image
-  src: jason-zeis-NcFeZ0VJLJQ-unsplash.jpg
-  
+header_image: jason-zeis-NcFeZ0VJLJQ-unsplash.jpg
 categories: [projects]
 tags: [data science, R]
 draft: false

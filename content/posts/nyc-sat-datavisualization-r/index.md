@@ -1,10 +1,7 @@
 ---
 title: "NYC SAT Visualization"
 date: 2017-03-17
-resources:
-- name: featured-image
-  src: SchoolLocation_Boroughs.png
-  
+header_image: SchoolLocation_Boroughs.png
 categories: [projects]
 tags: [visualization, R]
 ---
@@ -22,12 +19,14 @@ We present data visualization for SAT scores of accredited high schools in New Y
 
 ## Visualizations
 
-![](NYCmap.png)
+![NYC Map](posts/nyc-sat-datavisualization-r/NYCmap.png)
 
-![](SchoolLocationPlot.png)
+![School plot](posts/nyc-sat-datavisualization-r/SchoolLocationPlot.png)
 
-![](SchoolPlot_SATscores.png)
+![SAT Scores](posts/nyc-sat-datavisualization-r/SchoolPlot_SATscores.png)
 
-![](BoroughsVSAvgSAT.png)
+![Boroughs](posts/nyc-sat-datavisualization-r/BoroughsVSAvgSAT.png)
 
-![](SchoolLocation_Boroughs.png)
+![School location](posts/nyc-sat-datavisualization-r/SchoolLocation_Boroughs.png)
+
+{{% subscribe %}}

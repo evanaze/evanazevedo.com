@@ -2,10 +2,7 @@
 title: "Top 3 Data Analysis Tools"
 subtitle: "Over 100 Business Intelligence tools exist today, so condensing this list down to start with data analysis tools can be a struggle"
 date: 2020-03-06
-resources:
-- name: featured-image
-  src: Ople_Tableau_Header_1000.png
-
+header_image: Ople_Tableau_Header_1000.png
 categories: [ople]
 tags: [seo, blog post]
 link: https://ople.ai/ai-blog/top-3-data-analysis-tools/
@@ -22,7 +19,8 @@ Over 100 Business Intelligence tools exist today, so condensing this list down t
 [Tableau](https://www.tableau.com/) is possibly the most well-known data analysis tool and was recently bought by Salesforce for its popularity and product quality. For a medium or large-sized company looking to generate valuable dashboards for their business processes, Tableau is an excellent first choice. It provides industry-leading connectors for bringing in data from all data sources. 
 
 Tableau offers a very intuitive drag-and-drop interface that is used to some extent by all three of the data analysis tools discussed here. It also is the only one of the three that offers predictive analytics on top of their typical visualizations and is known for its capability to share dashboards between users.
-![](tableau_sales_summary-1024x701.png)
+
+![Tableau Sales Summary](posts/data-analysis-tools/tableau_sales_summary-1024x701.png)
 
 ### Pros
 * Plenty of flexibility with data visualizations
@@ -42,7 +40,8 @@ Tableau is the best overall data analysis tool but can be expensive for smaller 
 
 Sisense’s real strength lies in its ease of use to incorporate complex data and its automated import features. Sisense also recently acquired Periscope data, which allows BI users to do much more compelling and in-depth digging through their data than would previously be possible without advanced SQL skills.
 
-![](Sisense-dashboard-release-version-5.7.5.png)
+![Sisense dashboard](posts/data-analysis-tools/Sisense-dashboard-release-version-5.7.5.png)
+
 ### Pros
 * Very fast cloud platform
 * Easy to connect with other data sources such as Hive, Salesforce, and more
@@ -54,13 +53,15 @@ Sisense’s real strength lies in its ease of use to incorporate complex data an
 ### Best Case
 Sisense is best for medium to large businesses looking for a BI platform that can easily combine their diverse array of data types, and develop large projects quickly and efficiently. Sisense has some of the most power under the hood of these three, and they have compelling customer service if you ever run into difficulty using their platform.  Their pricing is not shared online.
 
-![](qlik-sense.png)
+![Qlik Sense](posts/data-analysis-tools/qlik-sense.png)
+
 ## 3. Qlik Sense
 [Qlik Sense](https://www.qlik.com/us/products/qlik-sense) is a data analysis tool best used for small or medium-sized businesses looking to get a fast, robust BI platform with a limited budget. It eliminates the need for SQL queries with its smart data load feature, but for full access to its cloud data warehouse, you need to upgrade to the full version.
 
 Qlik Sense incorporates a lot of the best features of the other products, such as a drag-and-drop interface, visualization flexibility, and automated data loading, at the lowest price point of the three.
 
-![](qlik_dashboard-1024x603.png)
+![Qlik dashboard](posts/data-analysis-tools/qlik_dashboard-1024x603.png)
+
 ### Pros
 * Cheapest option at free for Qlik View Personal, or $30-$70 per user per month for business users
 * Automated data loading – no SQL skills necessary
@@ -78,3 +79,4 @@ In conclusion, companies of all sizes are now looking to take advantage of their
 Of the three, Tableau is the industry leader with the most connections, built-in data safety, and advanced tools such as predictive analytics and forecasting. Sisense is an enhanced version, for teams with more advanced data who are looking to build large dashboard projects efficiently. Qlik is the budget option, which still retains many of the important features and a robust platform to boot.  The next phase in data analysis is predictive analytics, which is concerned with estimating future outcomes with past data, statistical analysis, and machine learning. But don’t be discouraged, you can use Ople to do predictive analytics on [the Ople Platform](https://ople.ai/product/) itself or [integrate into Tableau](https://ople.ai/tableau-integration/) or other BI tools.
 
 Ople allows data analysts and business analysts to leverage the same power of machine learning as their counterparts on the data science team, enabling the business analyst to utilize advanced machine learning methods such as data cleaning, feature engineering, and modeling techniques to bring the best in prediction and forecasting to their data. With Ople, it’s never been easier to build, interpret, and launch production-ready machine learning models. Contact us today to get started!
+
