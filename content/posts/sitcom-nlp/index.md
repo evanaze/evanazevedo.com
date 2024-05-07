@@ -1,10 +1,7 @@
 ---
 title: "Sitcom NLP"
 date: 2018-05-19
-resources:
-  - name: featured-image
-    src: seinfeld_vectors.png
-
+header_image: seinfeld_vectors.png
 categories: [projects]
 tags: [data science, python]
 draft: false
@@ -49,12 +46,12 @@ Furthermore, we believe that we can mine enough data in the text transcripts of 
 ## Methods
 
 First, we use the Beautiful Soup package in Python to scrape the transcript data from these shows from the sources listed above.
-The result was data in the form:  
-![](data_example.png)    
+The result was data in the form:
+![Data example](posts/sitcom-nlp/data_example.png)
 
 We then removed punctuation and capitalization, and used CountVectorizer in SciKit-Learn to create tokens from the text for each show, and calculated the TF-IDF matrix.
 This data was then used to train classification models to predict what show a line came from given 1 line that did not exist within the training set.
-The models we used for training were random forest, SVM, and Naive Bayes.  
+The models we used for training were random forest, SVM, and Naive Bayes.
 
 Further, we implemented the Word2Vec algorithm to get word similarity within the corpuses.
 Our implementation of Word2vec came from the Tensorflow examples on [Github](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/2_BasicModels/word2vec.py).
@@ -68,14 +65,14 @@ The most difficult lines to classify were lines we classified as boring lines, s
 
 We found that lines from Spongebob characters were easier to classify than South Park or Seinfeld, and that Seinfeld lines were particularly hard to classify.   
 We also found that Seinfeld has the least data of the other shows from this method with 30k lines, and South Park has by far the most with over 70k lines in total.  
-![](total lines.png)  
+![Total lines per show](posts/sitcom-nlp/total_lines.png)  
 
 In each of these shows, lines from the top 6 characters dominated the total speaking in the show.
 Here's a graphic showing the percentage of lines in the shows from their respective 6 most popular characters:  
-![](percentage total top 6.png)  
+![Top 6 characters](posts/sitcom-nlp/pct_total_top_6.png)  
 
 We ran Word2Vec on each of the corpora, and plotted the results using Tensorboard.  
-![](southpark_vectors.png)    
+![South Park vectors](posts/sitcom-nlp/southpark_vectors.png)    
 Here, we see that the nearest words to the word but are: and, if, that, mexican, kyle, ring.  
 This makes sense in the context of the show, because a common phrase from Cartman is "But, Kyle..."  
 

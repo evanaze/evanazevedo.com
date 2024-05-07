@@ -3,13 +3,10 @@ title: "😬 Why I Quit My Saas Business Idea"
 date: 2022-06-12T16:03:13-07:00
 series: ["Update"]
 tags: ["career"]
-images: 
-- towfiqu-barbhuiya-oZuBNC-6E2s-unsplash.jpg
+header_image: towfiqu-barbhuiya-oZuBNC-6E2s-unsplash.jpg
 draft: false
 ---
-{{< figure src="towfiqu-barbhuiya-oZuBNC-6E2s-unsplash.jpg">}}
-
-A couple of weeks back, I [announced](../data-science/transition/week2/) that I was putting my data science job transition on hold and would be investigating an idea I had for a startup. After having already gone down the rabbit hole of finding resources to learn Django and securing a domain name, I've decided that pursuing my original plan of getting a job in data science is a better choice.
+A couple of weeks back, I [announced](posts/ds-transition/week2/) that I was putting my data science job transition on hold and would be investigating an idea I had for a startup. After having already gone down the rabbit hole of finding resources to learn Django and securing a domain name, I've decided that pursuing my original plan of getting a job in data science is a better choice.
 
 The primary reasons behind this are:
 
@@ -64,3 +61,4 @@ Just by writing I'm creating clarity of thought and forcing myself to be able to
 I'm still working on getting the newsletter working, but if you want to get weekly updates from this blog in your email please feel free to add yourself below. Until next time.
 
 {{% subscribe %}}
+

@@ -1,10 +1,7 @@
 ---
 title: "ROI: Are Cryptocurrencies Good Investments?"
 date: 2018-08-03
-resources:
-- name: featured-image
-  src: markus-spiske-vrbZVyX2k4I-unsplash.jpg
-  
+header_image: markus-spiske-vrbZVyX2k4I-unsplash.jpg
 categories: [amberdata]
 tags: [blockchain, finance]
 link: https://medium.com/amberdata/roi-are-cryptocurrencies-good-investments-ebb9a308924f
@@ -13,7 +10,7 @@ Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_med
   
 To financially literate people, ROI needs little introduction, and to others it is likely still familiar. Let’s talk a little bit about this popular financial metric relates to the new blood on the market: Crypto assets. For a given asset, Return On Investment — or ROI — is a measure of how well an asset is expected to perform. When we discuss returns, we must also take into account the risk associated with the asset, or the Risk Adjusted Return. Simply, if two assets have the same returns, then the asset with a lower risk will have a higher [risk adjusted return](https://www.investopedia.com/terms/r/riskadjustedreturn.asp).
 
-Something that may be surprising to readers of this post is that the ROI of Ethereum and other blockchain tokens is not unlike the ROI of the US Stock Market. As mentioned in last week’s blog post on the [NVT Ratio](/2018/07/nvt-bursting-the-blockchain-bubble/), [Amberdata](https://amberdata.io/) is excited to announce that we are incorporating these metrics into our platform.
+Something that may be surprising to readers of this post is that the ROI of Ethereum and other blockchain tokens is not unlike the ROI of the US Stock Market. As mentioned in last week’s blog post on the [NVT Ratio](posts/nvt-bursting-the-blockchain-bubble/), [Amberdata](https://amberdata.io/) is excited to announce that we are incorporating these metrics into our platform.
 
 Now let’s talk a little bit about how we use ROI in the context of Cryptocurrency assets.
 
@@ -29,12 +26,12 @@ Common assets used for comparison are indexes such as the S&P 500, or the NASDAQ
 
 ## ROI and the State of Crypto Assets
 Besides what we’ve already mentioned, what are some other insights an investor looking into Crypto assets might gain from ROI? ROI allows us to compare multiple assets, and now we can compare the risk adjusted returns of Crypto assets to the US market.
-![](woobill_nvt.png "Chart from Woobill.com, showing the Risk Adjusted Returns of Bitcoin as well as some important assets and indexes in the US Stock Market on a two year running timeframe.")
+![Chart from Woobill.com, showing the Risk Adjusted Returns of Bitcoin as well as some important assets and indexes in the US Stock Market on a two year running timeframe](posts/roi-are-cryptocurrencies-good-investments/woobill_nvt.png)
 
 As we can see from the chart above, Bitcoin currently has better two year risk adjusted returns than the S&P 500, and the US Real Estate market, Oil, Gold, etc. Also, it has only dipped below zero _twice_ over the history of Bitcoin for a total time of roughly 3 months below zero returns.
 
 Now let’s take a look at some home grown graphs highlighting the behavior of tokens on the Ethereum network. These graphs are the 28 day moving average of risk adjusted returns over four months of EOS and OMG tokens, plotted with ETH for comparison. We are very excited to announce that soon our website portfolio view can easily inform you if either the tokens in your wallet are beginning to produce zero returns, or are outperforming the US Stock Market.
 
-![](roi_graphs.png "28 day ROI graphs of EOS and OMG token over the past 28 days. ETH is shown in red for comparison.")
+![](posts/roi-are-cryptocurrencies-good-investments/roi_graphs.png "28 day ROI graphs of EOS and OMG token over the past 28 days. ETH is shown in red for comparison.")
 
 Thanks for reading. Keep an eye out for future updates at our company blog.

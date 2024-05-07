@@ -2,10 +2,7 @@
 title: "Online Machine Learning Courses"
 subtitle: "Here are some of the best ways to learn the tools to empower you to rule your data"
 date: 2020-04-01
-resources:
-- name: featured-image
-  src: online-machine-learning-courses-1024x683.jpeg
-
+header_image: online-machine-learning-courses-1024x683.jpeg
 categories: [ople]
 tags: [seo, blog post]
 link: https://ople.ai/ai-blog/online-machine-learning-courses/

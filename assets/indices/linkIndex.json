@@ -72,23 +72,6 @@
           "text": "Duke, Annie - Thinking in Bets"
         }
       ],
-      "/posts/ds-transition": [
-        {
-          "source": "/posts/ds-transition",
-          "target": "/posts",
-          "text": "posts"
-        },
-        {
-          "source": "/posts/ds-transition",
-          "target": "/about",
-          "text": "about me"
-        },
-        {
-          "source": "/posts/ds-transition",
-          "target": "/daily",
-          "text": "daily log"
-        }
-      ],
       "/posts/ds-transition/week2": [
         {
           "source": "/posts/ds-transition/week2",
@@ -152,7 +135,7 @@
       "/posts/roi-are-cryptocurrencies-good-investments/index.en": [
         {
           "source": "/posts/roi-are-cryptocurrencies-good-investments/index.en",
-          "target": "/2018/07/nvt-bursting-the-blockchain-bubble/",
+          "target": "/posts/nvt-bursting-the-blockchain-bubble/",
           "text": "NVT Ratio"
         }
       ],
@@ -170,17 +153,17 @@
           "text": "daily"
         }
       ],
-      "/posts/volatility-and-crypto-assets/index.en": [
+      "/posts/volatility-and-crypto-assets": [
         {
-          "source": "/posts/volatility-and-crypto-assets/index.en",
-          "target": "/2018/08/roi-are-cryptocurrencies-good-investments/",
+          "source": "/posts/volatility-and-crypto-assets",
+          "target": "/posts/roi-are-cryptocurrencies-good-investments/",
           "text": "ROI"
         }
       ],
       "/posts/why-i-quit-saas-idea": [
         {
           "source": "/posts/why-i-quit-saas-idea",
-          "target": "/../data-science/transition/week2/",
+          "target": "/posts/ds-transition/week2/",
           "text": "announced"
         }
       ]
@@ -249,27 +232,6 @@
           "text": "zero-knowledge"
         }
       ],
-      "/../data-science/transition/week2/": [
-        {
-          "source": "/posts/why-i-quit-saas-idea",
-          "target": "/../data-science/transition/week2/",
-          "text": "announced"
-        }
-      ],
-      "/2018/07/nvt-bursting-the-blockchain-bubble/": [
-        {
-          "source": "/posts/roi-are-cryptocurrencies-good-investments/index.en",
-          "target": "/2018/07/nvt-bursting-the-blockchain-bubble/",
-          "text": "NVT Ratio"
-        }
-      ],
-      "/2018/08/roi-are-cryptocurrencies-good-investments/": [
-        {
-          "source": "/posts/volatility-and-crypto-assets/index.en",
-          "target": "/2018/08/roi-are-cryptocurrencies-good-investments/",
-          "text": "ROI"
-        }
-      ],
       "/2018/08/tracking-tuesdays-ethereum-network-overload/": [
         {
           "source": "/posts/ethereum-network-health-results-are-in/index.en",
@@ -308,21 +270,11 @@
           "source": "/daily/2022-11-20",
           "target": "/about",
           "text": "about"
-        },
-        {
-          "source": "/posts/ds-transition",
-          "target": "/about",
-          "text": "about me"
         }
       ],
       "/daily": [
         {
           "source": "/",
-          "target": "/daily",
-          "text": "daily log"
-        },
-        {
-          "source": "/posts/ds-transition",
           "target": "/daily",
           "text": "daily log"
         },
@@ -351,11 +303,6 @@
           "source": "/",
           "target": "/posts",
           "text": "posts"
-        },
-        {
-          "source": "/posts/ds-transition",
-          "target": "/posts",
-          "text": "posts"
         }
       ],
       "/posts/ds-transition/week1": [
@@ -365,11 +312,32 @@
           "text": "post"
         }
       ],
+      "/posts/ds-transition/week2/": [
+        {
+          "source": "/posts/why-i-quit-saas-idea",
+          "target": "/posts/ds-transition/week2/",
+          "text": "announced"
+        }
+      ],
       "/posts/hackathon/": [
         {
           "source": "/daily/2022-11-20",
           "target": "/posts/hackathon/",
           "text": "wrote up"
+        }
+      ],
+      "/posts/nvt-bursting-the-blockchain-bubble/": [
+        {
+          "source": "/posts/roi-are-cryptocurrencies-good-investments/index.en",
+          "target": "/posts/nvt-bursting-the-blockchain-bubble/",
+          "text": "NVT Ratio"
+        }
+      ],
+      "/posts/roi-are-cryptocurrencies-good-investments/": [
+        {
+          "source": "/posts/volatility-and-crypto-assets",
+          "target": "/posts/roi-are-cryptocurrencies-good-investments/",
+          "text": "ROI"
         }
       ],
       "/posts/why-i-quit-saas-idea/": [
@@ -438,21 +406,6 @@
       "text": "Duke, Annie - Thinking in Bets"
     },
     {
-      "source": "/posts/ds-transition",
-      "target": "/posts",
-      "text": "posts"
-    },
-    {
-      "source": "/posts/ds-transition",
-      "target": "/about",
-      "text": "about me"
-    },
-    {
-      "source": "/posts/ds-transition",
-      "target": "/daily",
-      "text": "daily log"
-    },
-    {
       "source": "/posts/ds-transition/week2",
       "target": "/posts/ds-transition/week1",
       "text": "post"
@@ -504,7 +457,7 @@
     },
     {
       "source": "/posts/roi-are-cryptocurrencies-good-investments/index.en",
-      "target": "/2018/07/nvt-bursting-the-blockchain-bubble/",
+      "target": "/posts/nvt-bursting-the-blockchain-bubble/",
       "text": "NVT Ratio"
     },
     {
@@ -518,13 +471,13 @@
       "text": "daily"
     },
     {
-      "source": "/posts/volatility-and-crypto-assets/index.en",
-      "target": "/2018/08/roi-are-cryptocurrencies-good-investments/",
+      "source": "/posts/volatility-and-crypto-assets",
+      "target": "/posts/roi-are-cryptocurrencies-good-investments/",
       "text": "ROI"
     },
     {
       "source": "/posts/why-i-quit-saas-idea",
-      "target": "/../data-science/transition/week2/",
+      "target": "/posts/ds-transition/week2/",
       "text": "announced"
     }
   ]

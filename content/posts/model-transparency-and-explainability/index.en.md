@@ -2,9 +2,7 @@
 title: "Model Transparency and Explainability"
 subtitle: "Working with the Black Box problem of Machine Learning"
 date: 2020-03-13
-resources:
-- name: featured-image
-  src: Ople_Transparency-1024x430.png
+header_image: Ople_Transparency-1024x430.png
 categories: [ople]
 tags: [seo, blog post, machine learning]
 link: https://ople.ai/ai-blog/model-transparency-and-explainability/
@@ -33,7 +31,7 @@ We interpret this model as saying that for each square foot in the property, the
 
 ### Random Forests
 Another machine learning algorithm – popular for its relative ease of use and broad predictive power – is Random Forests. As ensembles of decision trees, these models have two forms of transparency: feature importance and prediction results. 
-![](feature_importance.png)
+![](posts/model-transparency-and-explainability/feature_importance.png)
 
 Feature importances give the high level most valuable variables for the model’s rules. If we trained a random forest model to predict home price, it might show that the square feet feature is more important than age, even though they both affect the outcome of the model. 
 
