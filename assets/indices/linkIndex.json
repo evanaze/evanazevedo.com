@@ -1,7 +1,507 @@
 {
   "index": {
-    "links": {},
-    "backlinks": {}
+    "links": {
+      "/": [
+        {
+          "source": "/",
+          "target": "/posts/_index",
+          "text": "posts"
+        },
+        {
+          "source": "/",
+          "target": "/about/index",
+          "text": "about me"
+        },
+        {
+          "source": "/",
+          "target": "/daily/index",
+          "text": "daily log"
+        }
+      ],
+      "/daily/2022-06-19": [
+        {
+          "source": "/daily/2022-06-19",
+          "target": "/ttps//www.teamblind.com/",
+          "text": "Blind"
+        }
+      ],
+      "/daily/2022-08-07": [
+        {
+          "source": "/daily/2022-08-07",
+          "target": "/../2022-08-05",
+          "text": "Zero Shot Classification"
+        }
+      ],
+      "/daily/2022-11-11": [
+        {
+          "source": "/daily/2022-11-11",
+          "target": "/../../scoreboard/",
+          "text": "scoreboard"
+        }
+      ],
+      "/daily/2022-11-12": [
+        {
+          "source": "/daily/2022-11-12",
+          "target": "/../2022-11-08",
+          "text": "bricking it"
+        }
+      ],
+      "/daily/2022-11-14": [
+        {
+          "source": "/daily/2022-11-14",
+          "target": "/../2022-11-13",
+          "text": "yesterday"
+        }
+      ],
+      "/daily/2022-11-20": [
+        {
+          "source": "/daily/2022-11-20",
+          "target": "/../../hackathon/fail/",
+          "text": "wrote up"
+        },
+        {
+          "source": "/daily/2022-11-20",
+          "target": "/../../about",
+          "text": "About"
+        }
+      ],
+      "/daily/2022-12-01": [
+        {
+          "source": "/daily/2022-12-01",
+          "target": "/../2022-11-29/",
+          "text": "zero-knowledge"
+        }
+      ],
+      "/daily/2022-12-02": [
+        {
+          "source": "/daily/2022-12-02",
+          "target": "/Duke-Annie-Thinking-in-Bets",
+          "text": "Duke, Annie - Thinking in Bets"
+        }
+      ],
+      "/posts/ds-transition/week2": [
+        {
+          "source": "/posts/ds-transition/week2",
+          "target": "/../week1",
+          "text": "post"
+        },
+        {
+          "source": "/posts/ds-transition/week2",
+          "target": "/../../../daily/",
+          "text": "Daily"
+        }
+      ],
+      "/posts/ds-transition/week3": [
+        {
+          "source": "/posts/ds-transition/week3",
+          "target": "/../../../why-i-quit-saas-idea/",
+          "text": "startup idea"
+        },
+        {
+          "source": "/posts/ds-transition/week3",
+          "target": "/../../../daily/2022-06-13",
+          "text": "started"
+        }
+      ],
+      "/posts/ethereum-network-health-results-are-in/index.en": [
+        {
+          "source": "/posts/ethereum-network-health-results-are-in/index.en",
+          "target": "/2018/08/tracking-tuesdays-ethereum-network-overload/",
+          "text": "post"
+        }
+      ],
+      "/posts/hackathon": [
+        {
+          "source": "/posts/hackathon",
+          "target": "/../../../daily/2022-10-25",
+          "text": "sharing"
+        },
+        {
+          "source": "/posts/hackathon",
+          "target": "/../../../daily/2022-10-29",
+          "text": "Meltano"
+        },
+        {
+          "source": "/posts/hackathon",
+          "target": "/../../../daily/2022-11-06",
+          "text": "GIS data"
+        },
+        {
+          "source": "/posts/hackathon",
+          "target": "/../../../daily/2022-11-18",
+          "text": "learning Dask"
+        }
+      ],
+      "/posts/predicting-economics-with-ai/index.en": [
+        {
+          "source": "/posts/predicting-economics-with-ai/index.en",
+          "target": "/2020/03/model-transparency-and-explainability/",
+          "text": "here"
+        }
+      ],
+      "/posts/roi-are-cryptocurrencies-good-investments/index.en": [
+        {
+          "source": "/posts/roi-are-cryptocurrencies-good-investments/index.en",
+          "target": "/2018/07/nvt-bursting-the-blockchain-bubble/",
+          "text": "NVT Ratio"
+        }
+      ],
+      "/posts/the-bitcoin-mempool/index.en": [
+        {
+          "source": "/posts/the-bitcoin-mempool/index.en",
+          "target": "/2020/09/bitcoin-sharpe-ratio/",
+          "text": "posts"
+        }
+      ],
+      "/posts/vacationing-in-hawaii": [
+        {
+          "source": "/posts/vacationing-in-hawaii",
+          "target": "/daily",
+          "text": "daily"
+        }
+      ],
+      "/posts/volatility-and-crypto-assets/index.en": [
+        {
+          "source": "/posts/volatility-and-crypto-assets/index.en",
+          "target": "/2018/08/roi-are-cryptocurrencies-good-investments/",
+          "text": "ROI"
+        }
+      ],
+      "/posts/why-i-quit-saas-idea": [
+        {
+          "source": "/posts/why-i-quit-saas-idea",
+          "target": "/../data-science/transition/week2/",
+          "text": "announced"
+        }
+      ]
+    },
+    "backlinks": {
+      "/../../../daily/": [
+        {
+          "source": "/posts/ds-transition/week2",
+          "target": "/../../../daily/",
+          "text": "Daily"
+        }
+      ],
+      "/../../../daily/2022-06-13": [
+        {
+          "source": "/posts/ds-transition/week3",
+          "target": "/../../../daily/2022-06-13",
+          "text": "started"
+        }
+      ],
+      "/../../../daily/2022-10-25": [
+        {
+          "source": "/posts/hackathon",
+          "target": "/../../../daily/2022-10-25",
+          "text": "sharing"
+        }
+      ],
+      "/../../../daily/2022-10-29": [
+        {
+          "source": "/posts/hackathon",
+          "target": "/../../../daily/2022-10-29",
+          "text": "Meltano"
+        }
+      ],
+      "/../../../daily/2022-11-06": [
+        {
+          "source": "/posts/hackathon",
+          "target": "/../../../daily/2022-11-06",
+          "text": "GIS data"
+        }
+      ],
+      "/../../../daily/2022-11-18": [
+        {
+          "source": "/posts/hackathon",
+          "target": "/../../../daily/2022-11-18",
+          "text": "learning Dask"
+        }
+      ],
+      "/../../../why-i-quit-saas-idea/": [
+        {
+          "source": "/posts/ds-transition/week3",
+          "target": "/../../../why-i-quit-saas-idea/",
+          "text": "startup idea"
+        }
+      ],
+      "/../../about": [
+        {
+          "source": "/daily/2022-11-20",
+          "target": "/../../about",
+          "text": "About"
+        }
+      ],
+      "/../../hackathon/fail/": [
+        {
+          "source": "/daily/2022-11-20",
+          "target": "/../../hackathon/fail/",
+          "text": "wrote up"
+        }
+      ],
+      "/../../scoreboard/": [
+        {
+          "source": "/daily/2022-11-11",
+          "target": "/../../scoreboard/",
+          "text": "scoreboard"
+        }
+      ],
+      "/../2022-08-05": [
+        {
+          "source": "/daily/2022-08-07",
+          "target": "/../2022-08-05",
+          "text": "Zero Shot Classification"
+        }
+      ],
+      "/../2022-11-08": [
+        {
+          "source": "/daily/2022-11-12",
+          "target": "/../2022-11-08",
+          "text": "bricking it"
+        }
+      ],
+      "/../2022-11-13": [
+        {
+          "source": "/daily/2022-11-14",
+          "target": "/../2022-11-13",
+          "text": "yesterday"
+        }
+      ],
+      "/../2022-11-29/": [
+        {
+          "source": "/daily/2022-12-01",
+          "target": "/../2022-11-29/",
+          "text": "zero-knowledge"
+        }
+      ],
+      "/../data-science/transition/week2/": [
+        {
+          "source": "/posts/why-i-quit-saas-idea",
+          "target": "/../data-science/transition/week2/",
+          "text": "announced"
+        }
+      ],
+      "/../week1": [
+        {
+          "source": "/posts/ds-transition/week2",
+          "target": "/../week1",
+          "text": "post"
+        }
+      ],
+      "/2018/07/nvt-bursting-the-blockchain-bubble/": [
+        {
+          "source": "/posts/roi-are-cryptocurrencies-good-investments/index.en",
+          "target": "/2018/07/nvt-bursting-the-blockchain-bubble/",
+          "text": "NVT Ratio"
+        }
+      ],
+      "/2018/08/roi-are-cryptocurrencies-good-investments/": [
+        {
+          "source": "/posts/volatility-and-crypto-assets/index.en",
+          "target": "/2018/08/roi-are-cryptocurrencies-good-investments/",
+          "text": "ROI"
+        }
+      ],
+      "/2018/08/tracking-tuesdays-ethereum-network-overload/": [
+        {
+          "source": "/posts/ethereum-network-health-results-are-in/index.en",
+          "target": "/2018/08/tracking-tuesdays-ethereum-network-overload/",
+          "text": "post"
+        }
+      ],
+      "/2020/03/model-transparency-and-explainability/": [
+        {
+          "source": "/posts/predicting-economics-with-ai/index.en",
+          "target": "/2020/03/model-transparency-and-explainability/",
+          "text": "here"
+        }
+      ],
+      "/2020/09/bitcoin-sharpe-ratio/": [
+        {
+          "source": "/posts/the-bitcoin-mempool/index.en",
+          "target": "/2020/09/bitcoin-sharpe-ratio/",
+          "text": "posts"
+        }
+      ],
+      "/Duke-Annie-Thinking-in-Bets": [
+        {
+          "source": "/daily/2022-12-02",
+          "target": "/Duke-Annie-Thinking-in-Bets",
+          "text": "Duke, Annie - Thinking in Bets"
+        }
+      ],
+      "/about/index": [
+        {
+          "source": "/",
+          "target": "/about/index",
+          "text": "about me"
+        }
+      ],
+      "/daily": [
+        {
+          "source": "/posts/vacationing-in-hawaii",
+          "target": "/daily",
+          "text": "daily"
+        }
+      ],
+      "/daily/index": [
+        {
+          "source": "/",
+          "target": "/daily/index",
+          "text": "daily log"
+        }
+      ],
+      "/posts/_index": [
+        {
+          "source": "/",
+          "target": "/posts/_index",
+          "text": "posts"
+        }
+      ],
+      "/ttps//www.teamblind.com/": [
+        {
+          "source": "/daily/2022-06-19",
+          "target": "/ttps//www.teamblind.com/",
+          "text": "Blind"
+        }
+      ]
+    }
   },
-  "links": null
+  "links": [
+    {
+      "source": "/",
+      "target": "/posts/_index",
+      "text": "posts"
+    },
+    {
+      "source": "/",
+      "target": "/about/index",
+      "text": "about me"
+    },
+    {
+      "source": "/",
+      "target": "/daily/index",
+      "text": "daily log"
+    },
+    {
+      "source": "/daily/2022-06-19",
+      "target": "/ttps//www.teamblind.com/",
+      "text": "Blind"
+    },
+    {
+      "source": "/daily/2022-08-07",
+      "target": "/../2022-08-05",
+      "text": "Zero Shot Classification"
+    },
+    {
+      "source": "/daily/2022-11-11",
+      "target": "/../../scoreboard/",
+      "text": "scoreboard"
+    },
+    {
+      "source": "/daily/2022-11-12",
+      "target": "/../2022-11-08",
+      "text": "bricking it"
+    },
+    {
+      "source": "/daily/2022-11-14",
+      "target": "/../2022-11-13",
+      "text": "yesterday"
+    },
+    {
+      "source": "/daily/2022-11-20",
+      "target": "/../../hackathon/fail/",
+      "text": "wrote up"
+    },
+    {
+      "source": "/daily/2022-11-20",
+      "target": "/../../about",
+      "text": "About"
+    },
+    {
+      "source": "/daily/2022-12-01",
+      "target": "/../2022-11-29/",
+      "text": "zero-knowledge"
+    },
+    {
+      "source": "/daily/2022-12-02",
+      "target": "/Duke-Annie-Thinking-in-Bets",
+      "text": "Duke, Annie - Thinking in Bets"
+    },
+    {
+      "source": "/posts/ds-transition/week2",
+      "target": "/../week1",
+      "text": "post"
+    },
+    {
+      "source": "/posts/ds-transition/week2",
+      "target": "/../../../daily/",
+      "text": "Daily"
+    },
+    {
+      "source": "/posts/ds-transition/week3",
+      "target": "/../../../why-i-quit-saas-idea/",
+      "text": "startup idea"
+    },
+    {
+      "source": "/posts/ds-transition/week3",
+      "target": "/../../../daily/2022-06-13",
+      "text": "started"
+    },
+    {
+      "source": "/posts/ethereum-network-health-results-are-in/index.en",
+      "target": "/2018/08/tracking-tuesdays-ethereum-network-overload/",
+      "text": "post"
+    },
+    {
+      "source": "/posts/hackathon",
+      "target": "/../../../daily/2022-10-25",
+      "text": "sharing"
+    },
+    {
+      "source": "/posts/hackathon",
+      "target": "/../../../daily/2022-10-29",
+      "text": "Meltano"
+    },
+    {
+      "source": "/posts/hackathon",
+      "target": "/../../../daily/2022-11-06",
+      "text": "GIS data"
+    },
+    {
+      "source": "/posts/hackathon",
+      "target": "/../../../daily/2022-11-18",
+      "text": "learning Dask"
+    },
+    {
+      "source": "/posts/predicting-economics-with-ai/index.en",
+      "target": "/2020/03/model-transparency-and-explainability/",
+      "text": "here"
+    },
+    {
+      "source": "/posts/roi-are-cryptocurrencies-good-investments/index.en",
+      "target": "/2018/07/nvt-bursting-the-blockchain-bubble/",
+      "text": "NVT Ratio"
+    },
+    {
+      "source": "/posts/the-bitcoin-mempool/index.en",
+      "target": "/2020/09/bitcoin-sharpe-ratio/",
+      "text": "posts"
+    },
+    {
+      "source": "/posts/vacationing-in-hawaii",
+      "target": "/daily",
+      "text": "daily"
+    },
+    {
+      "source": "/posts/volatility-and-crypto-assets/index.en",
+      "target": "/2018/08/roi-are-cryptocurrencies-good-investments/",
+      "text": "ROI"
+    },
+    {
+      "source": "/posts/why-i-quit-saas-idea",
+      "target": "/../data-science/transition/week2/",
+      "text": "announced"
+    }
+  ]
 }
