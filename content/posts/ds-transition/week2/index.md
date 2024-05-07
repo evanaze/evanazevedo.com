@@ -18,7 +18,7 @@ My idea for the project came from a podcast with Sahil, the author I shared earl
 
 On the one hand, you have companies like Apple and Google that want to create an almost cult-like passion from their employees and strive to create the best work environment possible to hire the top talent. This requires a ton of overhead but can pay off for companies with lots of cash or funding that are looking to change the world.
 
-![Photo by Jonny Gios on Unsplash](jonny-gios-PDg180uwHvQ-unsplash.jpg)
+![Photo by Jonny Gios on Unsplash](posts/ds-transition/week2/jonny-gios-PDg180uwHvQ-unsplash.jpg)
 
 On the other hand, companies like Gumroad want to help creators monetize their businesses online better. Sahil had played the venture-funded game before and gotten burned when his company could not grow at the speed needed to justify its high funding. Now he has swung in the other direction and wants the lightest company possible while still being able to get talented people dedicated to the cause.
 
@@ -53,11 +53,11 @@ I'm not the only one either. This is called [trunk-based development](https://tr
 
 #### Release-based development
 
-![Release-based development](trunk1a.png)
+![Release-based development](posts/ds-transition/week2/trunk1a.png)
 
 #### Trunk-based development
 
-![Trunk-based development](trunk1b.png)
+![Trunk-based development](posts/ds-transition/week2/trunk1b.png)
 
 My vision for deCode is that it sits right at step 7: **Get paid**. I'm talking about a process that automatically takes place when the new code merges into the existing codebase that pays the software developer for their work. To solve this problem, I'm also expecting to learn a little about smart contract development, as I suspect using a blockchain network is a natural solution. I settled on the name deCode because it is a portmanteau of the words "decentralized" and "code", and I am currently shopping for a domain name.
 
@@ -71,13 +71,13 @@ In the long term, I think an excellent solution would be to build this into its 
 
 ## Why the change?
 
-I'm making this change because I'm following my interests and allowing myself to pursue something new. As discussed in my last blog [post](../week1), I believe that following intrinsic motivation is an excellent path to success because you will be able to produce your best work for longer.
+I'm making this change because I'm following my interests and allowing myself to pursue something new. As discussed in my last blog [post](posts/ds-transition/week1), I believe that following intrinsic motivation is an excellent path to success because you will be able to produce your best work for longer.
 
 This is a good decision because instead of being tied to using data science or machine learning in my next role, I am now building a broad and valuable skill set that will serve me in whatever I decide to do next. In other words, I'm choosing the "tool agnostic" route or focusing on strategy rather than tactics. The goal is to lower my expectations, get my first iteration out there, and see what happens!
 
 ## Blog updates
 
-In the spirit of "building in public" and taking inspiration from Ben from [tinyprojects.dev](https://daily.tinyprojects.dev/), I'll also be posting daily updates on this blog under the [Daily](../../../daily/) section (work in progress).
+In the spirit of "building in public" and taking inspiration from Ben from [tinyprojects.dev](https://daily.tinyprojects.dev/), I'll also be posting daily updates on this blog under the [Daily](daily/) section (work in progress).
 
 To avoid clogging up your email inbox, I will send out a newsletter like this every week with updates from the past week.
 

@@ -2,7 +2,7 @@ baseURL = "https://evanazevedo.com/"
 languageCode = "en-us"
 theme = "magma"
 googleAnalytics = "G-89XNJ50SHN"
-relativeURLs = false
+relativeURLs = true
 disablePathToLower = true
 ignoreFiles = [
     "/content/templates/*",

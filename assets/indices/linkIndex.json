@@ -4,25 +4,18 @@
       "/": [
         {
           "source": "/",
-          "target": "/posts/_index",
+          "target": "/posts",
           "text": "posts"
         },
         {
           "source": "/",
-          "target": "/about/index",
+          "target": "/about",
           "text": "about me"
         },
         {
           "source": "/",
-          "target": "/daily/index",
+          "target": "/daily",
           "text": "daily log"
-        }
-      ],
-      "/daily/2022-06-19": [
-        {
-          "source": "/daily/2022-06-19",
-          "target": "/ttps//www.teamblind.com/",
-          "text": "Blind"
         }
       ],
       "/daily/2022-08-07": [
@@ -56,13 +49,13 @@
       "/daily/2022-11-20": [
         {
           "source": "/daily/2022-11-20",
-          "target": "/../../hackathon/fail/",
+          "target": "/posts/hackathon/",
           "text": "wrote up"
         },
         {
           "source": "/daily/2022-11-20",
-          "target": "/../../about",
-          "text": "About"
+          "target": "/about",
+          "text": "about"
         }
       ],
       "/daily/2022-12-01": [
@@ -79,27 +72,44 @@
           "text": "Duke, Annie - Thinking in Bets"
         }
       ],
+      "/posts/ds-transition": [
+        {
+          "source": "/posts/ds-transition",
+          "target": "/posts",
+          "text": "posts"
+        },
+        {
+          "source": "/posts/ds-transition",
+          "target": "/about",
+          "text": "about me"
+        },
+        {
+          "source": "/posts/ds-transition",
+          "target": "/daily",
+          "text": "daily log"
+        }
+      ],
       "/posts/ds-transition/week2": [
         {
           "source": "/posts/ds-transition/week2",
-          "target": "/../week1",
+          "target": "/posts/ds-transition/week1",
           "text": "post"
         },
         {
           "source": "/posts/ds-transition/week2",
-          "target": "/../../../daily/",
+          "target": "/daily/",
           "text": "Daily"
         }
       ],
       "/posts/ds-transition/week3": [
         {
           "source": "/posts/ds-transition/week3",
-          "target": "/../../../why-i-quit-saas-idea/",
+          "target": "/posts/why-i-quit-saas-idea/",
           "text": "startup idea"
         },
         {
           "source": "/posts/ds-transition/week3",
-          "target": "/../../../daily/2022-06-13",
+          "target": "/daily/2022-06-13",
           "text": "started"
         }
       ],
@@ -176,20 +186,6 @@
       ]
     },
     "backlinks": {
-      "/../../../daily/": [
-        {
-          "source": "/posts/ds-transition/week2",
-          "target": "/../../../daily/",
-          "text": "Daily"
-        }
-      ],
-      "/../../../daily/2022-06-13": [
-        {
-          "source": "/posts/ds-transition/week3",
-          "target": "/../../../daily/2022-06-13",
-          "text": "started"
-        }
-      ],
       "/../../../daily/2022-10-25": [
         {
           "source": "/posts/hackathon",
@@ -216,27 +212,6 @@
           "source": "/posts/hackathon",
           "target": "/../../../daily/2022-11-18",
           "text": "learning Dask"
-        }
-      ],
-      "/../../../why-i-quit-saas-idea/": [
-        {
-          "source": "/posts/ds-transition/week3",
-          "target": "/../../../why-i-quit-saas-idea/",
-          "text": "startup idea"
-        }
-      ],
-      "/../../about": [
-        {
-          "source": "/daily/2022-11-20",
-          "target": "/../../about",
-          "text": "About"
-        }
-      ],
-      "/../../hackathon/fail/": [
-        {
-          "source": "/daily/2022-11-20",
-          "target": "/../../hackathon/fail/",
-          "text": "wrote up"
         }
       ],
       "/../../scoreboard/": [
@@ -281,13 +256,6 @@
           "text": "announced"
         }
       ],
-      "/../week1": [
-        {
-          "source": "/posts/ds-transition/week2",
-          "target": "/../week1",
-          "text": "post"
-        }
-      ],
       "/2018/07/nvt-bursting-the-blockchain-bubble/": [
         {
           "source": "/posts/roi-are-cryptocurrencies-good-investments/index.en",
@@ -330,39 +298,85 @@
           "text": "Duke, Annie - Thinking in Bets"
         }
       ],
-      "/about/index": [
+      "/about": [
         {
           "source": "/",
-          "target": "/about/index",
+          "target": "/about",
+          "text": "about me"
+        },
+        {
+          "source": "/daily/2022-11-20",
+          "target": "/about",
+          "text": "about"
+        },
+        {
+          "source": "/posts/ds-transition",
+          "target": "/about",
           "text": "about me"
         }
       ],
       "/daily": [
+        {
+          "source": "/",
+          "target": "/daily",
+          "text": "daily log"
+        },
+        {
+          "source": "/posts/ds-transition",
+          "target": "/daily",
+          "text": "daily log"
+        },
         {
           "source": "/posts/vacationing-in-hawaii",
           "target": "/daily",
           "text": "daily"
         }
       ],
-      "/daily/index": [
+      "/daily/": [
         {
-          "source": "/",
-          "target": "/daily/index",
-          "text": "daily log"
+          "source": "/posts/ds-transition/week2",
+          "target": "/daily/",
+          "text": "Daily"
         }
       ],
-      "/posts/_index": [
+      "/daily/2022-06-13": [
+        {
+          "source": "/posts/ds-transition/week3",
+          "target": "/daily/2022-06-13",
+          "text": "started"
+        }
+      ],
+      "/posts": [
         {
           "source": "/",
-          "target": "/posts/_index",
+          "target": "/posts",
+          "text": "posts"
+        },
+        {
+          "source": "/posts/ds-transition",
+          "target": "/posts",
           "text": "posts"
         }
       ],
-      "/ttps//www.teamblind.com/": [
+      "/posts/ds-transition/week1": [
         {
-          "source": "/daily/2022-06-19",
-          "target": "/ttps//www.teamblind.com/",
-          "text": "Blind"
+          "source": "/posts/ds-transition/week2",
+          "target": "/posts/ds-transition/week1",
+          "text": "post"
+        }
+      ],
+      "/posts/hackathon/": [
+        {
+          "source": "/daily/2022-11-20",
+          "target": "/posts/hackathon/",
+          "text": "wrote up"
+        }
+      ],
+      "/posts/why-i-quit-saas-idea/": [
+        {
+          "source": "/posts/ds-transition/week3",
+          "target": "/posts/why-i-quit-saas-idea/",
+          "text": "startup idea"
         }
       ]
     }
@@ -370,23 +384,18 @@
   "links": [
     {
       "source": "/",
-      "target": "/posts/_index",
+      "target": "/posts",
       "text": "posts"
     },
     {
       "source": "/",
-      "target": "/about/index",
+      "target": "/about",
       "text": "about me"
     },
     {
       "source": "/",
-      "target": "/daily/index",
+      "target": "/daily",
       "text": "daily log"
-    },
-    {
-      "source": "/daily/2022-06-19",
-      "target": "/ttps//www.teamblind.com/",
-      "text": "Blind"
     },
     {
       "source": "/daily/2022-08-07",
@@ -410,13 +419,13 @@
     },
     {
       "source": "/daily/2022-11-20",
-      "target": "/../../hackathon/fail/",
+      "target": "/posts/hackathon/",
       "text": "wrote up"
     },
     {
       "source": "/daily/2022-11-20",
-      "target": "/../../about",
-      "text": "About"
+      "target": "/about",
+      "text": "about"
     },
     {
       "source": "/daily/2022-12-01",
@@ -429,23 +438,38 @@
       "text": "Duke, Annie - Thinking in Bets"
     },
     {
+      "source": "/posts/ds-transition",
+      "target": "/posts",
+      "text": "posts"
+    },
+    {
+      "source": "/posts/ds-transition",
+      "target": "/about",
+      "text": "about me"
+    },
+    {
+      "source": "/posts/ds-transition",
+      "target": "/daily",
+      "text": "daily log"
+    },
+    {
       "source": "/posts/ds-transition/week2",
-      "target": "/../week1",
+      "target": "/posts/ds-transition/week1",
       "text": "post"
     },
     {
       "source": "/posts/ds-transition/week2",
-      "target": "/../../../daily/",
+      "target": "/daily/",
       "text": "Daily"
     },
     {
       "source": "/posts/ds-transition/week3",
-      "target": "/../../../why-i-quit-saas-idea/",
+      "target": "/posts/why-i-quit-saas-idea/",
       "text": "startup idea"
     },
     {
       "source": "/posts/ds-transition/week3",
-      "target": "/../../../daily/2022-06-13",
+      "target": "/daily/2022-06-13",
       "text": "started"
     },
     {
