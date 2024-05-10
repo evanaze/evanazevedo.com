@@ -1,13 +1,16 @@
 version: 1
 frontend:
   phases:
-    preBuild:
-      commands:
-        - git submodule update --remote --recursive --depth 1
     build:
       commands:
         - HUGO_VERSION=0.125.5
-        - ls themes/magma
+        - GO_VERSION=1.22.3
+        - wget https://go.dev/dl/go${GO_VERSION}.linux-amd64.tar.gz
+        - rm -rf /usr/local/go && tar -C /usr/local -xzf go${GO_VERSION}.linux-amd64.tar.gz
+        - export GOPATH=$HOME/go
+        - export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+        - go install github.com/evanaze/hugo-obsidian@latest
+        - hugo-obsidian -input=content -output=assets/indices -index -root=.
         - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
         - tar -xf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz hugo
         - mv hugo /usr/bin/hugo

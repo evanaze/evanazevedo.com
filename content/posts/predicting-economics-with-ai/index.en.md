@@ -2,10 +2,7 @@
 title: "Predicting Economics with AI"
 subtitle: "Will AI Provide Clarity to the Murky Field of Economics?"
 date: 2020-03-20
-resources:
-- name: featured-image
-  src: Economics-1024x683.jpeg
-
+header_image: Economics-1024x683.jpeg
 categories: [ople]
 tags: [seo, blog post]
 link: https://ople.ai/ai-blog/predicting-economics-using-ai/
@@ -41,10 +38,10 @@ Recently, the CEO of Starsky Robots – an autonomous vehicle company who aimed 
 
 Stefan, the ex-CEO of Starsky Robots, argues that the most difficult part about building a profitable autonomous vehicle is safety. However, this was not exciting enough for investors for how much time it took to build. While Tesla is getting press coverage for automatically changing lanes, Stefan explains that it will take a dedicated team of engineers 10 years to build a sufficient autonomous vehicle system because of the complexity of the task and consumer safety concerns and that the money is not there for this kind of team.
 
-Similarly, the concept of AI that finally gives us oracle powers over the economy is a large reach. We have already discussed the impact of algorithmic trading, but there are limits to what it can accomplish. With such a complex system as a global economy, you could have 1,000 teams of the smartest people build models to comprehend the economy and get 1,000 different systems that lack consensus. While the economic impact would be great if AI existed that could accurately predict recessions, or take the role of Jeremy Powell; this AI would have to be so large and so complex. How could we trust such a complex AI? And is the money even there to build a trustable Economic AI overlord? In fact, transparency is a crucial factor in evaluating AI. (Check out our blog post on Model Transparency and Explainability [here](/2020/03/model-transparency-and-explainability/))
+Similarly, the concept of AI that finally gives us oracle powers over the economy is a large reach. We have already discussed the impact of algorithmic trading, but there are limits to what it can accomplish. With such a complex system as a global economy, you could have 1,000 teams of the smartest people build models to comprehend the economy and get 1,000 different systems that lack consensus. While the economic impact would be great if AI existed that could accurately predict recessions, or take the role of Jeremy Powell; this AI would have to be so large and so complex. How could we trust such a complex AI? And is the money even there to build a trustable Economic AI overlord? In fact, transparency is a crucial factor in evaluating AI. (Check out our blog post on Model Transparency and Explainability [here](/posts/model-transparency-and-explainability/))
 
 ## AI and Economics
-![](Wall-Street-1024x683.jpeg)
+![](posts/predicting-economics-using-ai/Wall-Street-1024x683.jpeg)
 Top teams of the smartest finance wizards are already building systems taking in information about trades in the Baltic Sea, consumer sentiment from Google, and sentiment from economic articles to perform in stock markets. Algorithmic trading is a tough scientific and engineering problem, and a lot of smart people are trying to make money by doing it correctly. While the potential reward in building AI that understands the economy is great – as shown by the story about self-driving semi-trucks from Starsky Robots – there is not much sexy about safety, and if we don’t understand or believe the AI we built to predict the economy, then who would use it? There are just too many uncertainties to be solved.
 
 If you would like to understand how to leverage the power of AI to solve real problems that affect your business and that you can trust, request a demo or contact us today to start a free trial.

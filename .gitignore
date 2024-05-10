@@ -5,4 +5,8 @@ public
 .obsidian
 content/templates
 scripts
+assets/indices/linkIndex.json
+assets/indices/contentIndex.json
+linkmap
 .vscode/
+

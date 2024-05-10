@@ -39,7 +39,7 @@ In the book, the main protagonist Zarathustra explains that humans are meant to 
 He sees the Uberhuman as the actualization of the next evolution in man as a higher state of being.
 This is represented in popular culture by the baby at the end of Stanley Kubrik's 2001: A Space Odyssey.
 
-!["Baby image"](images/7277.jpg "An image of the baby at the end of the movie")
+![Baby image](posts/on-measuring-success/7277.jpg "An image of the baby at the end of the movie")
 
 By Nietzche's definition, a true Uberhuman has likely not been born yet, and if they do exist, they are infrequent, and most people would not even know how to recognize one.
 If you are reading this, you are unfortunately more human than Uberhuman due to the imperfections (such as trauma) that naturally come in as you lead an everyday life.
@@ -150,7 +150,7 @@ I believe that this dimension of success is the least emphasized and least under
 Spirituality does not necessarily mean religion, at least in how I use it.
 One way to look at spirituality is as the dot product between what you want to be and what you are.
 
-!["Dot product"](images/iu.png "Visualizing a dot product")
+!["Dot product"](posts/on-measuring-success/iu.png "Visualizing a dot product")
 
 #### Spirituality questions
 
@@ -197,18 +197,7 @@ It is worth saying that just because you fail does not make you a bad person or 
 I think a healthier way to look at failure is to note what the intended outcome was, why you could not get there, and then make a note to revisit it in the future.
 Ultimately our goal is to create a life where we have all the things we want, and of course, failure will come along for the ride.
 
-<!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/xwkadlba"
-  method="POST"
->
-  <label>
-    Enter your email to subscribe for updates:
-    <input type="email" name="email">
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+{{% subscribe %}}
 
 ## Sources
 
