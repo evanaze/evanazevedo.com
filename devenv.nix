@@ -5,7 +5,7 @@
   inputs,
   ...
 }: {
-  packages = [pkgs.gomod2nix pkgs.hugo];
+  packages = [pkgs.gomod2nix pkgs.hugo pkgs.git];
 
   # https://devenv.sh/languages/
   languages.go.enable = true;
