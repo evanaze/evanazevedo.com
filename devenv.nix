@@ -1,24 +1,20 @@
-{
-  pkgs,
-  lib,
-  config,
-  inputs,
-  ...
-}: {
+{pkgs, ...}: {
   packages = [pkgs.gomod2nix pkgs.hugo];
 
   # https://devenv.sh/languages/
   languages.go.enable = true;
 
-  processes.hugo.exec = "hugo serve -D";
-
   # https://devenv.sh/services/
-  # services.postgres.enable = true;
 
   # https://devenv.sh/scripts/
-  scripts.hserve.exec = ''
+  scripts.serve.exec = ''
     hugo-obsidian -input=content -output=assets/indices -index -root=.
-    ${pkgs.hugo} server --enableGitInfo --minify '';
+    ${pkgs.hugo}/bin/hugo server --enableGitInfo --minify '';
+
+  scripts.update.exec = ''
+    git pull
+    go get github.com/evanaze/hugo-obsidian
+  '';
 
   # https://devenv.sh/tests/
 

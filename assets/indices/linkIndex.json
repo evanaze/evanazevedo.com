@@ -35,7 +35,7 @@
       "/daily/2022-11-12": [
         {
           "source": "/daily/2022-11-12",
-          "target": "/../2022-11-08",
+          "target": "/daily/2022-11-08",
           "text": "bricking it"
         }
       ],
@@ -134,13 +134,6 @@
       ]
     },
     "backlinks": {
-      "/../2022-11-08": [
-        {
-          "source": "/daily/2022-11-12",
-          "target": "/../2022-11-08",
-          "text": "bricking it"
-        }
-      ],
       "/about": [
         {
           "source": "/",
@@ -205,6 +198,13 @@
           "source": "/posts/hackathon",
           "target": "/daily/2022-11-06",
           "text": "GIS data"
+        }
+      ],
+      "/daily/2022-11-08": [
+        {
+          "source": "/daily/2022-11-12",
+          "target": "/daily/2022-11-08",
+          "text": "bricking it"
         }
       ],
       "/daily/2022-11-13": [
@@ -307,7 +307,7 @@
     },
     {
       "source": "/daily/2022-11-12",
-      "target": "/../2022-11-08",
+      "target": "/daily/2022-11-08",
       "text": "bricking it"
     },
     {
