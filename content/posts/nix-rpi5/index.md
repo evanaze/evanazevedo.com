@@ -5,7 +5,7 @@ header_image: raspberrypi5_1_large.jpg
 header_caption: Image courtesy of Raspberry Pi Foundation
 tags: ["Linux"]
 toc: true
-draft: true
+draft: false
 ---
 
 # Requirements
@@ -55,6 +55,9 @@ diskutil partitionDisk /dev/disk2 MBR fat32 FIRST 100m fat32 SECOND 100m
 
 Somehow this command gives us the partitions we want.
 I thought it would size the partition named `SECOND` to `100m`, but it made it exactly the size we wanted.
+
+{{<figure src="partitioned_sd.png" alt="The result of the partition command">}}
+
 Through this process I learned to not ask too many questions.
 
 ## 3. Load the Firmware
@@ -70,12 +73,41 @@ You'll navigate to "Releases" in the bottom right corner:
 And download the file named `RPi5_UEFI_Release_vX.Y.zip`.
 
 Unzip the file, and copy all of the files within the unzipped folder to the volume named `FIRST`.
+
+{{<figure src="firmware.png" alt="The firmware on the SD card">}}
+
 Eject the SD card and now we can move on to the boot drive.
 
 ## 4. Setup the Boot Drive
 
+First, we need to wipe the boot drive and format to FAT32 and MBR like we did earlier with the SD card.
+Download the 64-bit ARM version of the Minimal ISO image from the NixOS website: https://nixos.org/download/#nixos-iso.
+This is the image we will flash to our boot drive.
+
+BalenaEtcher is a free tool for doing just that, and is supported on a lot of OS'es: https://etcher.balena.io/
+After that is installed, lanch balenaEtcher and select the ISO we just download.
+You'll see this error about a missing partition table, but you can ignore that.
+We'll be setting up our own 😈.
+
+{{<figure src="balenaetcher.png" alt="An ignorable warning from balenaEtcher">}}
+
+Continue by selecting your boot drive and flashing the ISO to the drive.
+Sometimes an error will pop up, and I've found you might have to try flashing the drive a couple of times to get through the errors.
+With that done, eject the boot drive and we can turn our attention to the Raspberry Pi.
+
 # Installation
 
 Now that your drives are properly formatted, let's get on with the actual install.
+Plug in your SD card, USB drive, HDMI cable, and then the power source.
+You should be greeted by this screen with the Raspberry Pi logo and a loading bar:
+
+{{<figure src="rpi_loader.png" alt="The RPi Loading screen, showing a successful boot">}}
+
+Following that you'll see the NixOS boot screen.
+Either select the first option or wait a couple seconds and that'll be done for you.
+
+{{<figure src="nixos_boot.png" alt="The NixOS booting screen">}}
+
+From here on out, you'll be able to follow this guide with some slight modifications to install NixOS: https://nixos.org/manual/nixos/stable/#sec-installation-manual.
 
 {{% subscribe %}}
