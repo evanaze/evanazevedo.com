@@ -8,9 +8,11 @@ toc: true
 draft: false
 ---
 
+If you're like me, you bought the new, shiny Raspberry Pi 5 and assumed you could boot NixOS on it, only to find out that the device is not yet supported.
+Dry those tears, because this guide is the exact steps I took to load NixOS onto my Raspberry Pi 5.
+
 # Requirements
 
-These are the requirements to follow this guide.
 I will only be covering how to install NixOS onto a Micro SD card using a Mac, but if you're handy you may be able to figure out how to install the OS onto a flash drive or NVMe stick.
 
 - Raspberry Pi 5 (duh)
