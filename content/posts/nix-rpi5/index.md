@@ -111,6 +111,79 @@ Either select the first option or wait a couple seconds and that'll be done for 
 {{<figure src="nixos_boot.png" alt="The NixOS booting screen">}}
 
 From here on out, you'll be able to follow this guide with some slight modifications to install NixOS: https://nixos.org/manual/nixos/stable/#sec-installation-manual.
+Here are the steps:
+
+1. Set yourself as the root user with `sudo -i`
+2. Set up the WiFi with the commands from the section titled "Networking in the installer". **Note**: The custom firmware we loaded does not support Ethernet, so we have to use WiFi, just until we can fully install NixOS onto the SD card.
+3. Unless you love typing on this bare terminal, you may want to use this opportunity to SSH into the Raspberry Pi from your computer. You don't need a keyboard connected to the RPi for the rest of this guide and can do the rest from SSH. If you don't want to se up SSH, skip to step 6. Set up a password for your root user with the command `passwd`, and your user account with `passwd username`.
+4. Find the device's IP address with `ip addr`. Your IP address is under the section inet for wlan0 and is of the format W.X.Y.Z and probably starts with `192.168`.
+5. SSH into the RPi from your computer with the command `ssh root@ip`, and enter your root password from step 3.
+6. Find the SD card name with `lsblk`. It will probably start with `mmcblk`. For me it was `mmcblk0`
+7. We'll follow the UEFI (GPT) section of the Partition and Formatting part of the NixOS guide. Partition the SD card with the following commands:
+
+```bash
+parted /dev/mmcblk0 -- mklabel gpt
+parted /dev/mmcblk0 -- mkpart root ext4 512MB -8GB
+parted /dev/mmcblk0 -- mkpart swap linux-swap -8GB 100%
+parted /dev/mmcblk0 -- mkpart ESP fat32 1MB 512MB
+parted /dev/mmcblk0 -- set 3 esp on
+```
+
+The first command will prompt you to wipe the disk.
+This is because we're changing the partition scheme from MBR to GPT.
+Wiping the disk like this will remove our firmware, but we will manually copy it back in a later step.
+Otherwise, the RPi will not boot into NixOS.
+
+8. Following the Formatting section of the NixOS guide, format the SD card with the following commands:
+
+```bash
+mkfs.ext4 -L nixos /dev/mmcblk0p1
+mkswap -L swap /dev/mmcblk0p2
+mkfs.fat -F 32 -n boot /dev/mmcblk0p3
+```
+
+9. Now to the exciting part - installing the OS. I couldn't get the `by-label` stuff to work, so here's how I did it:
+
+```bash
+mount /dev/mmcblk0p1 /mnt
+mkdir -p /mnt/boot
+mount -o umask=077 /dev/mmcblk0p3 /mnt/boot
+swapon /dev/mmcblk0p2
+nixos-generate-config --root /mnt
+```
+
+10. Before we run `nixos-install` and get this party started for real, let's make some edits to the generated config. My preferred editor is Vim. NixOS comes with Nano pre-installed. I installed Vim with this command: `nix-env -f '<nixpkgs>' -iA vim`
+
+11. These are the edits I made to the config with the command `vim mnt/etc/nixos/configuration.nix`:
+
+```nix
+# I don't know if this matters, but according to one of the guides I saw this should be in here
+boot.loader.efi.canTouchEfiVariables = false;
+
+# Install vim for real, along with git
+environment.systemPackages = with pkgs; [
+  git
+  vim
+]
+```
+
+12. Finally, install NixOS with `nixos-install`
+
+13. Before we reboot, don't forget to copy over the firmware to the SD card. This was the command I used to do that from my Mac:
+
+```bash
+# Navigate to directory with bootloader
+cd $HOME/Downloads/RPi5_UEFI_Release_v0.3
+scp -r . root@192.168.50.150:/mnt/boot
+```
+
+14. Type `reboot` and hit enter.
+
+15. There's one last step before we can enjoy the RPi, and it's taken from https://nixos.wiki/wiki/NixOS_on_ARM/Raspberry_Pi_5:
+
+> For the vendor kernel to boot properly, you must switch from ACPI to Device Tree in the UEFI settings (at Device Manager -> Raspberry Pi Configuration -> ACPI / Device Tree -> System Table Mode).
+
+Now you should be all set to configure your Raspberry Pi to your heart's intent.
 
 # Resources
 
