@@ -183,7 +183,7 @@ scp -r . root@192.168.50.150:/mnt/boot
 
 > For the vendor kernel to boot properly, you must switch from ACPI to Device Tree in the UEFI settings (at Device Manager -> Raspberry Pi Configuration -> ACPI / Device Tree -> System Table Mode).
 
-Now you should be all set to configure your Raspberry Pi to your heart's intent.
+Now you should be all set to configure your Raspberry Pi to your heart's content.
 
 # Resources
 
