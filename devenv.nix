@@ -9,7 +9,7 @@
   # https://devenv.sh/scripts/
   scripts.serve.exec = ''
     hugo-obsidian -input=content -output=assets/indices -index -root=.
-    ${pkgs.hugo}/bin/hugo server --enableGitInfo --minify  --disableFastRender'';
+    ${pkgs.hugo}/bin/hugo server -D --enableGitInfo --minify  --disableFastRender'';
 
   scripts.update.exec = ''
     git pull
