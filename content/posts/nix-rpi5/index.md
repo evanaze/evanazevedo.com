@@ -5,7 +5,7 @@ header_image: raspberrypi5_1_large.jpg
 header_caption: Image courtesy of Raspberry Pi Foundation
 tags: ["Linux"]
 toc: true
-draft: false
+draft: true
 ---
 
 # Requirements
@@ -35,16 +35,21 @@ This is what worked for me.
 
 First, erase the SD card and format it as Fat32 MBR.
 
+{{<figure src="erase_sd.png" alt="Erasing the SD card with Disk Utility">}}
+
 ## 2. Partition the SD card
 
-Find the device name with the command `diskutil list`.
+Open the termin and find the name of your SD card with the command `diskutil list`.
+
+{{<figure src="list_drives.png" alt="Finding the name of your SD card">}}
+
 Mine was `/dev/disk2`
 For a Linux machine you should be able to use the command `lsblk`.
 
 Then I had to use the following command to partition the drive correctly.
 Make sure to use the device name of your SD card from `diskutil list` after `diskutil partitionDisk` in this command:
 
-```
+```bash
 diskutil partitionDisk /dev/disk2 MBR fat32 FIRST 100m fat32 SECOND 100m
 ```
 
@@ -60,7 +65,7 @@ We're going to load the custom firmware to the drive named `FIRST`.
 Download the firmware from this URL: https://github.com/worproject/rpi5-uefi.
 You'll navigate to "Releases" in the bottom right corner:
 
-{{<figure src="Screenshot from 2024-09-26 12-22-20.png" alt="The Releases section in GitHub">}}
+{{<figure src="github_firmware.png" alt="The Releases section in GitHub">}}
 
 And download the file named `RPi5_UEFI_Release_vX.Y.zip`.
 
