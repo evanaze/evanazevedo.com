@@ -1,5 +1,5 @@
 ---
-title: "Installing NisOS on the Raspberry Pi 5"
+title: "🍓 Installing NisOS on the Raspberry Pi 5"
 date: 2024-09-25T12:19:40-06:00
 header_image: raspberrypi5_1_large.jpg
 header_caption: Image courtesy of Raspberry Pi Foundation
@@ -109,5 +109,11 @@ Either select the first option or wait a couple seconds and that'll be done for 
 {{<figure src="nixos_boot.png" alt="The NixOS booting screen">}}
 
 From here on out, you'll be able to follow this guide with some slight modifications to install NixOS: https://nixos.org/manual/nixos/stable/#sec-installation-manual.
+
+# Resources
+
+- https://nix.dev/tutorials/nixos/installing-nixos-on-a-raspberry-pi.html
+- https://nixos.wiki/wiki/NixOS_on_ARM/Raspberry_Pi_5
+- https://nixos.wiki/wiki/NixOS_on_ARM/UEFI
 
 {{% subscribe %}}
