@@ -84,6 +84,7 @@ Eject the SD card and now we can move on to the boot drive.
 
 First, we need to wipe the boot drive and format to FAT32 and MBR like we did earlier with the SD card.
 Download the 64-bit ARM version of the Minimal ISO image from the NixOS website: https://nixos.org/download/#nixos-iso.
+The file should be called something like `nixos-minimal-new-kernel-24.11pre680873.345c263f2f53-aarch64-linux`.
 This is the image we will flash to our boot drive.
 
 BalenaEtcher is a free tool for doing just that, and is supported on a lot of OS'es: https://etcher.balena.io/
