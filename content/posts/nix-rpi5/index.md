@@ -33,13 +33,13 @@ The whole drive needs to be Fat32, and we need the drive to have two paritions: 
 This was a challenge because MacOS makes it very confusing on how to make multiple partitions on an MBR partitioned drive 🙃.
 This is what worked for me.
 
-## 1. Erase the SD card
+## Erase the SD card
 
 First, erase the SD card and format it as Fat32 MBR.
 
 {{<figure src="erase_sd.png" alt="Erasing the SD card with Disk Utility">}}
 
-## 2. Partition the SD card
+## Partition the SD card
 
 Open the termin and find the name of your SD card with the command `diskutil list`.
 
@@ -62,7 +62,7 @@ I thought it would size the partition named `SECOND` to `100m`, but it made it e
 
 Through this process I learned to not ask too many questions.
 
-## 3. Load the Firmware
+## Load the Firmware
 
 Now you should see two volumes mounted to your computer: `FIRST` and `SECOND`.
 We're going to load the custom firmware to the drive named `FIRST`.
@@ -80,7 +80,7 @@ Unzip the file, and copy all of the files within the unzipped folder to the volu
 
 Eject the SD card and now we can move on to the boot drive.
 
-## 4. Setup the Boot Drive
+## Setup the Boot Drive
 
 First, we need to wipe the boot drive and format to FAT32 and MBR like we did earlier with the SD card.
 Download the 64-bit ARM version of the Minimal ISO image from the NixOS website: https://nixos.org/download/#nixos-iso.
