@@ -155,17 +155,35 @@ nixos-generate-config --root /mnt
 
 10. Before we run `nixos-install` and get this party started for real, let's make some edits to the generated config. My preferred editor is Vim. NixOS comes with Nano pre-installed. I installed Vim with this command: `nix-env -f '<nixpkgs>' -iA vim`
 
-11. These are the edits I made to the config with the command `vim mnt/etc/nixos/configuration.nix`:
+11. These are the edits I made to the config with the command `vim /mnt/etc/nixos/configuration.nix`:
 
 ```nix
 # I don't know if this matters, but according to one of the guides I saw this should be in here
 boot.loader.efi.canTouchEfiVariables = false;
+
+# Add the RPi kernel
+boot.kernelPackages = pkgs.linuxPackages_rpi4;
+
+# Define a user account
+users.users.evanaze = {
+    isNormalUser = true;
+    extraGroups = ["wheel"]; # Enable sudo access for the user
+};
+
+# Enable flakes and the nix cli
+nix.experimental-features = "nix-command flakes";
 
 # Install vim for real, along with git
 environment.systemPackages = with pkgs; [
   git
   vim
 ]
+
+# Enable OpenSSH so we can SSH into the RPi
+services.openssh.enable = true;
+
+# Disable the firewall so we can access the RPi. You'll want to go back to this later
+networking.firewall.enable = false;
 ```
 
 12. Finally, install NixOS with `nixos-install`
