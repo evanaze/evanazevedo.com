@@ -171,7 +171,7 @@ users.users.evanaze = {
 };
 
 # Enable flakes and the nix cli
-nix.experimental-features = "nix-command flakes";
+nix.settings.experimental-features = ["nix-command" "flakes"];
 
 # Install vim for real, along with git
 environment.systemPackages = with pkgs; [
