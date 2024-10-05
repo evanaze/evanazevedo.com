@@ -24,13 +24,8 @@
   # services.postgres.enable = true;
 
   # https://devenv.sh/scripts/
-  scripts.hello.exec = ''
+  scripts.build.exec = ''
     echo hello from $GREET
-  '';
-
-  enterShell = ''
-    hello
-    git --version
   '';
 
   # https://devenv.sh/tasks/
