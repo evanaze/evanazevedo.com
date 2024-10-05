@@ -1,17 +1,24 @@
-{ pkgs, lib, config, inputs, ... }:
-
 {
+  pkgs,
+  lib,
+  config,
+  inputs,
+  ...
+}: {
   # https://devenv.sh/basics/
   env.GREET = "devenv";
 
   # https://devenv.sh/packages/
-  packages = [ pkgs.git ];
+  packages = with pkgs; [
+    hugo
+    nodejs
+  ];
 
   # https://devenv.sh/languages/
   # languages.rust.enable = true;
 
   # https://devenv.sh/processes/
-  # processes.cargo-watch.exec = "cargo-watch";
+  processes.hugo-build.exec = "hugo server -D";
 
   # https://devenv.sh/services/
   # services.postgres.enable = true;
