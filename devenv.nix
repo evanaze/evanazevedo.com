@@ -12,11 +12,9 @@
   # https://devenv.sh/services/
   # services.postgres.enable = true;
 
-  # https://devenv.sh/scripts/
-  scripts.build.exec = "hugo server -D";
-
   processes = {
     tw.exec = "tailwindcss -i ./assets/input.css -o ./assets/output.css --watch";
+    hugo.exec = "hugo server -D";
   };
 
   # https://devenv.sh/pre-commit-hooks/
