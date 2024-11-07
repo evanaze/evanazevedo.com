@@ -19,7 +19,7 @@
 
   dotenv = {
     enable = true;
-    filename = "pub.env";
+    filename = ".env.local";
   };
 
   # https://devenv.sh/pre-commit-hooks/
