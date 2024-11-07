@@ -15,18 +15,20 @@
   <script>
     const htmlElement = document.documentElement;
 
-    htmlElement.classList.add("dark", "uk-theme-blue");
+    htmlElement.classList.add("dark");
+
+    htmlElement.classList.add("uk-theme-blue");
   </script>
 
 </head>
 
-<body class="uk-background-default uk-text-foreground">
+<body class="hidden bg-background text-foreground antialiased">
   <header>
     <nav class="uk-navbar-container" uk-navbar>
       <div class="uk-navbar-left">
         <div class="uk-container">
-          <a href="#" class="uk-navbar-item uk-logo"><img src="images/logoV2_light.svg" alt="Evan Azevedo Logo"
-              class="uk-width-1-1 uk-height-auto" />Evan Azevedo</a>
+          <a href="#" class="uk-navbar-item uk-logo"><img src="images/logoV2_dark.svg" alt="Evan Azevedo Logo"
+              class="uk-width-1-1 uk-height-auto dark:hidden" />Evan Azevedo</a>
         </div>
       </div>
     </nav>
@@ -41,9 +43,6 @@
             technology solutions.</p>
         </article>
       </div>
-      <div class="bg-primary text-primary-background">Automate your business, launch your vision - driving growth
-        through smart technology solutions.</div>
-
       <div>
       </div>
     </div>
