@@ -13,7 +13,7 @@
   # services.postgres.enable = true;
 
   processes = {
-    tw.exec = "socat - EXEC:'npx tailwindcss -i ./static/css/input.css -o ./static/css/output.css --watch',pty,setsid,ctty";
+    tw.exec = "unbuffer tailwindcss -i ./static/css/input.css -o ./static/css/output.css --watch";
     hugo.exec = "hugo server -D";
   };
 

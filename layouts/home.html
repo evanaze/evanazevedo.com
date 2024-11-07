@@ -12,30 +12,43 @@
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/franken-ui@1.1.0/dist/js/core.iife.js" type="module"></script>
   <script src="https://unpkg.com/franken-ui@1.1.0/dist/js/icon.iife.js" type="module"></script>
+  <script>
+    const htmlElement = document.documentElement;
+
+    htmlElement.classList.add("dark");
+
+    htmlElement.classList.add(
+      "uk-theme-custom",
+    );
+  </script>
 
 </head>
 
-<body>
+<body class="uk-background-default uk-text-foreground">
   <header>
     <nav class="uk-navbar-container" uk-navbar>
-      <div class="uk-container">
-        <div class="uk-navbar-left">
+      <div class="uk-navbar-left">
+        <div class="uk-container">
           <a href="#" class="uk-navbar-item uk-logo"><img src="images/logoV2_light.svg" alt="Evan Azevedo Logo"
-              class="uk-width-small uk-height-auto" /></a>
+              class="uk-width-1-1 uk-height-auto" />Evan Azevedo</a>
         </div>
       </div>
     </nav>
   </header>
 
-  <div class="grid grid-cols-2 gap-4">
-    <article class="uk-article">
-      <h1 class="uk-article-title">Efficiency Meets Innovation</h1>
-      <p class="uk-article-meta">Automate your business, launch your vision - driving growth through smart technology
-        solutions.</p>
-  </div>
-  <div>
-    <p>Some text</p>
-  </div>
+  <div class="uk-container">
+    <div class="uk-grid">
+      <div>
+        <article class="uk-article">
+          <h1 class="uk-article-title">Efficiency Meets Innovation</h1>
+          <p class="uk-article-meta uk-margin">Automate your business, launch your vision - driving growth through smart
+            technology solutions.</p>
+        </article>
+      </div>
+
+      <div>
+      </div>
+    </div>
   </div>
 
   <footer>
