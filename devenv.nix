@@ -17,6 +17,11 @@
     hugo.exec = "hugo server -D";
   };
 
+  dotenv = {
+    enable = true;
+    filename = "pub.env";
+  };
+
   # https://devenv.sh/pre-commit-hooks/
   # pre-commit.hooks.shellcheck.enable = true;
 

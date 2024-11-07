@@ -29,3 +29,7 @@ devenv.local.nix
 
 # pre-commit
 .pre-commit-config.yaml
+
+*.env
+!pub.env
+
