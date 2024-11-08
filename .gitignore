@@ -33,4 +33,4 @@ devenv.local.nix
 *.env
 !pub.env
 
-# node_modules*
+node_modules*
