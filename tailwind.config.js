@@ -2,6 +2,7 @@ import franken from "franken-ui/shadcn-ui/preset-quick";
 
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   presets: [
     franken({
       customPalette: {
