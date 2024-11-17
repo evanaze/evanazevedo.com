@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --contrast: 217 50% 5%;
+    --contrast-foreground: 217 5% 90%;
+  }
+
+  .dark {
+    --contrast: 217 100% 95%;
+    --contrast-foreground: 217 5% 0%;
+  }
+}

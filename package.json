@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "franken-ui": "^1.1.0",
-    "postcss": "^8.4.47"
+    "postcss": "^8.4.49"
   },
   "devDependencies": {
     "hugo-bin": "^0.135.0",
