@@ -9393,6 +9393,10 @@ th.uk-text-break, td.uk-text-break {
   display: block;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .bg-background {
   background-color: hsl(var(--background));
 }
