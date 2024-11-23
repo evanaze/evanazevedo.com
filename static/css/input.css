@@ -12,6 +12,10 @@
     --contrast: 217 100% 95%;
     --contrast-foreground: 217 5% 0%;
   }
+  img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @layer components {
