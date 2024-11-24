@@ -12,10 +12,6 @@
     --contrast: 217 100% 95%;
     --contrast-foreground: 217 5% 0%;
   }
-  img {
-    width: 100%;
-    height: 100%;
-  }
 }
 
 @layer components {
@@ -24,7 +20,8 @@
     border-right: 0.15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: 0.15em; /* Adjust as needed */
+    letter-spacing: 0.1em; /* Adjust as needed */
+    font-size: 1.5rem;
     animation:
       typewriter 3.5s steps(40, end),
       blink-caret 0.75s step-end infinite;
