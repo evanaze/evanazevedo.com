@@ -459,16 +459,6 @@ video {
   display: none !important;
 }
 
-:root {
-  --contrast: 217 50% 5%;
-  --contrast-foreground: 217 5% 90%;
-}
-
-.dark {
-  --contrast: 217 100% 95%;
-  --contrast-foreground: 217 5% 0%;
-}
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -9441,6 +9431,11 @@ th.uk-text-break, td.uk-text-break {
 
 .bg-background {
   background-color: hsl(var(--background));
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-foreground {

@@ -1,49 +1,45 @@
 {{ block "index" . }}
-{{ partial "header.html" }}
+{{ partial "head.html" }}
 
 <body class="bg-background text-foreground antialiased">
-  <header>
-    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-      <nav class="uk-navbar-container">
-        <div class="uk-container uk-width-1-1">
-          <div uk-navbar>
-            <div class="uk-navbar-left">
-              <div class="uk-padding-top uk-padding-bottom">
-                <a href="#" class="uk-navbar-item">
-                  <img src="images/logoV2_dark.svg" alt="Evan Azevedo Logo" width="71" height="71"
-                    class="uk-width-1-4 uk-height-auto" uk-svg />
-                  <div class="typewriter uk-padding-left">
-                    <h1>Evan Azevedo</h1>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="uk-navbar-right">
-              <div class="uk-navbar-item">
-                <a href="mailto:me@evanazeedo.com" class="uk-button uk-button-primary">Contact</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header>
+  <div class="uk-preserve-color uk-background-cover uk-section-secondary"
+    style="background-image: url(&quot;/images/mnts.jpg&quot;)">
+    <div class="uk-section uk-padding-remove-vertical">
+      <div uk-height-viewport>
 
-  <div class="uk-section uk-section-large uk-section-secondary">
-    <div class="uk-container uk-container-large" uk-height-viewport>
-      <div class="uk-flex-top uk-grid">
-        <div class="uk-flex uk-width-1-2">
-          <div class="uk-flex-left">
-            <h1 class="uk-heading-xlarge">Software Development Services in Denver, Colorado</h1>
-            <div class="uk-padding-medium-top">
-              <p class="uk-text-lead">Automate your business, launch your vision - driving growth through smart
-                technology solutions.</p>
+        <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+          <nav class="uk-navbar-container">
+            <div class="uk-container uk-width-1-1">
+              <div uk-navbar>
+                <div class="uk-navbar-left">
+                  <div class="uk-padding-top uk-padding-bottom">
+                    <a href="#" class="uk-navbar-item">
+                      <img src="images/logoV2_dark.svg" alt="Evan Azevedo Logo" width="71" height="71"
+                        class="uk-width-1-4 uk-height-auto" uk-svg />
+                      <div class="typewriter uk-padding-left">
+                        <h1>Evan Azevedo</h1>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="uk-navbar-right">
+                  <div class="uk-navbar-item">
+                    <a href="mailto:me@evanazeedo.com" class="uk-button uk-button-primary">Contact</a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
+          </nav>
         </div>
-        <div class="uk-width-1-2">
-          <div class="uk-flex uk-flex-center">
-            <img src="images/portrait1.jpeg" alt="Portrait" />
+
+        <div uk-height-viewport>
+          <div class="uk-position-center uk-width-2-3">
+            <h1 class="uk-heading-xlarge uk-text-center">Software Development Services in Denver, Colorado</h1>
+            <div class="uk-padding-medium-top">
+              <p class="text-2xl uk-text-center">Automate your business, launch your vision - driving growth
+                through
+                smart technology solutions.</p>
+            </div>
           </div>
         </div>
       </div>

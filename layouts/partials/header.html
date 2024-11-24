@@ -1,32 +1,24 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <title>Evan Azevedo</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="css/output.css" />
-  <script src="https://unpkg.com/htmx.org@2.0.0"
-    integrity="sha384-wS5l5IKJBvK6sPTKa2WZ1js3d947pvWXbPJ1OmWfEuxLgeHcEbjUUA5i9V5ZkpCw"
-    crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/franken-ui@1.1.0/dist/js/core.iife.js" type="module"></script>
-  <script src="https://unpkg.com/franken-ui@1.1.0/dist/js/icon.iife.js" type="module"></script>
-  <script>
-    const htmlElement = document.documentElement;
-
-    if (
-      localStorage.getItem("mode") === "dark" ||
-      (!("mode" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
-      htmlElement.classList.add("dark");
-    } else {
-      htmlElement.classList.remove("dark");
-    }
-
-    htmlElement.classList.add(
-      localStorage.getItem("theme") || "uk-theme-blue",
-    );
-  </script>
-
-</head>
+<header>
+  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    <div class="uk-container uk-width-1-1">
+      <div uk-navbar>
+        <div class="uk-navbar-left">
+          <div class="uk-padding-top uk-padding-bottom">
+            <a href="#" class="uk-navbar-item">
+              <img src="images/logoV2_dark.svg" alt="Evan Azevedo Logo" width="71" height="71"
+                class="uk-width-1-4 uk-height-auto" uk-svg />
+              <div class="typewriter uk-padding-left">
+                <h1>Evan Azevedo</h1>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="uk-navbar-right">
+          <div class="uk-navbar-item">
+            <a href="mailto:me@evanazeedo.com" class="uk-button uk-button-primary">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

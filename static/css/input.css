@@ -2,18 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --contrast: 217 50% 5%;
-    --contrast-foreground: 217 5% 90%;
-  }
-
-  .dark {
-    --contrast: 217 100% 95%;
-    --contrast-foreground: 217 5% 0%;
-  }
-}
-
 @layer components {
   .typewriter h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
