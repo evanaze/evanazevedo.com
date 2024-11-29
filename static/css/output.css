@@ -9446,3 +9446,9 @@ th.uk-text-break, td.uk-text-break {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@font-face {
+  font-family: "lato-regular";
+
+  src: url("/fonts/lato-regular.ttf");
+}
