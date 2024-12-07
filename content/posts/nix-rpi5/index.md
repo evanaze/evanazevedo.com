@@ -209,3 +209,5 @@ Now you should be all set to configure your Raspberry Pi to your heart's content
 - https://nix.dev/tutorials/nixos/installing-nixos-on-a-raspberry-pi.html
 - https://nixos.wiki/wiki/NixOS_on_ARM/Raspberry_Pi_5
 - https://nixos.wiki/wiki/NixOS_on_ARM/UEFI
+
+{{% subscribe %}}
