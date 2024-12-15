@@ -17,16 +17,13 @@
                     <img src="images/logoV2_dark.svg" alt="Evan Azevedo Logo" width="71" height="71"
                       class="uk-width-1-5 uk-height-auto" uk-svg />
                     <div class="uk-text-large uk-padding-left">
-                      <h1>Evan Azevedo</h1>
+                      <h1 class="uk-logo-text">Evan Azevedo</h1>
                     </div>
                   </a>
                 </div>
                 <div class="uk-navbar-right">
                   <div class="uk-navbar-item">
-                    <a href="posts/" class="uk-text-large">Blog</a>
-                  </div>
-                  <div class="uk-navbar-item">
-                    <a href="mailto:me@evanazeedo.com" class="uk-button uk-button-primary">Contact</a>
+                    <a href="mailto:me@evanazevedo.com" class="uk-button uk-button-primary">Contact</a>
                   </div>
                 </div>
               </div>
@@ -51,13 +48,13 @@
   </div>
 
   <!-- Problem -->
-  <div class="uk-section uk-section-large">
+  <div class="uk-section uk-section-large uk-margin">
     <div class="uk-container uk-container-large">
-      <div uk-grid>
-        <div class="uk-width-1-2 uk-margin">
+      <div class="uk-grid-match uk-grid-large uk-child-width-1-2" uk-grid>
+        <div>
           <img src="images/map.webp" alt="Map" />
         </div>
-        <div class="uk-width-1-2">
+        <div>
           <div class="uk-flex uk-flex-middle uk-flex-center uk-height-1-1">
             <div>
               <h1 class="uk-heading-medium uk-margin">Don't get lost in your business</h1>
@@ -78,10 +75,10 @@
   </div>
 
   <!-- Solution -->
-  <div class="uk-section uk-section-large">
+  <div class="uk-section uk-section-large uk-margin">
     <div class="uk-container uk-container-large">
-      <div uk-grid>
-        <div class="uk-width-1-2">
+      <div class="uk-child-width-1-2" uk-grid>
+        <div>
           <div class="uk-flex uk-flex-middle uk-flex-center uk-height-1-1">
             <div>
               <div class="uk-grid-large" uk-grid>
@@ -106,7 +103,7 @@
             </div>
           </div>
         </div>
-        <div class="uk-width-1-2">
+        <div>
           <img src="images/portrait1.jpeg" alt="Evan Azevedo Logo" class="uk-width-auto uk-height-1-1" />
         </div>
       </div>
@@ -114,18 +111,18 @@
   </div>
 
   <!-- Benefits -->
-  <div class="uk-section uk-section-muted uk-section-large">
+  <div class="uk-section uk-section-muted uk-section-large uk-margin">
     <div class="uk-container uk-container-large">
-      <div class="uk-height-match" uk-grid>
-        <div class="uk-height-1-3">
+      <div class="uk-height-match uk-grid-large" uk-grid>
+        <div>
           <h2 class="uk-heading-large uk-text-center uk-margin">Why work with me</h2>
         </div>
 
-        <div class="uk-height-2-3">
-          <div class="uk-grid-match" uk-grid>
-            <div class="uk-width-1-3">
+        <div>
+          <div class="uk-grid-match uk-child-width-1-3" uk-grid>
+            <div>
               <div class="uk-flex-middle uk-flex-center" uk-grid>
-                <img src="images/logoV2_dark.svg" alt="Evan Azevedo Logo" class="uk-width-1-4 uk-height-auto" />
+                <uk-icon class="uk-width-1-4" icon="stethoscope" width="uk-width-1-4" height="uk-height-auto"></uk-icon>
                 <article class="uk-article">
                   <h3 class="uk-heading-small">Understand my business</h3>
                   <p class="uk-text-large uk-text-muted uk-margin">The data to make your business simpler and more
@@ -134,9 +131,10 @@
                 </article>
               </div>
             </div>
-            <div class="uk-flex uk-width-1-3">
-              <div class="uk-flex-middle uk-flex-center" uk-grid>
-                <img src="images/logoV2_dark.svg" alt="Evan Azevedo Logo" class="uk-width-1-4 uk-height-auto" />
+            <div>
+              <div class=" uk-flex-middle uk-flex-center" uk-grid>
+                <uk-icon class="uk-width-1-4" icon="chart-no-axes-combined" width="uk-width-1-4"
+                  height="uk-height-auto"></uk-icon>
                 <article class="uk-article">
                   <h3 class="uk-heading-small">Streamline my operations</h3>
                   <p class="uk-text-large uk-text-muted uk-margin">Improve accuracy and free up your employees time by
@@ -144,9 +142,10 @@
                 </article>
               </div>
             </div>
-            <div class="uk-flex uk-width-1-3">
+            <div>
               <div class="uk-flex-middle uk-flex-center" uk-grid>
-                <img src="images/logoV2_dark.svg" alt="Evan Azevedo Logo" class="uk-width-1-4 uk-height-auto" />
+                <uk-icon class="uk-width-1-4" icon="panels-top-left" width="uk-width-1-4"
+                  height="uk-height-auto"></uk-icon>
                 <article class="uk-article">
                   <h3 class="uk-heading-small">Create digital products</h3>
                   <p class="uk-text-large uk-text-muted uk-margin">Explore a new revenue stream with a small version
@@ -162,14 +161,14 @@
   </div>
 
   <!-- Action Plan -->
-  <div class="uk-section uk-section-large">
+  <div class="uk-section uk-section-large uk-margin">
     <div class="uk-container uk-container-large">
       <h2 class="uk-heading-large uk-text-center uk-margin-large-bottom">How it works</h2>
       <div class="uk-child-width-1-1" uk-grid>
         <div>
           <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-flex uk-flex-middle">
             <div class="uk-margin-right">
-              <span class="uk-icon-button uk-background-primary" uk-icon="check"></span>
+              <uk-icon class="uk-icon-button uk-background-primary" icon="check"></uk-icon>
             </div>
             <div>
               <h3 class="uk-card-title">Schedule a Call</h3>
@@ -180,7 +179,7 @@
         <div>
           <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-flex uk-flex-middle">
             <div class="uk-margin-right">
-              <span class="uk-icon-link uk-background-primary" uk-icon="icon: check"></span>
+              <uk-icon class="uk-icon-button uk-background-primary" icon="check"></uk-icon>
             </div>
             <div>
               <h3 class="uk-card-title">We Get to Work</h3>
@@ -191,7 +190,7 @@
         <div>
           <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-flex uk-flex-middle">
             <div class="uk-margin-right">
-              <span class="uk-icon-button uk-background-primary" uk-icon="check"></span>
+              <uk-icon class="uk-icon-button uk-background-primary" icon="check"></uk-icon>
             </div>
             <div>
               <h3 class="uk-card-title">Happily Ever After</h3>
@@ -204,7 +203,7 @@
   </div>
 
   <!-- FAQ -->
-  <div class="uk-section uk-section-large">
+  <div class="uk-section uk-section-large uk-margin">
     <div class="uk-container uk-container-large">
       <h2 class="uk-heading-large uk-margin">FAQ</h2>
       <ul class="uk-accordion" uk-accordion>
@@ -272,5 +271,4 @@
   {{ partial "footer.html" }}
 </body>
 
-</html>
 {{ end }}
