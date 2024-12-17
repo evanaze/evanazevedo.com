@@ -1,9 +1,19 @@
 {{ define "main" }}
-<h1>Posts</h1>
-{{ range .Pages }}
-<article>
-  <h2>{{ .Title }}</h2>
-  {{ .Content }}
-</article>
-{{ end }}
+
+
+<section class="section">
+  <div class="container">
+    <!-- blog posts -->
+    <div class="lg:col-8">
+      <div class="row">
+        {{ $paginator:= .Paginate .RegularPages }}
+        {{ range $paginator.Pages }}
+        <div class="md:col-6 mb-14">
+          {{ partial "blog-card" . }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
 {{ end }}
