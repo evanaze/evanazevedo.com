@@ -4,15 +4,28 @@
 
 {{ define "main" }}
 
-<section class="section-sm">
-  <div class="container">
+<section class="uk-section">
+  <div class="uk-container">
     <div class="row justify-center">
-      <div class="lg:col-10">
-        <div class="content">
-          {{ .Content }}
+      <article class="uk-article">
+        {{ $image:= .Params.image }}
+        {{ if $image }}
+        <div class="mb-10">
+          <img src="{{.RelPermalink}}{{.Params.image}}" alt="{{ .Params.img_caption }}" class="w-full rounded">
         </div>
-      </div>
+        {{ end }}
+        <h1 class="uk-article-title">
+          {{ .Title }}
+        </h1>
+        <p class="uk-article-meta uk-margin">
+          {{ time.Format ":date_long" .PublishDate }}
+        </p>
+        <p class="uk-margin">
+          {{ .Content }}
+        </p>
     </div>
+    </article>
+  </div>
   </div>
 </section>
 {{ end }}
