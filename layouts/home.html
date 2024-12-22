@@ -1,8 +1,14 @@
+{{ define "header" }}
+{{ end }}
+
 {{ define "main" }}
 
 <div class="uk-preserve-color uk-background-cover" style="background-image: url(&quot;/images/mnts.jpg&quot;)">
   <div class="uk-section uk-padding-remove-vertical">
     <div uk-height-viewport>
+
+      {{ partial "header.html"}}
+
       <div uk-height-viewport="offset-top: true">
         <div class="uk-position-center uk-width-2-3">
           <h1 class="text-5xl md:text-7xl uk-text-center">Software Development Services in Denver,

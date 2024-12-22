@@ -6,7 +6,7 @@
 
 <body class="bg-background text-foreground antialiased">
   <header>
-    {{ partial "header.html" . }}
+    {{ block "header" . }}{{ end }}
   </header>
   <main>
     {{ block "main" . }}{{ end }}
