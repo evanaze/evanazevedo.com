@@ -4,8 +4,8 @@
     <div class="uk-container uk-width-1-1">
       <div uk-navbar>
         <div class="uk-navbar-left">
-          <a href="{{ .Site.BaseURL }}" class="uk-navbar-item">
-            <img src="{{ .Site.BaseURL }}/images/logoV2_dark.svg" alt="Evan Azevedo Logo" width="50" height="50"
+          <a href={{ absURL "" }} class="uk-navbar-item">
+            <img src={{ absURL "/images/logoV2_dark.svg" }} alt="Evan Azevedo Logo" width="50" height="50"
               class="uk-width-1-2" uk-svg />
             <div class="uk-padding-left">
               <h1 class="text-xl uk-text-nowrap uk-text-logo uk-visible@m">Evan Azevedo</h1>
@@ -14,7 +14,7 @@
         </div>
         <div class="uk-navbar-right">
           <div class="uk-navbar-item">
-            <a href="{{ .Site.BaseURL }}/posts">Blog</a>
+            <a href={{ absURL "blog" }}>Blog</a>
           </div>
           <div class="uk-navbar-item">
             <a href="mailto:me@evanazevedo.com" class="uk-button uk-button-primary">Contact</a>
