@@ -6,3 +6,7 @@
   font-family: "lato-regular";
   src: url("/fonts/lato-regular.ttf");
 }
+
+@layer base {
+  @import "base";
+}

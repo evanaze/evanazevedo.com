@@ -459,6 +459,8 @@ video {
   display: none !important;
 }
 
+@import "base";
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -9425,10 +9427,6 @@ th.uk-text-break, td.uk-text-break {
   border-width: 0;
 }
 
-.m-1 {
-  margin: 0.25rem;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -9441,28 +9439,12 @@ th.uk-text-break, td.uk-text-break {
   margin-bottom: 1.5rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
-.mr-3 {
-  margin-right: 0.75rem;
-}
-
-.mr-4 {
-  margin-right: 1rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
 }
 
 .block {
   display: block;
-}
-
-.inline-block {
-  display: inline-block;
 }
 
 .flex {
@@ -9477,20 +9459,12 @@ th.uk-text-break, td.uk-text-break {
   flex-grow: 1;
 }
 
-.items-start {
-  align-items: flex-start;
-}
-
 .items-center {
   align-items: center;
 }
 
 .justify-center {
   justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -9516,11 +9490,6 @@ th.uk-text-break, td.uk-text-break {
   padding-right: 0.5rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -9539,10 +9508,6 @@ th.uk-text-break, td.uk-text-break {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.pt-7 {
-  padding-top: 1.75rem;
 }
 
 .text-center {
@@ -9602,15 +9567,6 @@ th.uk-text-break, td.uk-text-break {
   src: url("/fonts/lato-regular.ttf");
 }
 
-.hover\:bg-primary:hover {
-  background-color: hsl(var(--primary));
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 @media (min-width: 768px) {
   .md\:text-2xl {
     font-size: 1.5rem;
@@ -9629,10 +9585,6 @@ th.uk-text-break, td.uk-text-break {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .lg\:w-1\/2 {
     width: 50%;
   }
