@@ -20,7 +20,9 @@
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content={{ absURL "/images/mnts.jpg" }}>
 
-<link rel="stylesheet" href={{ absURL "/css/output.css" }} />
+{{ with resources.Get "css/output.css" }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" />
+{{ end }}
 <script src="https://unpkg.com/franken-ui@1.1.0/dist/js/core.iife.js" type="module"></script>
 <script src="https://unpkg.com/franken-ui@1.1.0/dist/js/icon.iife.js" type="module"></script>
 <script>
