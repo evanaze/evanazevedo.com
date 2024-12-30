@@ -1,4 +1,7 @@
 {{ define "header" }}
+{{ with resources.Get "styles/single.css" }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" />
+{{ end }}
 {{ partial "header.html"}}
 {{ end }}
 
