@@ -1,0 +1,75 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  main h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply uk-margin;
+  }
+
+  p {
+    @apply uk-paragraph;
+  }
+
+  ul {
+    @apply uk-list uk-list-disc;
+  }
+
+  ol {
+    list-style-type: decimal;
+    padding-left: 30px;
+    line-height: 1.7;
+    @apply uk-margin;
+  }
+
+  main a {
+    @apply uk-link;
+  }
+
+  code {
+    @apply uk-codespan;
+  }
+
+  blockquote {
+    @apply uk-blockquote;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  figure {
+    @apply uk-margin;
+  }
+
+  main h1,
+  .h1 {
+    @apply uk-h1;
+  }
+
+  h2,
+  .h2 {
+    @apply uk-h2;
+  }
+
+  h3,
+  .h3 {
+    @apply uk-h3;
+  }
+
+  h4,
+  .h4 {
+    @apply uk-h4;
+  }
+
+  .highlight {
+    overflow-x: auto;
+  }
+}

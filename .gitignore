@@ -19,7 +19,18 @@ devenv.local.nix
 
 # pre-commit
 .pre-commit-config.yaml
-.devenv
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+
+*.env
+!pub.env
 
 node_modules*
-

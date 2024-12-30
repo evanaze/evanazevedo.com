@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body class="bg-background text-foreground antialiased">
+  <header>
+    {{ block "header" . }}{{ end }}
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+</body>
+
+</html>

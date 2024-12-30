@@ -1,0 +1,17 @@
+baseURL = 'http://localhost:1313'
+languageCode = 'en-us'
+title = 'ECA Consulting'
+summaryLength = 20
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    style = "dracula"
+    tabWidth = 4

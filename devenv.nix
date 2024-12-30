@@ -1,33 +1,30 @@
 {pkgs, ...}: {
-  packages = [pkgs.gomod2nix pkgs.hugo];
+  # https://devenv.sh/packages/
+  packages = with pkgs; [
+    hugo
+    nodejs
+    tailwindcss
+  ];
 
   # https://devenv.sh/languages/
-  languages.go.enable = true;
+  # languages.rust.enable = true;
 
   # https://devenv.sh/services/
+  # services.postgres.enable = true;
 
-  # https://devenv.sh/scripts/
-  scripts.serve.exec = ''
-    hugo-obsidian -input=content -output=assets/indices -index -root=.
-    ${pkgs.hugo}/bin/hugo server -D --enableGitInfo --minify  --disableFastRender'';
+  processes = {
+    tw.exec = "unbuffer tailwindcss -i ./assets/styles/templates/main.css -o ./assets/styles/main.css --watch";
+    tw2.exec = "unbuffer tailwindcss -i ./assets/styles/templates/single.css -o ./assets/styles/single.css --watch";
+    hugo.exec = "hugo server -D";
+  };
 
-  scripts.update.exec = ''
-    git pull
-    go get github.com/evanaze/hugo-obsidian
-  '';
-
-  # https://devenv.sh/tests/
+  dotenv = {
+    enable = true;
+    filename = ".env.local";
+  };
 
   # https://devenv.sh/pre-commit-hooks/
-  # pre-commit.hooks = {
-  #   govet = {
-  #     enable = true;
-  #     pass_filenames = false;
-  #   };
-  #   gotest.enable = true;
-  #   golangci-lint = {
-  #     enable = true;
-  #     pass_filenames = false;
-  #   };
-  # };
+  # pre-commit.hooks.shellcheck.enable = true;
+
+  # See full reference at https://devenv.sh/reference/options/
 }
