@@ -5,8 +5,9 @@
       <div uk-navbar>
         <div class="uk-navbar-left">
           <a href={{ absURL "" }} class="uk-navbar-item">
-            <img src={{ absURL "/images/logoV2_dark.svg" }} alt="Evan Azevedo Logo" width="50" height="50"
-              class="uk-width-1-2" uk-svg />
+            {{ with resources.Get "images/logoV2_dark.svg" }}
+            <img src={{ .RelPermalink }} alt="Evan Azevedo Logo" width="50" height="50" class="uk-width-1-2" uk-svg />
+            {{ end }}
             <div class="uk-padding-left">
               <h1 class="text-xl uk-text-nowrap uk-text-logo uk-visible@m">Evan Azevedo</h1>
             </div>
