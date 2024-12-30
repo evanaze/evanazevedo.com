@@ -36,5 +36,3 @@ Hopefully that helps you get up and running if you found the same obstacle.
 As with all things Nix, the solution is both more complicated and simpler than you would think.
 
 You can see my full Nixvim config here: https://github.com/evanaze/nix/tree/main/home/nixvim
-
-{{% subscribe %}}

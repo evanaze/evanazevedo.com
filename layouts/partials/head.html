@@ -8,7 +8,7 @@
 <!-- OpenGraph Tags -->
 <meta property="og:url" content={{ absURL "" }}>
 <meta property="og:type" content="website">
-<meta property="og:title" content="{{ if .IsHome }}ECA Consulting{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:title" content="{{ .Title }}">
 <meta property="og:description"
   content="{{if .IsHome}}{{default $.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}">
 {{ with resources.Get "images/mnts.jpg" }}
@@ -19,14 +19,14 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:domain" content="evanazevedo.com">
 <meta property="twitter:url" content={{ absURL "" }}>
-<meta name="twitter:title" content="{{ if .IsHome }}ECA Consulting{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description"
   content="{{if .IsHome}}{{default $.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}">
 {{ with resources.Get "images/mnts.jpg" }}
 <meta name="twitter:image" content={{ .RelPermalink }}>
 {{ end }}
 
-{{ with resources.Get "styles/main.css" }}
+{{ with resources.Get "styles/main.css" | minify }}
 <link rel="stylesheet" href="{{ .RelPermalink }}" />
 {{ end }}
 <script src="https://unpkg.com/franken-ui@1.1.0/dist/js/core.iife.js" type="module"></script>

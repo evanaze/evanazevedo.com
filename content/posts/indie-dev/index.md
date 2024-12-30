@@ -117,5 +117,3 @@ I have two more constraints I'm working within that are encouraging me to give C
 If I go freelance/independent with software development, I can dedicate 50% or more of my time to marketing and refining my services, which in theory would help me get more fulfilling work more quickly than spending 80-100% of my time on delivering my services like I do now.
 
 What I need to be careful of in this experiment is not doing the work I indend to after going part time. If I just become lazy and am doomscrolling YouTube and getting stoned instead of filling my time with fulfilling activities or progressing my business, I'll consider that a failure.
-
-{{% subscribe %}}
