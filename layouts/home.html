@@ -31,7 +31,9 @@
   <div class="uk-container uk-container">
     <div class="uk-grid-match uk-grid-large" uk-grid>
       <div class="w-full lg:w-1/2">
-        <img src="images/map.webp" alt="Map" />
+        {{ with resources.Get "images/map.webp" }}
+        <img src="{{ .RelPermalink }}" alt="Map" />
+        {{ end }}
       </div>
       <div class="w-full lg:w-1/2">
         <div class="uk-flex uk-flex-middle uk-flex-center uk-height-1-1">
@@ -85,7 +87,9 @@
         </div>
       </div>
       <div class="w-full lg:w-1/2">
-        <img src="images/portrait1.jpeg" alt="Portrait" />
+        {{ with resources.Get "images/portrait1.jpeg" }}
+        <img src="{{ .RelPermalink }}" alt="Portrait" />
+        {{ end }}
       </div>
     </div>
   </div>
