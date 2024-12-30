@@ -3,7 +3,7 @@
 @import "tailwindcss/utilities";
 
 @layer base {
-  h1,
+  main h1,
   h2,
   h3,
   h4,
@@ -21,10 +21,13 @@
   }
 
   ol {
-    @apply uk-list uk-list-decimal;
+    list-style-type: decimal;
+    @apply uk-margin;
+    padding-left: 30px;
+    line-height: 1.7;
   }
 
-  a {
+  main a {
     @apply uk-link;
   }
 
@@ -46,7 +49,7 @@
     @apply uk-margin;
   }
 
-  h1,
+  main h1,
   .h1 {
     @apply uk-h1;
   }

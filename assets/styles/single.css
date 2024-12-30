@@ -459,7 +459,7 @@ video {
   display: none !important;
 }
 
-h1,
+main h1,
   h2,
   h3,
   h4,
@@ -469,7 +469,7 @@ h1,
   margin-bottom: 1rem;
 }
 
-* + h1,* + 
+* + main h1,* + 
   h2,* + 
   h3,* + 
   h4,* + 
@@ -523,49 +523,22 @@ ul > li:not(:first-child) {
 }
 
 ol {
-  padding: 0;
-  list-style: none;
+  list-style-type: decimal;
+  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
-ol > * {
-  -moz-column-break-inside: avoid;
-       break-inside: avoid-column;
-}
-
-ol > * > :last-child {
-  margin-bottom: 0;
-}
-
-ol > * {
-  margin-left: 1.5rem;
+* + ol {
+  margin-top: 20px;
+  margin-top: 1rem;
 }
 
 ol {
-  counter-reset: decimal;
+  padding-left: 30px;
+  line-height: 1.7;
 }
 
-ol > * {
-  counter-increment: decimal;
-}
-
-ol > ::before {
-  content: '';
-  position: relative;
-  left: -30px;
-  width: 30px;
-  height: 1.5em;
-  margin-bottom: -1.5em;
-  display: list-item;
-  list-style-position: inside;
-  text-align: right;
-  content: counter(decimal, decimal) '\200A.\00A0';
-}
-
-ol > li:not(:first-child) {
-  margin-top: 0.5rem;
-}
-
-a {
+main a {
   font-weight: 500;
   text-decoration-line: underline;
   text-underline-offset: 4px;
@@ -609,7 +582,7 @@ figure {
   margin-top: 1rem;
 }
 
-h1,
+main h1,
   .h1 {
   font-size: 2.25rem;
   line-height: 2.5rem;

@@ -1,5 +1,5 @@
 {{ define "header" }}
-{{ with resources.Get "styles/single.css" }}
+{{ with resources.Get "styles/single.css" | minify }}
 <link rel="stylesheet" href="{{ .RelPermalink }}" />
 {{ end }}
 {{ partial "header.html"}}
