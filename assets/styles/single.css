@@ -524,6 +524,8 @@ ul > li:not(:first-child) {
 
 ol {
   list-style-type: decimal;
+  padding-left: 30px;
+  line-height: 1.7;
   margin-bottom: 20px;
   margin-bottom: 1rem;
 }
@@ -531,11 +533,6 @@ ol {
 * + ol {
   margin-top: 20px;
   margin-top: 1rem;
-}
-
-ol {
-  padding-left: 30px;
-  line-height: 1.7;
 }
 
 main a {
@@ -612,11 +609,6 @@ h4,
   line-height: 1.75rem;
   font-weight: 600;
   letter-spacing: -0.025em;
-}
-
-code::after {
-  content: var(--tw-content);
-  border-style: none;
 }
 
 *, ::before, ::after {

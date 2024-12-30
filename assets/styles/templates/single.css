@@ -22,9 +22,9 @@
 
   ol {
     list-style-type: decimal;
-    @apply uk-margin;
     padding-left: 30px;
     line-height: 1.7;
+    @apply uk-margin;
   }
 
   main a {
@@ -69,7 +69,7 @@
     @apply uk-h4;
   }
 
-  code {
-    @apply after:border-none;
+  .highlight {
+    overflow-x: auto;
   }
 }
