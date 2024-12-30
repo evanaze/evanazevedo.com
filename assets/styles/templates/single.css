@@ -1,59 +1,72 @@
-html {
-  @apply text-base-sm md:text-base;
-}
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-body {
-  @apply bg-body text-base dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text dark:text-darkmode-text;
-}
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply uk-margin;
+  }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  @apply font-secondary font-bold leading-tight text-dark dark:text-darkmode-dark;
-}
+  p {
+    @apply uk-paragraph;
+  }
 
-h1,
-.h1 {
-  @apply text-h1-sm md:text-h1;
-}
+  ul {
+    @apply uk-list uk-list-disc;
+  }
 
-h2,
-.h2 {
-  @apply text-h2-sm md:text-h2;
-}
+  ol {
+    @apply uk-list uk-list-decimal;
+  }
 
-h3,
-.h3 {
-  @apply text-h3-sm md:text-h3;
-}
+  a {
+    @apply uk-link;
+  }
 
-h4,
-.h4 {
-  @apply text-h4;
-}
+  code {
+    @apply uk-codespan;
+  }
 
-h5,
-.h5 {
-  @apply text-h5;
-}
+  blockquote {
+    @apply uk-blockquote;
+  }
 
-h6,
-.h6 {
-  @apply text-h6;
-}
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-b,
-strong {
-  @apply font-semibold;
-}
+  figure {
+    @apply uk-margin;
+  }
 
-code {
-  @apply after:border-none;
-}
+  h1,
+  .h1 {
+    @apply uk-h1;
+  }
 
-blockquote > p {
-  @apply my-0 #{!important};
+  h2,
+  .h2 {
+    @apply uk-h2;
+  }
+
+  h3,
+  .h3 {
+    @apply uk-h3;
+  }
+
+  h4,
+  .h4 {
+    @apply uk-h4;
+  }
+
+  code {
+    @apply after:border-none;
+  }
 }
