@@ -3,6 +3,8 @@ title: "🍓 How to Install NixOS on the Raspberry Pi 5"
 date: 2024-09-25T12:19:40-06:00
 image: raspberrypi5_1_large.jpg
 img_caption: Image courtesy of Raspberry Pi Foundation
+aliases:
+  - /posts/nix-rpi5
 tags: ["Linux"]
 summary: A guide on loading NixOS onto a Raspberry Pi 5
 toc: true
